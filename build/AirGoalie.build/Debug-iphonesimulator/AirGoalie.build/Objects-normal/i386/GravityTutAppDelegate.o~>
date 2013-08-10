@@ -1,0 +1,5 @@
+In file included from /Users/BCT/Downloads/GravityTut/Classes/GravityTutAppDelegate.m:9:
+/Users/BCT/Downloads/GravityTut/Classes/GravityTutAppDelegate.h:16: error: expected specifier-qualifier-list before 'GravityTutViewController'
+/Users/BCT/Downloads/GravityTut/Classes/GravityTutAppDelegate.m:15: error: synthesized property 'viewController' must either be named the same as a compatible ivar or must explicitly name an ivar
+/Users/BCT/Downloads/GravityTut/Classes/GravityTutAppDelegate.m: In function '-[GravityTutAppDelegate applicationDidFinishLaunching:]':
+/Users/BCT/Downloads/GravityTut/Classes/GravityTutAppDelegate.m:21: error: request for member 'view' in something not a structure or union

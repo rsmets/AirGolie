@@ -1,0 +1,438 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0D7227CF11B88ED500E4AE7B /* Settings.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D7227CE11B88ED500E4AE7B /* Settings.m */; };
+		0D7328E311A57D080024C5A7 /* ourrink-1.gif in Resources */ = {isa = PBXBuildFile; fileRef = 0D7328E211A57D080024C5A7 /* ourrink-1.gif */; };
+		0D7388F311AEA43300EEB768 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D7388F211AEA43300EEB768 /* AudioToolbox.framework */; };
+		0D73890A11AEA47100EEB768 /* SoundEffect.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D73890911AEA47100EEB768 /* SoundEffect.m */; };
+		0D7681EF11AFFB4C002D9E5A /* Laser.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0D7681EE11AFFB4C002D9E5A /* Laser.wav */; };
+		0D7681F911AFFBD3002D9E5A /* Alien Death Ray.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0D7681F811AFFBD3002D9E5A /* Alien Death Ray.wav */; };
+		0D76820A11AFFDB3002D9E5A /* Gun Silencer.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0D76820911AFFDB3002D9E5A /* Gun Silencer.wav */; };
+		0D7682B111B00A0A002D9E5A /* rinkMenu.gif in Resources */ = {isa = PBXBuildFile; fileRef = 0D7682B011B00A0A002D9E5A /* rinkMenu.gif */; };
+		0D77BAF611946AF8008C1EFF /* Puck.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D77BAF511946AF8008C1EFF /* Puck.m */; };
+		0D77BB0C11946DBB008C1EFF /* PuckView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D77BB0B11946DBB008C1EFF /* PuckView.m */; };
+		0D78EFD8119C27C500AEA6A1 /* Goalie.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D78EFD7119C27C500AEA6A1 /* Goalie.m */; };
+		0D79D37F11B192DF0058B7A9 /* Laser Blaster.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0D79D37D11B192DF0058B7A9 /* Laser Blaster.wav */; };
+		0D79D38011B192DF0058B7A9 /* Laser Blasts.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0D79D37E11B192DF0058B7A9 /* Laser Blasts.wav */; };
+		0D85768C11AAE7B30054E6A0 /* punch.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0D85768B11AAE7B30054E6A0 /* punch.wav */; };
+		1D3623260D0F684500981E51 /* GravityTutAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* GravityTutAppDelegate.m */; };
+		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765A40DF7441C002DB57D /* CoreGraphics.framework */; };
+		2899E5220DE3E06400AC0155 /* GravityTutViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2899E5210DE3E06400AC0155 /* GravityTutViewController.xib */; };
+		28D7ACF80DDB3853001CB0EB /* GravityTutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28D7ACF70DDB3853001CB0EB /* GravityTutViewController.m */; };
+		7148ED0711B5B34A00F18705 /* MainMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7148ED0611B5B34A00F18705 /* MainMenuViewController.m */; };
+		7148ED1011B5B37000F18705 /* MainMenuViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7148ED0F11B5B37000F18705 /* MainMenuViewController.xib */; };
+		7148ED6E11B5B85B00F18705 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7148ED6D11B5B85B00F18705 /* MainWindow.xib */; };
+		7148EDED11B5BFB900F18705 /* SettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7148EDEC11B5BFB900F18705 /* SettingsViewController.m */; };
+		7148EDF011B5C13900F18705 /* SettingsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7148EDEF11B5C13900F18705 /* SettingsViewController.xib */; };
+		7148EEB311B5F10600F18705 /* NetworkingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7148EEB211B5F10600F18705 /* NetworkingViewController.m */; };
+		7148EEB511B5F11500F18705 /* NetworkingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7148EEB411B5F11500F18705 /* NetworkingViewController.xib */; };
+		7148EEFD11B5F59300F18705 /* InfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7148EEFC11B5F59300F18705 /* InfoViewController.m */; };
+		7148EEFF11B5F5A700F18705 /* InfoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7148EEFE11B5F5A700F18705 /* InfoViewController.xib */; };
+		715ACB741194C13B007AD481 /* Paddle.m in Sources */ = {isa = PBXBuildFile; fileRef = 715ACB731194C13B007AD481 /* Paddle.m */; };
+		E4B9B89F17B5EBCE002CC960 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E4B9B89E17B5EBCE002CC960 /* Default-568h@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E426CFCF17B5E71400B759B4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E426CFCA17B5E71200B759B4 /* AirGolieV2.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = E426CF9317B5E71200B759B4;
+			remoteInfo = AirGolieV2;
+		};
+		E426CFD117B5E71400B759B4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E426CFCA17B5E71200B759B4 /* AirGolieV2.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = E426CFB317B5E71200B759B4;
+			remoteInfo = AirGolieV2Tests;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		0D7388B011AEA12B00EEB768 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 7;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		0D7227CD11B88ED500E4AE7B /* Settings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Settings.h; sourceTree = "<group>"; };
+		0D7227CE11B88ED500E4AE7B /* Settings.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Settings.m; sourceTree = "<group>"; };
+		0D7328E211A57D080024C5A7 /* ourrink-1.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "ourrink-1.gif"; sourceTree = "<group>"; };
+		0D7388F211AEA43300EEB768 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = /System/Library/Frameworks/AudioToolbox.framework; sourceTree = "<absolute>"; };
+		0D73890811AEA47100EEB768 /* SoundEffect.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; path = SoundEffect.h; sourceTree = "<group>"; };
+		0D73890911AEA47100EEB768 /* SoundEffect.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SoundEffect.m; sourceTree = "<group>"; };
+		0D7681EE11AFFB4C002D9E5A /* Laser.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Laser.wav; sourceTree = "<group>"; };
+		0D7681F811AFFBD3002D9E5A /* Alien Death Ray.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Alien Death Ray.wav"; sourceTree = "<group>"; };
+		0D76820911AFFDB3002D9E5A /* Gun Silencer.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Gun Silencer.wav"; sourceTree = "<group>"; };
+		0D7682B011B00A0A002D9E5A /* rinkMenu.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = rinkMenu.gif; sourceTree = "<group>"; };
+		0D77BAF411946AF8008C1EFF /* Puck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Puck.h; sourceTree = "<group>"; };
+		0D77BAF511946AF8008C1EFF /* Puck.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Puck.m; sourceTree = "<group>"; };
+		0D77BB0A11946DBB008C1EFF /* PuckView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PuckView.h; sourceTree = "<group>"; };
+		0D77BB0B11946DBB008C1EFF /* PuckView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PuckView.m; sourceTree = "<group>"; };
+		0D78EFD6119C27C500AEA6A1 /* Goalie.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Goalie.h; sourceTree = "<group>"; };
+		0D78EFD7119C27C500AEA6A1 /* Goalie.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Goalie.m; sourceTree = "<group>"; };
+		0D79D37D11B192DF0058B7A9 /* Laser Blaster.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Laser Blaster.wav"; sourceTree = "<group>"; };
+		0D79D37E11B192DF0058B7A9 /* Laser Blasts.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Laser Blasts.wav"; sourceTree = "<group>"; };
+		0D85768B11AAE7B30054E6A0 /* punch.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = punch.wav; sourceTree = "<group>"; };
+		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1D3623240D0F684500981E51 /* GravityTutAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GravityTutAppDelegate.h; sourceTree = "<group>"; };
+		1D3623250D0F684500981E51 /* GravityTutAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GravityTutAppDelegate.m; sourceTree = "<group>"; };
+		1D6058910D05DD3D006BFB54 /* AirGoalie.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AirGoalie.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		288765A40DF7441C002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		2899E5210DE3E06400AC0155 /* GravityTutViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GravityTutViewController.xib; sourceTree = "<group>"; };
+		28D7ACF60DDB3853001CB0EB /* GravityTutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GravityTutViewController.h; sourceTree = "<group>"; };
+		28D7ACF70DDB3853001CB0EB /* GravityTutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GravityTutViewController.m; sourceTree = "<group>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		32CA4F630368D1EE00C91783 /* AirGoalie_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AirGoalie_Prefix.pch; sourceTree = "<group>"; };
+		7148ED0511B5B34A00F18705 /* MainMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainMenuViewController.h; sourceTree = "<group>"; };
+		7148ED0611B5B34A00F18705 /* MainMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainMenuViewController.m; sourceTree = "<group>"; };
+		7148ED0F11B5B37000F18705 /* MainMenuViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainMenuViewController.xib; sourceTree = "<group>"; };
+		7148ED6D11B5B85B00F18705 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
+		7148EDEB11B5BFB900F18705 /* SettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsViewController.h; sourceTree = "<group>"; };
+		7148EDEC11B5BFB900F18705 /* SettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingsViewController.m; sourceTree = "<group>"; };
+		7148EDEF11B5C13900F18705 /* SettingsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SettingsViewController.xib; sourceTree = "<group>"; };
+		7148EEB111B5F10600F18705 /* NetworkingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetworkingViewController.h; sourceTree = "<group>"; };
+		7148EEB211B5F10600F18705 /* NetworkingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetworkingViewController.m; sourceTree = "<group>"; };
+		7148EEB411B5F11500F18705 /* NetworkingViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NetworkingViewController.xib; sourceTree = "<group>"; };
+		7148EEFB11B5F59300F18705 /* InfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InfoViewController.h; sourceTree = "<group>"; };
+		7148EEFC11B5F59300F18705 /* InfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InfoViewController.m; sourceTree = "<group>"; };
+		7148EEFE11B5F5A700F18705 /* InfoViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = InfoViewController.xib; sourceTree = "<group>"; };
+		715ACB721194C13B007AD481 /* Paddle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Paddle.h; sourceTree = "<group>"; };
+		715ACB731194C13B007AD481 /* Paddle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Paddle.m; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* AirGoalie-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "AirGoalie-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+		E426CFCA17B5E71200B759B4 /* AirGolieV2.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = AirGolieV2.xcodeproj; path = AirGolieV2/AirGolieV2.xcodeproj; sourceTree = "<group>"; };
+		E4B9B89E17B5EBCE002CC960 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D60588F0D05DD3D006BFB54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
+				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
+				288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */,
+				0D7388F311AEA43300EEB768 /* AudioToolbox.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				1D3623240D0F684500981E51 /* GravityTutAppDelegate.h */,
+				1D3623250D0F684500981E51 /* GravityTutAppDelegate.m */,
+				7148ED0511B5B34A00F18705 /* MainMenuViewController.h */,
+				7148ED0611B5B34A00F18705 /* MainMenuViewController.m */,
+				28D7ACF60DDB3853001CB0EB /* GravityTutViewController.h */,
+				28D7ACF70DDB3853001CB0EB /* GravityTutViewController.m */,
+				7148EEB111B5F10600F18705 /* NetworkingViewController.h */,
+				7148EEB211B5F10600F18705 /* NetworkingViewController.m */,
+				7148EEFB11B5F59300F18705 /* InfoViewController.h */,
+				7148EEFC11B5F59300F18705 /* InfoViewController.m */,
+				7148EDEB11B5BFB900F18705 /* SettingsViewController.h */,
+				7148EDEC11B5BFB900F18705 /* SettingsViewController.m */,
+				0D7227CD11B88ED500E4AE7B /* Settings.h */,
+				0D7227CE11B88ED500E4AE7B /* Settings.m */,
+				0D77BAF411946AF8008C1EFF /* Puck.h */,
+				0D77BAF511946AF8008C1EFF /* Puck.m */,
+				0D77BB0A11946DBB008C1EFF /* PuckView.h */,
+				0D77BB0B11946DBB008C1EFF /* PuckView.m */,
+				715ACB721194C13B007AD481 /* Paddle.h */,
+				715ACB731194C13B007AD481 /* Paddle.m */,
+				0D78EFD6119C27C500AEA6A1 /* Goalie.h */,
+				0D78EFD7119C27C500AEA6A1 /* Goalie.m */,
+				0D73890811AEA47100EEB768 /* SoundEffect.h */,
+				0D73890911AEA47100EEB768 /* SoundEffect.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D6058910D05DD3D006BFB54 /* AirGoalie.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
+			isa = PBXGroup;
+			children = (
+				E4B9B89E17B5EBCE002CC960 /* Default-568h@2x.png */,
+				E426CFCA17B5E71200B759B4 /* AirGolieV2.xcodeproj */,
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = CustomTemplate;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				32CA4F630368D1EE00C91783 /* AirGoalie_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				0D79D37D11B192DF0058B7A9 /* Laser Blaster.wav */,
+				0D79D37E11B192DF0058B7A9 /* Laser Blasts.wav */,
+				0D7682B011B00A0A002D9E5A /* rinkMenu.gif */,
+				0D76820911AFFDB3002D9E5A /* Gun Silencer.wav */,
+				0D7681F811AFFBD3002D9E5A /* Alien Death Ray.wav */,
+				0D7681EE11AFFB4C002D9E5A /* Laser.wav */,
+				0D85768B11AAE7B30054E6A0 /* punch.wav */,
+				0D7328E211A57D080024C5A7 /* ourrink-1.gif */,
+				7148ED6D11B5B85B00F18705 /* MainWindow.xib */,
+				8D1107310486CEB800E47090 /* AirGoalie-Info.plist */,
+				7148ED0F11B5B37000F18705 /* MainMenuViewController.xib */,
+				2899E5210DE3E06400AC0155 /* GravityTutViewController.xib */,
+				7148EDEF11B5C13900F18705 /* SettingsViewController.xib */,
+				7148EEB411B5F11500F18705 /* NetworkingViewController.xib */,
+				7148EEFE11B5F5A700F18705 /* InfoViewController.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
+				1D30AB110D05D00D00671497 /* Foundation.framework */,
+				288765A40DF7441C002DB57D /* CoreGraphics.framework */,
+				0D7388F211AEA43300EEB768 /* AudioToolbox.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E426CFCB17B5E71200B759B4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E426CFD017B5E71400B759B4 /* AirGolieV2.app */,
+				E426CFD217B5E71400B759B4 /* AirGolieV2Tests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D6058900D05DD3D006BFB54 /* AirGoalie */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "AirGoalie" */;
+			buildPhases = (
+				1D60588D0D05DD3D006BFB54 /* Resources */,
+				1D60588E0D05DD3D006BFB54 /* Sources */,
+				1D60588F0D05DD3D006BFB54 /* Frameworks */,
+				0D7388B011AEA12B00EEB768 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AirGoalie;
+			productName = GravityTut;
+			productReference = 1D6058910D05DD3D006BFB54 /* AirGoalie.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+			};
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "AirGoalie" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = E426CFCB17B5E71200B759B4 /* Products */;
+					ProjectRef = E426CFCA17B5E71200B759B4 /* AirGolieV2.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				1D6058900D05DD3D006BFB54 /* AirGoalie */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		E426CFD017B5E71400B759B4 /* AirGolieV2.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = AirGolieV2.app;
+			remoteRef = E426CFCF17B5E71400B759B4 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		E426CFD217B5E71400B759B4 /* AirGolieV2Tests.octest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = AirGolieV2Tests.octest;
+			remoteRef = E426CFD117B5E71400B759B4 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D60588D0D05DD3D006BFB54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2899E5220DE3E06400AC0155 /* GravityTutViewController.xib in Resources */,
+				0D7328E311A57D080024C5A7 /* ourrink-1.gif in Resources */,
+				0D85768C11AAE7B30054E6A0 /* punch.wav in Resources */,
+				0D7681EF11AFFB4C002D9E5A /* Laser.wav in Resources */,
+				0D7681F911AFFBD3002D9E5A /* Alien Death Ray.wav in Resources */,
+				0D76820A11AFFDB3002D9E5A /* Gun Silencer.wav in Resources */,
+				0D7682B111B00A0A002D9E5A /* rinkMenu.gif in Resources */,
+				0D79D37F11B192DF0058B7A9 /* Laser Blaster.wav in Resources */,
+				0D79D38011B192DF0058B7A9 /* Laser Blasts.wav in Resources */,
+				7148ED1011B5B37000F18705 /* MainMenuViewController.xib in Resources */,
+				7148ED6E11B5B85B00F18705 /* MainWindow.xib in Resources */,
+				7148EDF011B5C13900F18705 /* SettingsViewController.xib in Resources */,
+				7148EEB511B5F11500F18705 /* NetworkingViewController.xib in Resources */,
+				7148EEFF11B5F5A700F18705 /* InfoViewController.xib in Resources */,
+				E4B9B89F17B5EBCE002CC960 /* Default-568h@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D60588E0D05DD3D006BFB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
+				1D3623260D0F684500981E51 /* GravityTutAppDelegate.m in Sources */,
+				28D7ACF80DDB3853001CB0EB /* GravityTutViewController.m in Sources */,
+				0D77BAF611946AF8008C1EFF /* Puck.m in Sources */,
+				0D77BB0C11946DBB008C1EFF /* PuckView.m in Sources */,
+				715ACB741194C13B007AD481 /* Paddle.m in Sources */,
+				0D78EFD8119C27C500AEA6A1 /* Goalie.m in Sources */,
+				0D73890A11AEA47100EEB768 /* SoundEffect.m in Sources */,
+				7148ED0711B5B34A00F18705 /* MainMenuViewController.m in Sources */,
+				7148EDED11B5BFB900F18705 /* SettingsViewController.m in Sources */,
+				7148EEB311B5F10600F18705 /* NetworkingViewController.m in Sources */,
+				7148EEFD11B5F59300F18705 /* InfoViewController.m in Sources */,
+				0D7227CF11B88ED500E4AE7B /* Settings.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1D6058940D05DD3E006BFB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = AirGoalie_Prefix.pch;
+				INFOPLIST_FILE = "AirGoalie-Info.plist";
+				PRODUCT_NAME = AirGoalie;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1D6058950D05DD3E006BFB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = AirGoalie_Prefix.pch;
+				INFOPLIST_FILE = "AirGoalie-Info.plist";
+				PRODUCT_NAME = AirGoalie;
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				SDKROOT = iphonesimulator2.2;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				SDKROOT = iphonesimulator2.2;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "AirGoalie" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6058940D05DD3E006BFB54 /* Debug */,
+				1D6058950D05DD3E006BFB54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "AirGoalie" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}

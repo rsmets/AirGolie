@@ -1,0 +1,56 @@
+TGravityTut
+v7
+r1
+cCheck dependencies
+
+N/Users/BCT/Downloads/GravityTut/GravityTutViewController.xib
+c000000004BE4CB820000000000002378
+t1273285506
+s9080
+
+N/Users/BCT/Downloads/GravityTut/MainWindow.xib
+c000000004BE43358000000000000246F
+t1273246552
+s9327
+
+N/Users/BCT/Downloads/GravityTut/build/Debug/GravityTut.app
+t1273268261
+s102
+
+N/Users/BCT/Downloads/GravityTut/build/Debug/GravityTut.app/Contents/Info.plist
+t1273268261
+s820
+
+N/Users/BCT/Downloads/GravityTut/build/Debug/GravityTut.app/Contents/PkgInfo
+t1273268261
+s8
+
+N/Users/BCT/Downloads/GravityTut/build/Debug/GravityTut.app/Contents/Resources/GravityTutViewController.nib
+t1273268264
+s1187
+
+N/Users/BCT/Downloads/GravityTut/build/Debug/GravityTut.app/Contents/Resources/MainWindow.nib
+t1273268264
+s1468
+
+NGravityTut-Info.plist
+c000000004BE43358000000000000038D
+t1273246552
+s909
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies295198696#295198696#0(73"[BEROR]error: There is no SDK with the name or path 'iphonesimulator2.2'1(4@65"error: There is no SDK with the name or path 'iphonesimulator2.2'295198696#18446744073709551615#0#0(1@0"0(0#1#0"7947009927035180032#0"0#
+
+CCompileXIB /Users/BCT/Downloads/GravityTut/GravityTutViewController.xib
+r0
+
+CCompileXIB /Users/BCT/Downloads/GravityTut/MainWindow.xib
+r0
+
+CProcessInfoPlistFile /Users/BCT/Downloads/GravityTut/build/Debug/GravityTut.app/Contents/Info.plist GravityTut-Info.plist
+r0
+
+CTouch /Users/BCT/Downloads/GravityTut/build/Debug/GravityTut.app
+r0
+

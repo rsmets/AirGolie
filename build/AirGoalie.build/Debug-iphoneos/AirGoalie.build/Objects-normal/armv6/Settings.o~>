@@ -1,0 +1,4 @@
+/Users/BCT/Downloads/AirGoalie/Classes/Settings.m: In function '-[Settings getGSense]':
+/Users/BCT/Downloads/AirGoalie/Classes/Settings.m:15: warning: conflicting types for '-(int)getGSense'
+/Users/BCT/Downloads/AirGoalie/Classes/Settings.h:19: warning: previous declaration of '-(void)getGSense'
+/Users/BCT/Downloads/AirGoalie/Classes/Settings.m:18: warning: control reaches end of non-void function

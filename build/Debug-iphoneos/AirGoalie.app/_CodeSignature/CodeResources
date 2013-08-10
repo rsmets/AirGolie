@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>files</key>
+	<dict>
+		<key>Alien Death Ray.wav</key>
+		<data>
+		fzdQFzqE/iDz6vz2Usmrft5YNwg=
+		</data>
+		<key>GravityTutViewController.nib</key>
+		<data>
+		1UC3UvFbhZL5gKZmCjM4eslKcHk=
+		</data>
+		<key>Gun Silencer.wav</key>
+		<data>
+		eu80WWaIHw0gwCsGiuBr1RPL+zw=
+		</data>
+		<key>InfoViewController.nib</key>
+		<data>
+		rTgfHRPJzFBRZoSP9eaap2ZZBD0=
+		</data>
+		<key>Laser Blaster.wav</key>
+		<data>
+		81ANONo7i36MAU4j7NJdixqEo68=
+		</data>
+		<key>Laser Blasts.wav</key>
+		<data>
+		JtFHpLm++ac/o6xhzGyq8UPeO60=
+		</data>
+		<key>Laser.wav</key>
+		<data>
+		LRB3MaJC0c4o2qiZCT6c9ENe1rc=
+		</data>
+		<key>MainMenuViewController.nib</key>
+		<data>
+		+gfjeF5y9v8i0oid0KVgsXW1kTY=
+		</data>
+		<key>MainWindow.nib</key>
+		<data>
+		WxODANJ6FoBl5yVOoS5KTdmV5CQ=
+		</data>
+		<key>NetworkingViewController.nib</key>
+		<data>
+		vYm9YAABl4zX8QGmIvSwGnekPDg=
+		</data>
+		<key>PkgInfo</key>
+		<data>
+		n57qDP4tZfLD1rCS43W0B4LQjzE=
+		</data>
+		<key>SettingsViewController.nib</key>
+		<data>
+		l1YewnvEpSPr1X6kl99UW9fwZXM=
+		</data>
+		<key>embedded.mobileprovision</key>
+		<data>
+		UQif1/9vveP5PnvZj35L8zbF+xU=
+		</data>
+		<key>ourrink-1.gif</key>
+		<data>
+		fURN78sK1JytCJEVqsik6MiKsJw=
+		</data>
+		<key>punch.wav</key>
+		<data>
+		ISlDRxwfSUEXM7nGcAh8qi7Y87I=
+		</data>
+		<key>rinkMenu.gif</key>
+		<data>
+		fzxgv/7AVXmZrKOhVt3v70PBEjA=
+		</data>
+	</dict>
+	<key>rules</key>
+	<dict>
+		<key>.*</key>
+		<true/>
+		<key>Info.plist</key>
+		<dict>
+			<key>omit</key>
+			<true/>
+			<key>weight</key>
+			<real>10</real>
+		</dict>
+		<key>ResourceRules.plist</key>
+		<dict>
+			<key>omit</key>
+			<true/>
+			<key>weight</key>
+			<real>100</real>
+		</dict>
+	</dict>
+</dict>
+</plist>

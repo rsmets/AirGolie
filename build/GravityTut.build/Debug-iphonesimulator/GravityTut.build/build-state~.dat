@@ -1,0 +1,284 @@
+TGravityTut
+v7
+r0
+t294939917.910298
+cCheck dependencies
+cProcessInfoPlistFile /Users/BCT/Desktop/GravityTut/build/Debug-iphonesimulator/GravityTut.app/Info.plist GravityTut-Info.plist
+cCompileXIB /Users/BCT/Desktop/GravityTut/MainWindow.xib
+cCompileXIB /Users/BCT/Desktop/GravityTut/GravityTutViewController.xib
+cProcessPCH /var/folders/bA/bAdCgNjhHEWwclOqou24A++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/GravityTut_Prefix-cbygfatcswpgurdzcamuzwjlucgb/GravityTut_Prefix.pch.gch GravityTut_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/GravityTut.build/Debug-iphonesimulator/GravityTut.build/Objects-normal/i386/main.o /Users/BCT/Desktop/GravityTut/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/GravityTut.build/Debug-iphonesimulator/GravityTut.build/Objects-normal/i386/GravityTutAppDelegate.o /Users/BCT/Desktop/GravityTut/Classes/GravityTutAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/GravityTut.build/Debug-iphonesimulator/GravityTut.build/Objects-normal/i386/GravityTutViewController.o /Users/BCT/Desktop/GravityTut/Classes/GravityTutViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/GravityTut.build/Debug-iphonesimulator/GravityTut.build/Objects-normal/i386/Puck.o /Users/BCT/Desktop/GravityTut/Classes/Puck.m normal i386 objective-c com.apple.compilers.gcc.4_2
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk
+c000000004BAB618900000000000000EE
+t1269522825
+s238
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004B2B4CC3000000000026EE30
+t1261128899
+s2551344
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004B2B4DC8000000000027E880
+t1261129160
+s2615424
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004B2B4DAE0000000000001355
+t1261129134
+s4949
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004B2B61620000000000000788
+t1261134178
+s1928
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004B2B62B500000000016721E0
+t1261134517
+s23536096
+
+N/Users/BCT/Desktop/GravityTut/Classes/GravityTutAppDelegate.h
+c000000004BE4335800000000000001F2
+t1273246552
+s498
+i<UIKit/UIKit.h>
+
+N/Users/BCT/Desktop/GravityTut/Classes/GravityTutAppDelegate.m
+c000000004BE43358000000000000027A
+t1273246552
+s634
+i"GravityTutAppDelegate.h"
+i"GravityTutViewController.h"
+
+N/Users/BCT/Desktop/GravityTut/Classes/GravityTutViewController.h
+c000000004BE4358C0000000000000129
+t1273247116
+s297
+i<UIKit/UIKit.h>
+i"Ball.h"
+
+N/Users/BCT/Desktop/GravityTut/Classes/GravityTutViewController.m
+c000000004BE4358C0000000000000716
+t1273247116
+s1814
+i"GravityTutViewController.h"
+
+N/Users/BCT/Desktop/GravityTut/Classes/Puck.h
+c000000004BE4358C00000000000001A5
+t1273247116
+s421
+i<Foundation/Foundation.h>
+
+N/Users/BCT/Desktop/GravityTut/Classes/Puck.m
+c000000004BE435200000000000000336
+t1273247008
+s822
+i"Puck.h"
+
+N/Users/BCT/Desktop/GravityTut/GravityTutViewController.xib
+c000000004BE4335800000000000018E7
+t1273246552
+s6375
+
+N/Users/BCT/Desktop/GravityTut/GravityTut_Prefix.pch
+c000000004BE4335800000000000000BD
+t1273246552
+s189
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/BCT/Desktop/GravityTut/MainWindow.xib
+c000000004BE43358000000000000246F
+t1273246552
+s9327
+
+N/Users/BCT/Desktop/GravityTut/build/Debug-iphonesimulator/GravityTut.app
+t2
+s0
+
+N/Users/BCT/Desktop/GravityTut/build/Debug-iphonesimulator/GravityTut.app.dSYM
+t2
+s0
+
+N/Users/BCT/Desktop/GravityTut/build/Debug-iphonesimulator/GravityTut.app/GravityTut
+t2
+s0
+
+N/Users/BCT/Desktop/GravityTut/build/Debug-iphonesimulator/GravityTut.app/GravityTutViewController.nib
+t1273247116
+s1151
+
+N/Users/BCT/Desktop/GravityTut/build/Debug-iphonesimulator/GravityTut.app/Info.plist
+t1273247116
+s576
+
+N/Users/BCT/Desktop/GravityTut/build/Debug-iphonesimulator/GravityTut.app/MainWindow.nib
+t1273247116
+s1501
+
+N/Users/BCT/Desktop/GravityTut/build/Debug-iphonesimulator/GravityTut.app/PkgInfo
+t1273247116
+s8
+
+N/Users/BCT/Desktop/GravityTut/build/GravityTut.build/Debug-iphonesimulator/GravityTut.build/Objects-normal/i386/GravityTut.LinkFileList
+c000000004BE4358C0000000000000201
+t1273247116
+s513
+
+N/Users/BCT/Desktop/GravityTut/build/GravityTut.build/Debug-iphonesimulator/GravityTut.build/Objects-normal/i386/GravityTutAppDelegate.o
+t2
+s0
+
+N/Users/BCT/Desktop/GravityTut/build/GravityTut.build/Debug-iphonesimulator/GravityTut.build/Objects-normal/i386/GravityTutViewController.o
+t2
+s0
+
+N/Users/BCT/Desktop/GravityTut/build/GravityTut.build/Debug-iphonesimulator/GravityTut.build/Objects-normal/i386/Puck.o
+t1273247117
+s9936
+
+N/Users/BCT/Desktop/GravityTut/build/GravityTut.build/Debug-iphonesimulator/GravityTut.build/Objects-normal/i386/main.o
+t1273247117
+s5940
+
+N/Users/BCT/Desktop/GravityTut/main.m
+c000000004BE43358000000000000016D
+t1273246552
+s365
+i<UIKit/UIKit.h>
+
+N/var/folders/bA/bAdCgNjhHEWwclOqou24A++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/GravityTut_Prefix-cbygfatcswpgurdzcamuzwjlucgb/GravityTut_Prefix.pch.gch
+t1273247117
+s13034960
+
+NGravityTut-Info.plist
+c000000004BE43358000000000000038D
+t1273246552
+s909
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies294939916#294939916#0(0"0(0#1#0"4300885448#0"0#
+
+CCompileC build/GravityTut.build/Debug-iphonesimulator/GravityTut.build/Objects-normal/i386/GravityTutAppDelegate.o /Users/BCT/Desktop/GravityTut/Classes/GravityTutAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s294939917.802243
+e294939917.851854
+r0
+xCompileC
+xbuild/GravityTut.build/Debug-iphonesimulator/GravityTut.build/Objects-normal/i386/GravityTutAppDelegate.o
+x/Users/BCT/Desktop/GravityTut/Classes/GravityTutAppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+oIn file included from /Users/BCT/Desktop/GravityTut/Classes/GravityTutAppDelegate.m:10:
+o/Users/BCT/Desktop/GravityTut/Classes/GravityTutViewController.h:10:17: error: Ball.h: No such file or directory
+oIn file included from /Users/BCT/Desktop/GravityTut/Classes/GravityTutAppDelegate.m:10:
+o/Users/BCT/Desktop/GravityTut/Classes/GravityTutViewController.h:13: error: expected specifier-qualifier-list before 'Puck'
+lSLF07#2@69"Compile /Users/BCT/Desktop/GravityTut/Classes/GravityTutAppDelegate.m294939917#294939917#0(413"In file included from /Users/BCT/Desktop/GravityTut/Classes/GravityTutAppDelegate.m:10:/Users/BCT/Desktop/GravityTut/Classes/GravityTutViewController.h:10:17: error: Ball.h: No such file or directoryIn file included from /Users/BCT/Desktop/GravityTut/Classes/GravityTutAppDelegate.m:10:/Users/BCT/Desktop/GravityTut/Classes/GravityTutViewController.h:13: error: expected specifier-qualifier-list before 'Puck'2(4@33"Ball.h: No such file or directory294939917#88#113#2(7@83"In file included from /Users/BCT/Desktop/GravityTut/Classes/GravityTutAppDelegate.m294939917#18446744073709551615#0#0(6@61"/Users/BCT/Desktop/GravityTut/Classes/GravityTutAppDelegate.m294939352#10#0#10#0#0"0(13@101"Ball.h: No such file or directory in /Users/BCT/Desktop/GravityTut/Classes/GravityTutViewController.h294939917#18446744073709551615#0#0(6@64"/Users/BCT/Desktop/GravityTut/Classes/GravityTutViewController.h294939916#10#0#10#0#0"0(6@64"/Users/BCT/Desktop/GravityTut/Classes/GravityTutViewController.h294939916#10#0#10#0#28"*: No such file or directory0(4@47"Expected specifier-qualifier-list before 'Puck'294939917#289#124#2(7@83"In file included from /Users/BCT/Desktop/GravityTut/Classes/GravityTutAppDelegate.m294939917#18446744073709551615#0#0(6@61"/Users/BCT/Desktop/GravityTut/Classes/GravityTutAppDelegate.m294939352#10#0#10#0#0"0(13@115"Expected specifier-qualifier-list before 'Puck' in /Users/BCT/Desktop/GravityTut/Classes/GravityTutViewController.h294939917#18446744073709551615#0#0(6@64"/Users/BCT/Desktop/GravityTut/Classes/GravityTutViewController.h294939916#13#0#13#0#0"0(6@64"/Users/BCT/Desktop/GravityTut/Classes/GravityTutViewController.h294939916#13#0#13#0#19"expected * before *0(0#0#61"/Users/BCT/Desktop/GravityTut/Classes/GravityTutAppDelegate.m4300885448#1862"    cd /Users/BCT/Desktop/GravityTut    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/BCT/Desktop/GravityTut/build/GravityTut.build/Debug-iphonesimulator/GravityTut.build/GravityTut-generated-files.hmap -I/Users/BCT/Desktop/GravityTut/build/GravityTut.build/Debug-iphonesimulator/GravityTut.build/GravityTut-own-target-headers.hmap -I/Users/BCT/Desktop/GravityTut/build/GravityTut.build/Debug-iphonesimulator/GravityTut.build/GravityTut-all-target-headers.hmap -iquote /Users/BCT/Desktop/GravityTut/build/GravityTut.build/Debug-iphonesimulator/GravityTut.build/GravityTut-project-headers.hmap -F/Users/BCT/Desktop/GravityTut/build/Debug-iphonesimulator -I/Users/BCT/Desktop/GravityTut/build/Debug-iphonesimulator/include -I/Users/BCT/Desktop/GravityTut/build/GravityTut.build/Debug-iphonesimulator/GravityTut.build/DerivedSources/i386 -I/Users/BCT/Desktop/GravityTut/build/GravityTut.build/Debug-iphonesimulator/GravityTut.build/DerivedSources -include /var/folders/bA/bAdCgNjhHEWwclOqou24A++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/GravityTut_Prefix-cbygfatcswpgurdzcamuzwjlucgb/GravityTut_Prefix.pch -c /Users/BCT/Desktop/GravityTut/Classes/GravityTutAppDelegate.m -o /Users/BCT/Desktop/GravityTut/build/GravityTut.build/Debug-iphonesimulator/GravityTut.build/Objects-normal/i386/GravityTutAppDelegate.o1#
+
+CCompileC build/GravityTut.build/Debug-iphonesimulator/GravityTut.build/Objects-normal/i386/GravityTutViewController.o /Users/BCT/Desktop/GravityTut/Classes/GravityTutViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s294939917.852056
+e294939917.904356
+r0
+xCompileC
+xbuild/GravityTut.build/Debug-iphonesimulator/GravityTut.build/Objects-normal/i386/GravityTutViewController.o
+x/Users/BCT/Desktop/GravityTut/Classes/GravityTutViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+oIn file included from /Users/BCT/Desktop/GravityTut/Classes/GravityTutViewController.m:9:
+o/Users/BCT/Desktop/GravityTut/Classes/GravityTutViewController.h:10:17: error: Ball.h: No such file or directory
+oIn file included from /Users/BCT/Desktop/GravityTut/Classes/GravityTutViewController.m:9:
+o/Users/BCT/Desktop/GravityTut/Classes/GravityTutViewController.h:13: error: expected specifier-qualifier-list before 'Puck'
+o/Users/BCT/Desktop/GravityTut/Classes/GravityTutViewController.m: In function '-[GravityTutViewController viewDidLoad]':
+o/Users/BCT/Desktop/GravityTut/Classes/GravityTutViewController.m:36: error: 'ball' undeclared (first use in this function)
+o/Users/BCT/Desktop/GravityTut/Classes/GravityTutViewController.m:36: error: (Each undeclared identifier is reported only once
+o/Users/BCT/Desktop/GravityTut/Classes/GravityTutViewController.m:36: error: for each function it appears in.)
+o/Users/BCT/Desktop/GravityTut/Classes/GravityTutViewController.m:36: error: 'Ball' undeclared (first use in this function)
+o/Users/BCT/Desktop/GravityTut/Classes/GravityTutViewController.m: In function '-[GravityTutViewController onTimer]':
+o/Users/BCT/Desktop/GravityTut/Classes/GravityTutViewController.m:46: error: 'ball' undeclared (first use in this function)
+o/Users/BCT/Desktop/GravityTut/Classes/GravityTutViewController.m: In function '-[GravityTutViewController dealloc]':
+o/Users/BCT/Desktop/GravityTut/Classes/GravityTutViewController.m:72: error: 'puck' undeclared (first use in this function)
+lSLF07#2@72"Compile /Users/BCT/Desktop/GravityTut/Classes/GravityTutViewController.m294939917#294939917#0(1500"In file included from /Users/BCT/Desktop/GravityTut/Classes/GravityTutViewController.m:9:/Users/BCT/Desktop/GravityTut/Classes/GravityTutViewController.h:10:17: error: Ball.h: No such file or directoryIn file included from /Users/BCT/Desktop/GravityTut/Classes/GravityTutViewController.m:9:/Users/BCT/Desktop/GravityTut/Classes/GravityTutViewController.h:13: error: expected specifier-qualifier-list before 'Puck'/Users/BCT/Desktop/GravityTut/Classes/GravityTutViewController.m: In function '-[GravityTutViewController viewDidLoad]':/Users/BCT/Desktop/GravityTut/Classes/GravityTutViewController.m:36: error: 'ball' undeclared (first use in this function)/Users/BCT/Desktop/GravityTut/Classes/GravityTutViewController.m:36: error: (Each undeclared identifier is reported only once/Users/BCT/Desktop/GravityTut/Classes/GravityTutViewController.m:36: error: for each function it appears in.)/Users/BCT/Desktop/GravityTut/Classes/GravityTutViewController.m:36: error: 'Ball' undeclared (first use in this function)/Users/BCT/Desktop/GravityTut/Classes/GravityTutViewController.m: In function '-[GravityTutViewController onTimer]':/Users/BCT/Desktop/GravityTut/Classes/GravityTutViewController.m:46: error: 'ball' undeclared (first use in this function)/Users/BCT/Desktop/GravityTut/Classes/GravityTutViewController.m: In function '-[GravityTutViewController dealloc]':/Users/BCT/Desktop/GravityTut/Classes/GravityTutViewController.m:72: error: 'puck' undeclared (first use in this function)6(4@33"Ball.h: No such file or directory294939917#90#113#2(7@86"In file included from /Users/BCT/Desktop/GravityTut/Classes/GravityTutViewController.m294939917#18446744073709551615#0#0(6@64"/Users/BCT/Desktop/GravityTut/Classes/GravityTutViewController.m294939916#9#0#9#0#0"0(13@101"Ball.h: No such file or directory in /Users/BCT/Desktop/GravityTut/Classes/GravityTutViewController.h294939917#18446744073709551615#0#0(6@64"/Users/BCT/Desktop/GravityTut/Classes/GravityTutViewController.h294939916#10#0#10#0#0"0(6@64"/Users/BCT/Desktop/GravityTut/Classes/GravityTutViewController.h294939916#10#0#10#0#28"*: No such file or directory0(4@47"Expected specifier-qualifier-list before 'Puck'294939917#293#124#2(7@86"In file included from /Users/BCT/Desktop/GravityTut/Classes/GravityTutViewController.m294939917#18446744073709551615#0#0(6@64"/Users/BCT/Desktop/GravityTut/Classes/GravityTutViewController.m294939916#9#0#9#0#0"0(13@115"Expected specifier-qualifier-list before 'Puck' in /Users/BCT/Desktop/GravityTut/Classes/GravityTutViewController.h294939917#18446744073709551615#0#0(6@64"/Users/BCT/Desktop/GravityTut/Classes/GravityTutViewController.h294939916#13#0#13#0#0"0(6@64"/Users/BCT/Desktop/GravityTut/Classes/GravityTutViewController.h294939916#13#0#13#0#19"expected * before *0(4@46"'ball' undeclared (first use in this function)294939917#538#123#0(6@64"/Users/BCT/Desktop/GravityTut/Classes/GravityTutViewController.m294939916#36#0#36#0#43"'*' undeclared (first use in this function)0(4@46"'Ball' undeclared (first use in this function)294939917#897#123#0(6@64"/Users/BCT/Desktop/GravityTut/Classes/GravityTutViewController.m294939916#36#0#36#0#43"'*' undeclared (first use in this function)0(4@46"'ball' undeclared (first use in this function)294939917#1137#123#0(6@64"/Users/BCT/Desktop/GravityTut/Classes/GravityTutViewController.m294939916#46#0#46#0#43"'*' undeclared (first use in this function)0(4@46"'puck' undeclared (first use in this function)294939917#1377#123#0(6@64"/Users/BCT/Desktop/GravityTut/Classes/GravityTutViewController.m294939916#72#0#72#0#43"'*' undeclared (first use in this function)0(0#0#64"/Users/BCT/Desktop/GravityTut/Classes/GravityTutViewController.m4300885448#1868"    cd /Users/BCT/Desktop/GravityTut    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/BCT/Desktop/GravityTut/build/GravityTut.build/Debug-iphonesimulator/GravityTut.build/GravityTut-generated-files.hmap -I/Users/BCT/Desktop/GravityTut/build/GravityTut.build/Debug-iphonesimulator/GravityTut.build/GravityTut-own-target-headers.hmap -I/Users/BCT/Desktop/GravityTut/build/GravityTut.build/Debug-iphonesimulator/GravityTut.build/GravityTut-all-target-headers.hmap -iquote /Users/BCT/Desktop/GravityTut/build/GravityTut.build/Debug-iphonesimulator/GravityTut.build/GravityTut-project-headers.hmap -F/Users/BCT/Desktop/GravityTut/build/Debug-iphonesimulator -I/Users/BCT/Desktop/GravityTut/build/Debug-iphonesimulator/include -I/Users/BCT/Desktop/GravityTut/build/GravityTut.build/Debug-iphonesimulator/GravityTut.build/DerivedSources/i386 -I/Users/BCT/Desktop/GravityTut/build/GravityTut.build/Debug-iphonesimulator/GravityTut.build/DerivedSources -include /var/folders/bA/bAdCgNjhHEWwclOqou24A++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/GravityTut_Prefix-cbygfatcswpgurdzcamuzwjlucgb/GravityTut_Prefix.pch -c /Users/BCT/Desktop/GravityTut/Classes/GravityTutViewController.m -o /Users/BCT/Desktop/GravityTut/build/GravityTut.build/Debug-iphonesimulator/GravityTut.build/Objects-normal/i386/GravityTutViewController.o1#
+
+CCompileC build/GravityTut.build/Debug-iphonesimulator/GravityTut.build/Objects-normal/i386/Puck.o /Users/BCT/Desktop/GravityTut/Classes/Puck.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s294939917.857070
+e294939917.910205
+r1
+xCompileC
+xbuild/GravityTut.build/Debug-iphonesimulator/GravityTut.build/Objects-normal/i386/Puck.o
+x/Users/BCT/Desktop/GravityTut/Classes/Puck.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@52"Compile /Users/BCT/Desktop/GravityTut/Classes/Puck.m294939917#294939917#0(0"0(0#0#44"/Users/BCT/Desktop/GravityTut/Classes/Puck.m4300885448#1828"    cd /Users/BCT/Desktop/GravityTut    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/BCT/Desktop/GravityTut/build/GravityTut.build/Debug-iphonesimulator/GravityTut.build/GravityTut-generated-files.hmap -I/Users/BCT/Desktop/GravityTut/build/GravityTut.build/Debug-iphonesimulator/GravityTut.build/GravityTut-own-target-headers.hmap -I/Users/BCT/Desktop/GravityTut/build/GravityTut.build/Debug-iphonesimulator/GravityTut.build/GravityTut-all-target-headers.hmap -iquote /Users/BCT/Desktop/GravityTut/build/GravityTut.build/Debug-iphonesimulator/GravityTut.build/GravityTut-project-headers.hmap -F/Users/BCT/Desktop/GravityTut/build/Debug-iphonesimulator -I/Users/BCT/Desktop/GravityTut/build/Debug-iphonesimulator/include -I/Users/BCT/Desktop/GravityTut/build/GravityTut.build/Debug-iphonesimulator/GravityTut.build/DerivedSources/i386 -I/Users/BCT/Desktop/GravityTut/build/GravityTut.build/Debug-iphonesimulator/GravityTut.build/DerivedSources -include /var/folders/bA/bAdCgNjhHEWwclOqou24A++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/GravityTut_Prefix-cbygfatcswpgurdzcamuzwjlucgb/GravityTut_Prefix.pch -c /Users/BCT/Desktop/GravityTut/Classes/Puck.m -o /Users/BCT/Desktop/GravityTut/build/GravityTut.build/Debug-iphonesimulator/GravityTut.build/Objects-normal/i386/Puck.o0#
+
+CCompileC build/GravityTut.build/Debug-iphonesimulator/GravityTut.build/Objects-normal/i386/main.o /Users/BCT/Desktop/GravityTut/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s294939917.801265
+e294939917.856973
+r1
+xCompileC
+xbuild/GravityTut.build/Debug-iphonesimulator/GravityTut.build/Objects-normal/i386/main.o
+x/Users/BCT/Desktop/GravityTut/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@44"Compile /Users/BCT/Desktop/GravityTut/main.m294939917#294939917#0(0"0(0#0#36"/Users/BCT/Desktop/GravityTut/main.m4300885448#1820"    cd /Users/BCT/Desktop/GravityTut    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/BCT/Desktop/GravityTut/build/GravityTut.build/Debug-iphonesimulator/GravityTut.build/GravityTut-generated-files.hmap -I/Users/BCT/Desktop/GravityTut/build/GravityTut.build/Debug-iphonesimulator/GravityTut.build/GravityTut-own-target-headers.hmap -I/Users/BCT/Desktop/GravityTut/build/GravityTut.build/Debug-iphonesimulator/GravityTut.build/GravityTut-all-target-headers.hmap -iquote /Users/BCT/Desktop/GravityTut/build/GravityTut.build/Debug-iphonesimulator/GravityTut.build/GravityTut-project-headers.hmap -F/Users/BCT/Desktop/GravityTut/build/Debug-iphonesimulator -I/Users/BCT/Desktop/GravityTut/build/Debug-iphonesimulator/include -I/Users/BCT/Desktop/GravityTut/build/GravityTut.build/Debug-iphonesimulator/GravityTut.build/DerivedSources/i386 -I/Users/BCT/Desktop/GravityTut/build/GravityTut.build/Debug-iphonesimulator/GravityTut.build/DerivedSources -include /var/folders/bA/bAdCgNjhHEWwclOqou24A++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/GravityTut_Prefix-cbygfatcswpgurdzcamuzwjlucgb/GravityTut_Prefix.pch -c /Users/BCT/Desktop/GravityTut/main.m -o /Users/BCT/Desktop/GravityTut/build/GravityTut.build/Debug-iphonesimulator/GravityTut.build/Objects-normal/i386/main.o0#
+
+CCompileXIB /Users/BCT/Desktop/GravityTut/GravityTutViewController.xib
+s294939916.578196
+e294939916.896057
+r1
+xCompileXIB
+x/Users/BCT/Desktop/GravityTut/GravityTutViewController.xib
+lSLF07#2@39"CompileXIB GravityTutViewController.xib294939916#294939916#0(0"0(0#0#58"/Users/BCT/Desktop/GravityTut/GravityTutViewController.xib4300885448#486"    cd /Users/BCT/Desktop/GravityTut    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.1.3    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/BCT/Desktop/GravityTut/build/Debug-iphonesimulator/GravityTut.app/GravityTutViewController.nib /Users/BCT/Desktop/GravityTut/GravityTutViewController.xib0#
+
+CCompileXIB /Users/BCT/Desktop/GravityTut/MainWindow.xib
+s294939916.576164
+e294939916.916989
+r1
+xCompileXIB
+x/Users/BCT/Desktop/GravityTut/MainWindow.xib
+oCouldn't open shared capabilities memory GSCapabilities (No such file or directory)
+lSLF07#2@25"CompileXIB MainWindow.xib294939916#294939916#0(84"Couldn't open shared capabilities memory GSCapabilities (No such file or directory)0(0#0#44"/Users/BCT/Desktop/GravityTut/MainWindow.xib4300885448#458"    cd /Users/BCT/Desktop/GravityTut    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.1.3    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/BCT/Desktop/GravityTut/build/Debug-iphonesimulator/GravityTut.app/MainWindow.nib /Users/BCT/Desktop/GravityTut/MainWindow.xib0#
+
+CGenerateDSYMFile /Users/BCT/Desktop/GravityTut/build/Debug-iphonesimulator/GravityTut.app.dSYM /Users/BCT/Desktop/GravityTut/build/Debug-iphonesimulator/GravityTut.app/GravityTut
+r0
+
+CLd /Users/BCT/Desktop/GravityTut/build/Debug-iphonesimulator/GravityTut.app/GravityTut normal i386
+r0
+
+CProcessInfoPlistFile /Users/BCT/Desktop/GravityTut/build/Debug-iphonesimulator/GravityTut.app/Info.plist GravityTut-Info.plist
+s294939916.562428
+e294939916.576077
+r1
+xProcessInfoPlistFile
+x/Users/BCT/Desktop/GravityTut/build/Debug-iphonesimulator/GravityTut.app/Info.plist
+xGravityTut-Info.plist
+lSLF07#2@29"Process GravityTut-Info.plist294939916#294939916#0(0"0(0#0#51"/Users/BCT/Desktop/GravityTut/GravityTut-Info.plist4300885448#461"    cd /Users/BCT/Desktop/GravityTut    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility GravityTut-Info.plist -genpkginfo /Users/BCT/Desktop/GravityTut/build/Debug-iphonesimulator/GravityTut.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/BCT/Desktop/GravityTut/build/Debug-iphonesimulator/GravityTut.app/Info.plist0#
+
+CProcessPCH /var/folders/bA/bAdCgNjhHEWwclOqou24A++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/GravityTut_Prefix-cbygfatcswpgurdzcamuzwjlucgb/GravityTut_Prefix.pch.gch GravityTut_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+s294939916.917107
+e294939917.801167
+r1
+xProcessPCH
+x/var/folders/bA/bAdCgNjhHEWwclOqou24A++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/GravityTut_Prefix-cbygfatcswpgurdzcamuzwjlucgb/GravityTut_Prefix.pch.gch
+xGravityTut_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@32"Precompile GravityTut_Prefix.pch294939916#294939917#0(0"0(0#0#51"/Users/BCT/Desktop/GravityTut/GravityTut_Prefix.pch4300885448#1718"    cd /Users/BCT/Desktop/GravityTut    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/BCT/Desktop/GravityTut/build/GravityTut.build/Debug-iphonesimulator/GravityTut.build/GravityTut-generated-files.hmap -I/Users/BCT/Desktop/GravityTut/build/GravityTut.build/Debug-iphonesimulator/GravityTut.build/GravityTut-own-target-headers.hmap -I/Users/BCT/Desktop/GravityTut/build/GravityTut.build/Debug-iphonesimulator/GravityTut.build/GravityTut-all-target-headers.hmap -iquote /Users/BCT/Desktop/GravityTut/build/GravityTut.build/Debug-iphonesimulator/GravityTut.build/GravityTut-project-headers.hmap -F/Users/BCT/Desktop/GravityTut/build/Debug-iphonesimulator -I/Users/BCT/Desktop/GravityTut/build/Debug-iphonesimulator/include -I/Users/BCT/Desktop/GravityTut/build/GravityTut.build/Debug-iphonesimulator/GravityTut.build/DerivedSources/i386 -I/Users/BCT/Desktop/GravityTut/build/GravityTut.build/Debug-iphonesimulator/GravityTut.build/DerivedSources -c /Users/BCT/Desktop/GravityTut/GravityTut_Prefix.pch -o /var/folders/bA/bAdCgNjhHEWwclOqou24A++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/GravityTut_Prefix-cbygfatcswpgurdzcamuzwjlucgb/GravityTut_Prefix.pch.gch0#
+
+CTouch /Users/BCT/Desktop/GravityTut/build/Debug-iphonesimulator/GravityTut.app
+r0
+

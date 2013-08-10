@@ -1,0 +1,458 @@
+TAirGoalie
+v7
+r0
+t296655695.765237
+cCheck dependencies
+cProcessInfoPlistFile /Users/BCT/Downloads/GravityTut/build/Debug-iphonesimulator/AirGoalie.app/Info.plist AirGoalie-Info.plist
+cCompileXIB /Users/BCT/Downloads/GravityTut/MainWindow.xib
+cCompileXIB /Users/BCT/Downloads/GravityTut/GravityTutViewController.xib
+cCpResource build/Debug-iphonesimulator/AirGoalie.app/ourrink-1.gif ourrink-1.gif
+cCpResource build/Debug-iphonesimulator/AirGoalie.app/punch.wav punch.wav
+cProcessPCH /var/folders/bA/bAdCgNjhHEWwclOqou24A++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AirGoalie_Prefix-ggevoujnpoozwjejvbibdmcuxwfj/AirGoalie_Prefix.pch.gch AirGoalie_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/AirGoalie.build/Debug-iphonesimulator/AirGoalie.build/Objects-normal/i386/main.o /Users/BCT/Downloads/GravityTut/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/AirGoalie.build/Debug-iphonesimulator/AirGoalie.build/Objects-normal/i386/GravityTutAppDelegate.o /Users/BCT/Downloads/GravityTut/Classes/GravityTutAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/AirGoalie.build/Debug-iphonesimulator/AirGoalie.build/Objects-normal/i386/GravityTutViewController.o /Users/BCT/Downloads/GravityTut/Classes/GravityTutViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/AirGoalie.build/Debug-iphonesimulator/AirGoalie.build/Objects-normal/i386/Puck.o /Users/BCT/Downloads/GravityTut/Classes/Puck.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/AirGoalie.build/Debug-iphonesimulator/AirGoalie.build/Objects-normal/i386/PuckView.o /Users/BCT/Downloads/GravityTut/Classes/PuckView.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/AirGoalie.build/Debug-iphonesimulator/AirGoalie.build/Objects-normal/i386/Paddle.o /Users/BCT/Downloads/GravityTut/Classes/Paddle.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/AirGoalie.build/Debug-iphonesimulator/AirGoalie.build/Objects-normal/i386/Goalie.o /Users/BCT/Downloads/GravityTut/Classes/Goalie.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/AirGoalie.build/Debug-iphonesimulator/AirGoalie.build/Objects-normal/i386/SoundEffect.o /Users/BCT/Downloads/GravityTut/Classes/SoundEffect.m normal i386 objective-c com.apple.compilers.gcc.4_2
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk
+c000000004BAB618900000000000000EE
+t1269522825
+s238
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/System/Library/Frameworks/AudioToolbox.framework/Headers/AudioServices.h
+c000000004B2B4D2F000000000000E37C
+t1261129007
+s58236
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004B2B4CC3000000000026EE30
+t1261128899
+s2551344
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004B2B4DC8000000000027E880
+t1261129160
+s2615424
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004B2B4DAE0000000000001355
+t1261129134
+s4949
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/System/Library/Frameworks/GameKit.framework/Headers/GameKit.h
+c000000004B2B633D0000000000000112
+t1261134653
+s274
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004B2B61620000000000000788
+t1261134178
+s1928
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004B2B62B500000000016721E0
+t1261134517
+s23536096
+
+N/Users/BCT/Downloads/GravityTut/AirGoalie_Prefix.pch
+c000000004BE4335800000000000000BD
+t1273246552
+s189
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/BCT/Downloads/GravityTut/Classes/Goalie.h
+c000000004BF69FD30000000000000209
+t1274453971
+s521
+i<Foundation/Foundation.h>
+
+N/Users/BCT/Downloads/GravityTut/Classes/Goalie.m
+c000000004BF6A1B00000000000000366
+t1274454448
+s870
+i"Goalie.h"
+
+N/Users/BCT/Downloads/GravityTut/Classes/GravityTutAppDelegate.h
+c000000004BF544AF00000000000001F2
+t1274365103
+s498
+i<UIKit/UIKit.h>
+
+N/Users/BCT/Downloads/GravityTut/Classes/GravityTutAppDelegate.m
+c000000004BE43358000000000000027A
+t1273246552
+s634
+i"GravityTutAppDelegate.h"
+i"GravityTutViewController.h"
+
+N/Users/BCT/Downloads/GravityTut/Classes/GravityTutViewController.h
+c000000004BFE63CD00000000000006DA
+t1274962893
+s1754
+i<UIKit/UIKit.h>
+i"Puck.h"
+i"Paddle.h"
+i"Goalie.h"
+i<GameKit/GameKit.h>
+i<AudioToolbox/AudioServices.h>
+
+N/Users/BCT/Downloads/GravityTut/Classes/GravityTutViewController.m
+c000000004BFE63CD0000000000002A42
+t1274962893
+s10818
+i"GravityTutViewController.h"
+i"PuckView.h"
+i"SoundEffect.h"
+
+N/Users/BCT/Downloads/GravityTut/Classes/Paddle.h
+c000000004BF2CCF9000000000000025C
+t1274203385
+s604
+i<Foundation/Foundation.h>
+
+N/Users/BCT/Downloads/GravityTut/Classes/Paddle.m
+c000000004BFC105400000000000004B1
+t1274810452
+s1201
+i"Paddle.h"
+
+N/Users/BCT/Downloads/GravityTut/Classes/Puck.h
+c000000004BF6C1800000000000000376
+t1274462592
+s886
+i<Foundation/Foundation.h>
+
+N/Users/BCT/Downloads/GravityTut/Classes/Puck.m
+c000000004BFD6B190000000000000AA3
+t1274899225
+s2723
+i"Puck.h"
+
+N/Users/BCT/Downloads/GravityTut/Classes/PuckView.h
+c000000004BF178460000000000000207
+t1274116166
+s519
+i<UIKit/UIKit.h>
+i"Puck.h"
+i"Paddle.h"
+i"Goalie.h"
+
+N/Users/BCT/Downloads/GravityTut/Classes/PuckView.m
+c000000004BF806D400000000000009ED
+t1274545876
+s2541
+i"PuckView.h"
+
+N/Users/BCT/Downloads/GravityTut/Classes/SoundEffect.h
+c000000004AB169B80000000000000A85
+t1253140920
+s2693
+i<UIKit/UIKit.h>
+i<AudioToolbox/AudioServices.h>
+
+N/Users/BCT/Downloads/GravityTut/Classes/SoundEffect.m
+c000000004AB169B80000000000000FB4
+t1253140920
+s4020
+i"SoundEffect.h"
+
+N/Users/BCT/Downloads/GravityTut/GravityTutViewController.xib
+c000000004BF6EC7E0000000000003359
+t1274473598
+s13145
+
+N/Users/BCT/Downloads/GravityTut/MainWindow.xib
+c000000004BE43358000000000000246F
+t1273246552
+s9327
+
+N/Users/BCT/Downloads/GravityTut/build/AirGoalie.build/Debug-iphonesimulator/AirGoalie.build/Objects-normal/i386/AirGoalie.LinkFileList
+c000000004BFE63CD00000000000003EC
+t1274962893
+s1004
+
+N/Users/BCT/Downloads/GravityTut/build/AirGoalie.build/Debug-iphonesimulator/AirGoalie.build/Objects-normal/i386/Goalie.o
+t1274962895
+s13700
+
+N/Users/BCT/Downloads/GravityTut/build/AirGoalie.build/Debug-iphonesimulator/AirGoalie.build/Objects-normal/i386/GravityTutAppDelegate.o
+t2
+s0
+
+N/Users/BCT/Downloads/GravityTut/build/AirGoalie.build/Debug-iphonesimulator/AirGoalie.build/Objects-normal/i386/GravityTutViewController.o
+t2
+s0
+
+N/Users/BCT/Downloads/GravityTut/build/AirGoalie.build/Debug-iphonesimulator/AirGoalie.build/Objects-normal/i386/Paddle.o
+t1274962895
+s15064
+
+N/Users/BCT/Downloads/GravityTut/build/AirGoalie.build/Debug-iphonesimulator/AirGoalie.build/Objects-normal/i386/Puck.o
+t1274962895
+s21064
+
+N/Users/BCT/Downloads/GravityTut/build/AirGoalie.build/Debug-iphonesimulator/AirGoalie.build/Objects-normal/i386/PuckView.o
+t1274962895
+s16192
+
+N/Users/BCT/Downloads/GravityTut/build/AirGoalie.build/Debug-iphonesimulator/AirGoalie.build/Objects-normal/i386/SoundEffect.o
+t1274962895
+s10232
+
+N/Users/BCT/Downloads/GravityTut/build/AirGoalie.build/Debug-iphonesimulator/AirGoalie.build/Objects-normal/i386/main.o
+t1274962895
+s5944
+
+N/Users/BCT/Downloads/GravityTut/build/Debug-iphonesimulator/AirGoalie.app
+t2
+s0
+
+N/Users/BCT/Downloads/GravityTut/build/Debug-iphonesimulator/AirGoalie.app.dSYM
+t2
+s0
+
+N/Users/BCT/Downloads/GravityTut/build/Debug-iphonesimulator/AirGoalie.app/AirGoalie
+t2
+s0
+
+N/Users/BCT/Downloads/GravityTut/build/Debug-iphonesimulator/AirGoalie.app/GravityTutViewController.nib
+t1274962894
+s2909
+
+N/Users/BCT/Downloads/GravityTut/build/Debug-iphonesimulator/AirGoalie.app/Info.plist
+t1274962894
+s572
+
+N/Users/BCT/Downloads/GravityTut/build/Debug-iphonesimulator/AirGoalie.app/MainWindow.nib
+t1274962894
+s1501
+
+N/Users/BCT/Downloads/GravityTut/build/Debug-iphonesimulator/AirGoalie.app/PkgInfo
+t1274962894
+s8
+
+N/Users/BCT/Downloads/GravityTut/build/Debug-iphonesimulator/AirGoalie.app/ourrink-1.gif
+t1274962894
+s170855
+
+N/Users/BCT/Downloads/GravityTut/build/Debug-iphonesimulator/AirGoalie.app/punch.wav
+t1274962894
+s2012
+
+N/Users/BCT/Downloads/GravityTut/main.m
+c000000004BE43358000000000000016D
+t1273246552
+s365
+i<UIKit/UIKit.h>
+
+N/Users/BCT/Downloads/GravityTut/ourrink-1.gif
+c000000004BF5457A0000000000029B67
+t1274365306
+s170855
+
+N/Users/BCT/Downloads/GravityTut/punch.wav
+c000000004BFAB00200000000000007DC
+t1274720258
+s2012
+
+N/var/folders/bA/bAdCgNjhHEWwclOqou24A++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AirGoalie_Prefix-ggevoujnpoozwjejvbibdmcuxwfj/AirGoalie_Prefix.pch.gch
+t1274962895
+s13034960
+
+NAirGoalie-Info.plist
+c000000004BE43358000000000000038D
+t1273246552
+s909
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies296655693#296655694#0(0"0(0#1#0"7947009927035180032#0"0#
+
+CCompileC build/AirGoalie.build/Debug-iphonesimulator/AirGoalie.build/Objects-normal/i386/Goalie.o /Users/BCT/Downloads/GravityTut/Classes/Goalie.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s296655695.688911
+e296655695.760693
+r1
+xCompileC
+xbuild/AirGoalie.build/Debug-iphonesimulator/AirGoalie.build/Objects-normal/i386/Goalie.o
+x/Users/BCT/Downloads/GravityTut/Classes/Goalie.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@56"Compile /Users/BCT/Downloads/GravityTut/Classes/Goalie.m296655695#296655695#0(0"0(0#0#48"/Users/BCT/Downloads/GravityTut/Classes/Goalie.m4300885448#1834"    cd /Users/BCT/Downloads/GravityTut    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/BCT/Downloads/GravityTut/build/AirGoalie.build/Debug-iphonesimulator/AirGoalie.build/AirGoalie-generated-files.hmap -I/Users/BCT/Downloads/GravityTut/build/AirGoalie.build/Debug-iphonesimulator/AirGoalie.build/AirGoalie-own-target-headers.hmap -I/Users/BCT/Downloads/GravityTut/build/AirGoalie.build/Debug-iphonesimulator/AirGoalie.build/AirGoalie-all-target-headers.hmap -iquote /Users/BCT/Downloads/GravityTut/build/AirGoalie.build/Debug-iphonesimulator/AirGoalie.build/AirGoalie-project-headers.hmap -F/Users/BCT/Downloads/GravityTut/build/Debug-iphonesimulator -I/Users/BCT/Downloads/GravityTut/build/Debug-iphonesimulator/include -I/Users/BCT/Downloads/GravityTut/build/AirGoalie.build/Debug-iphonesimulator/AirGoalie.build/DerivedSources/i386 -I/Users/BCT/Downloads/GravityTut/build/AirGoalie.build/Debug-iphonesimulator/AirGoalie.build/DerivedSources -include /var/folders/bA/bAdCgNjhHEWwclOqou24A++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AirGoalie_Prefix-ggevoujnpoozwjejvbibdmcuxwfj/AirGoalie_Prefix.pch -c /Users/BCT/Downloads/GravityTut/Classes/Goalie.m -o /Users/BCT/Downloads/GravityTut/build/AirGoalie.build/Debug-iphonesimulator/AirGoalie.build/Objects-normal/i386/Goalie.o0#
+
+CCompileC build/AirGoalie.build/Debug-iphonesimulator/AirGoalie.build/Objects-normal/i386/GravityTutAppDelegate.o /Users/BCT/Downloads/GravityTut/Classes/GravityTutAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s296655695.360571
+e296655695.508913
+r0
+xCompileC
+xbuild/AirGoalie.build/Debug-iphonesimulator/AirGoalie.build/Objects-normal/i386/GravityTutAppDelegate.o
+x/Users/BCT/Downloads/GravityTut/Classes/GravityTutAppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+oIn file included from /Users/BCT/Downloads/GravityTut/Classes/GravityTutAppDelegate.m:10:
+o/Users/BCT/Downloads/GravityTut/Classes/GravityTutViewController.h:35: error: expected specifier-qualifier-list before 'SoundEffect'
+lSLF07#2@71"Compile /Users/BCT/Downloads/GravityTut/Classes/GravityTutAppDelegate.m296655695#296655695#0(223"In file included from /Users/BCT/Downloads/GravityTut/Classes/GravityTutAppDelegate.m:10:/Users/BCT/Downloads/GravityTut/Classes/GravityTutViewController.h:35: error: expected specifier-qualifier-list before 'SoundEffect'1(4@54"Expected specifier-qualifier-list before 'SoundEffect'296655695#90#133#2(7@85"In file included from /Users/BCT/Downloads/GravityTut/Classes/GravityTutAppDelegate.m296655695#18446744073709551615#0#0(6@63"/Users/BCT/Downloads/GravityTut/Classes/GravityTutAppDelegate.m294939352#10#0#10#0#0"0(13@124"Expected specifier-qualifier-list before 'SoundEffect' in /Users/BCT/Downloads/GravityTut/Classes/GravityTutViewController.h296655695#18446744073709551615#0#0(6@66"/Users/BCT/Downloads/GravityTut/Classes/GravityTutViewController.h296655693#35#0#35#0#0"0(6@66"/Users/BCT/Downloads/GravityTut/Classes/GravityTutViewController.h296655693#35#0#35#0#19"expected * before *0(0#0#63"/Users/BCT/Downloads/GravityTut/Classes/GravityTutAppDelegate.m4300885448#1864"    cd /Users/BCT/Downloads/GravityTut    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/BCT/Downloads/GravityTut/build/AirGoalie.build/Debug-iphonesimulator/AirGoalie.build/AirGoalie-generated-files.hmap -I/Users/BCT/Downloads/GravityTut/build/AirGoalie.build/Debug-iphonesimulator/AirGoalie.build/AirGoalie-own-target-headers.hmap -I/Users/BCT/Downloads/GravityTut/build/AirGoalie.build/Debug-iphonesimulator/AirGoalie.build/AirGoalie-all-target-headers.hmap -iquote /Users/BCT/Downloads/GravityTut/build/AirGoalie.build/Debug-iphonesimulator/AirGoalie.build/AirGoalie-project-headers.hmap -F/Users/BCT/Downloads/GravityTut/build/Debug-iphonesimulator -I/Users/BCT/Downloads/GravityTut/build/Debug-iphonesimulator/include -I/Users/BCT/Downloads/GravityTut/build/AirGoalie.build/Debug-iphonesimulator/AirGoalie.build/DerivedSources/i386 -I/Users/BCT/Downloads/GravityTut/build/AirGoalie.build/Debug-iphonesimulator/AirGoalie.build/DerivedSources -include /var/folders/bA/bAdCgNjhHEWwclOqou24A++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AirGoalie_Prefix-ggevoujnpoozwjejvbibdmcuxwfj/AirGoalie_Prefix.pch -c /Users/BCT/Downloads/GravityTut/Classes/GravityTutAppDelegate.m -o /Users/BCT/Downloads/GravityTut/build/AirGoalie.build/Debug-iphonesimulator/AirGoalie.build/Objects-normal/i386/GravityTutAppDelegate.o1#
+
+CCompileC build/AirGoalie.build/Debug-iphonesimulator/AirGoalie.build/Objects-normal/i386/GravityTutViewController.o /Users/BCT/Downloads/GravityTut/Classes/GravityTutViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s296655695.509076
+e296655695.610957
+r0
+xCompileC
+xbuild/AirGoalie.build/Debug-iphonesimulator/AirGoalie.build/Objects-normal/i386/GravityTutViewController.o
+x/Users/BCT/Downloads/GravityTut/Classes/GravityTutViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+oIn file included from /Users/BCT/Downloads/GravityTut/Classes/GravityTutViewController.m:9:
+o/Users/BCT/Downloads/GravityTut/Classes/GravityTutViewController.h:35: error: expected specifier-qualifier-list before 'SoundEffect'
+o/Users/BCT/Downloads/GravityTut/Classes/GravityTutViewController.m: In function '-[GravityTutViewController viewDidLoad]':
+o/Users/BCT/Downloads/GravityTut/Classes/GravityTutViewController.m:98: error: 'hit' undeclared (first use in this function)
+o/Users/BCT/Downloads/GravityTut/Classes/GravityTutViewController.m:98: error: (Each undeclared identifier is reported only once
+o/Users/BCT/Downloads/GravityTut/Classes/GravityTutViewController.m:98: error: for each function it appears in.)
+o/Users/BCT/Downloads/GravityTut/Classes/GravityTutViewController.m: At top level:
+o/Users/BCT/Downloads/GravityTut/Classes/GravityTutViewController.m:341: warning: incomplete implementation of class 'GravityTutViewController'
+o/Users/BCT/Downloads/GravityTut/Classes/GravityTutViewController.m:341: warning: method definition for '-gameState' not found
+o/Users/BCT/Downloads/GravityTut/Classes/GravityTutViewController.m:341: warning: method definition for '-resetPuck' not found
+o/Users/BCT/Downloads/GravityTut/Classes/GravityTutViewController.m:341: warning: method definition for '-update' not found
+lSLF07#2@74"Compile /Users/BCT/Downloads/GravityTut/Classes/GravityTutViewController.m296655695#296655695#0(1312"In file included from /Users/BCT/Downloads/GravityTut/Classes/GravityTutViewController.m:9:/Users/BCT/Downloads/GravityTut/Classes/GravityTutViewController.h:35: error: expected specifier-qualifier-list before 'SoundEffect'/Users/BCT/Downloads/GravityTut/Classes/GravityTutViewController.m: In function '-[GravityTutViewController viewDidLoad]':/Users/BCT/Downloads/GravityTut/Classes/GravityTutViewController.m:98: error: 'hit' undeclared (first use in this function)/Users/BCT/Downloads/GravityTut/Classes/GravityTutViewController.m:98: error: (Each undeclared identifier is reported only once/Users/BCT/Downloads/GravityTut/Classes/GravityTutViewController.m:98: error: for each function it appears in.)/Users/BCT/Downloads/GravityTut/Classes/GravityTutViewController.m: At top level:/Users/BCT/Downloads/GravityTut/Classes/GravityTutViewController.m:341: warning: incomplete implementation of class 'GravityTutViewController'/Users/BCT/Downloads/GravityTut/Classes/GravityTutViewController.m:341: warning: method definition for '-gameState' not found/Users/BCT/Downloads/GravityTut/Classes/GravityTutViewController.m:341: warning: method definition for '-resetPuck' not found/Users/BCT/Downloads/GravityTut/Classes/GravityTutViewController.m:341: warning: method definition for '-update' not found7(4@54"Expected specifier-qualifier-list before 'SoundEffect'296655695#92#133#2(7@88"In file included from /Users/BCT/Downloads/GravityTut/Classes/GravityTutViewController.m296655695#18446744073709551615#0#0(6@66"/Users/BCT/Downloads/GravityTut/Classes/GravityTutViewController.m296655693#9#0#9#0#0"0(13@124"Expected specifier-qualifier-list before 'SoundEffect' in /Users/BCT/Downloads/GravityTut/Classes/GravityTutViewController.h296655695#18446744073709551615#0#0(6@66"/Users/BCT/Downloads/GravityTut/Classes/GravityTutViewController.h296655693#35#0#35#0#0"0(6@66"/Users/BCT/Downloads/GravityTut/Classes/GravityTutViewController.h296655693#35#0#35#0#19"expected * before *0(4@45"'hit' undeclared (first use in this function)296655695#348#124#0(6@66"/Users/BCT/Downloads/GravityTut/Classes/GravityTutViewController.m296655693#98#0#98#0#43"'*' undeclared (first use in this function)0(23@13"At top level:296655695#712#82#0(6@66"/Users/BCT/Downloads/GravityTut/Classes/GravityTutViewController.m296655693#0#0#0#0#0"0(22@61"Incomplete implementation of class 'GravityTutViewController'296655695#794#143#0(6@66"/Users/BCT/Downloads/GravityTut/Classes/GravityTutViewController.m296655693#341#0#341#0#38"incomplete implementation of class '*'0(22@44"Method definition for '-gameState' not found296655695#937#126#0(6@66"/Users/BCT/Downloads/GravityTut/Classes/GravityTutViewController.m296655693#341#0#341#0#35"method definition for '*' not found0(22@44"Method definition for '-resetPuck' not found296655695#1063#126#0(6@66"/Users/BCT/Downloads/GravityTut/Classes/GravityTutViewController.m296655693#341#0#341#0#35"method definition for '*' not found0(22@41"Method definition for '-update' not found296655695#1189#123#0(6@66"/Users/BCT/Downloads/GravityTut/Classes/GravityTutViewController.m296655693#341#0#341#0#35"method definition for '*' not found0(0#0#66"/Users/BCT/Downloads/GravityTut/Classes/GravityTutViewController.m3343194212604528640#1870"    cd /Users/BCT/Downloads/GravityTut    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/BCT/Downloads/GravityTut/build/AirGoalie.build/Debug-iphonesimulator/AirGoalie.build/AirGoalie-generated-files.hmap -I/Users/BCT/Downloads/GravityTut/build/AirGoalie.build/Debug-iphonesimulator/AirGoalie.build/AirGoalie-own-target-headers.hmap -I/Users/BCT/Downloads/GravityTut/build/AirGoalie.build/Debug-iphonesimulator/AirGoalie.build/AirGoalie-all-target-headers.hmap -iquote /Users/BCT/Downloads/GravityTut/build/AirGoalie.build/Debug-iphonesimulator/AirGoalie.build/AirGoalie-project-headers.hmap -F/Users/BCT/Downloads/GravityTut/build/Debug-iphonesimulator -I/Users/BCT/Downloads/GravityTut/build/Debug-iphonesimulator/include -I/Users/BCT/Downloads/GravityTut/build/AirGoalie.build/Debug-iphonesimulator/AirGoalie.build/DerivedSources/i386 -I/Users/BCT/Downloads/GravityTut/build/AirGoalie.build/Debug-iphonesimulator/AirGoalie.build/DerivedSources -include /var/folders/bA/bAdCgNjhHEWwclOqou24A++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AirGoalie_Prefix-ggevoujnpoozwjejvbibdmcuxwfj/AirGoalie_Prefix.pch -c /Users/BCT/Downloads/GravityTut/Classes/GravityTutViewController.m -o /Users/BCT/Downloads/GravityTut/build/AirGoalie.build/Debug-iphonesimulator/AirGoalie.build/Objects-normal/i386/GravityTutViewController.o1#
+
+CCompileC build/AirGoalie.build/Debug-iphonesimulator/AirGoalie.build/Objects-normal/i386/Paddle.o /Users/BCT/Downloads/GravityTut/Classes/Paddle.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s296655695.614914
+e296655695.688808
+r1
+xCompileC
+xbuild/AirGoalie.build/Debug-iphonesimulator/AirGoalie.build/Objects-normal/i386/Paddle.o
+x/Users/BCT/Downloads/GravityTut/Classes/Paddle.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@56"Compile /Users/BCT/Downloads/GravityTut/Classes/Paddle.m296655695#296655695#0(0"0(0#0#48"/Users/BCT/Downloads/GravityTut/Classes/Paddle.m4300885448#1834"    cd /Users/BCT/Downloads/GravityTut    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/BCT/Downloads/GravityTut/build/AirGoalie.build/Debug-iphonesimulator/AirGoalie.build/AirGoalie-generated-files.hmap -I/Users/BCT/Downloads/GravityTut/build/AirGoalie.build/Debug-iphonesimulator/AirGoalie.build/AirGoalie-own-target-headers.hmap -I/Users/BCT/Downloads/GravityTut/build/AirGoalie.build/Debug-iphonesimulator/AirGoalie.build/AirGoalie-all-target-headers.hmap -iquote /Users/BCT/Downloads/GravityTut/build/AirGoalie.build/Debug-iphonesimulator/AirGoalie.build/AirGoalie-project-headers.hmap -F/Users/BCT/Downloads/GravityTut/build/Debug-iphonesimulator -I/Users/BCT/Downloads/GravityTut/build/Debug-iphonesimulator/include -I/Users/BCT/Downloads/GravityTut/build/AirGoalie.build/Debug-iphonesimulator/AirGoalie.build/DerivedSources/i386 -I/Users/BCT/Downloads/GravityTut/build/AirGoalie.build/Debug-iphonesimulator/AirGoalie.build/DerivedSources -include /var/folders/bA/bAdCgNjhHEWwclOqou24A++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AirGoalie_Prefix-ggevoujnpoozwjejvbibdmcuxwfj/AirGoalie_Prefix.pch -c /Users/BCT/Downloads/GravityTut/Classes/Paddle.m -o /Users/BCT/Downloads/GravityTut/build/AirGoalie.build/Debug-iphonesimulator/AirGoalie.build/Objects-normal/i386/Paddle.o0#
+
+CCompileC build/AirGoalie.build/Debug-iphonesimulator/AirGoalie.build/Objects-normal/i386/Puck.o /Users/BCT/Downloads/GravityTut/Classes/Puck.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s296655695.510244
+e296655695.614822
+r1
+xCompileC
+xbuild/AirGoalie.build/Debug-iphonesimulator/AirGoalie.build/Objects-normal/i386/Puck.o
+x/Users/BCT/Downloads/GravityTut/Classes/Puck.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@54"Compile /Users/BCT/Downloads/GravityTut/Classes/Puck.m296655695#296655695#0(0"0(0#0#46"/Users/BCT/Downloads/GravityTut/Classes/Puck.m4300885448#1830"    cd /Users/BCT/Downloads/GravityTut    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/BCT/Downloads/GravityTut/build/AirGoalie.build/Debug-iphonesimulator/AirGoalie.build/AirGoalie-generated-files.hmap -I/Users/BCT/Downloads/GravityTut/build/AirGoalie.build/Debug-iphonesimulator/AirGoalie.build/AirGoalie-own-target-headers.hmap -I/Users/BCT/Downloads/GravityTut/build/AirGoalie.build/Debug-iphonesimulator/AirGoalie.build/AirGoalie-all-target-headers.hmap -iquote /Users/BCT/Downloads/GravityTut/build/AirGoalie.build/Debug-iphonesimulator/AirGoalie.build/AirGoalie-project-headers.hmap -F/Users/BCT/Downloads/GravityTut/build/Debug-iphonesimulator -I/Users/BCT/Downloads/GravityTut/build/Debug-iphonesimulator/include -I/Users/BCT/Downloads/GravityTut/build/AirGoalie.build/Debug-iphonesimulator/AirGoalie.build/DerivedSources/i386 -I/Users/BCT/Downloads/GravityTut/build/AirGoalie.build/Debug-iphonesimulator/AirGoalie.build/DerivedSources -include /var/folders/bA/bAdCgNjhHEWwclOqou24A++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AirGoalie_Prefix-ggevoujnpoozwjejvbibdmcuxwfj/AirGoalie_Prefix.pch -c /Users/BCT/Downloads/GravityTut/Classes/Puck.m -o /Users/BCT/Downloads/GravityTut/build/AirGoalie.build/Debug-iphonesimulator/AirGoalie.build/Objects-normal/i386/Puck.o0#
+
+CCompileC build/AirGoalie.build/Debug-iphonesimulator/AirGoalie.build/Objects-normal/i386/PuckView.o /Users/BCT/Downloads/GravityTut/Classes/PuckView.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s296655695.611162
+e296655695.689925
+r1
+xCompileC
+xbuild/AirGoalie.build/Debug-iphonesimulator/AirGoalie.build/Objects-normal/i386/PuckView.o
+x/Users/BCT/Downloads/GravityTut/Classes/PuckView.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@58"Compile /Users/BCT/Downloads/GravityTut/Classes/PuckView.m296655695#296655695#0(0"0(0#0#50"/Users/BCT/Downloads/GravityTut/Classes/PuckView.m4300885448#1838"    cd /Users/BCT/Downloads/GravityTut    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/BCT/Downloads/GravityTut/build/AirGoalie.build/Debug-iphonesimulator/AirGoalie.build/AirGoalie-generated-files.hmap -I/Users/BCT/Downloads/GravityTut/build/AirGoalie.build/Debug-iphonesimulator/AirGoalie.build/AirGoalie-own-target-headers.hmap -I/Users/BCT/Downloads/GravityTut/build/AirGoalie.build/Debug-iphonesimulator/AirGoalie.build/AirGoalie-all-target-headers.hmap -iquote /Users/BCT/Downloads/GravityTut/build/AirGoalie.build/Debug-iphonesimulator/AirGoalie.build/AirGoalie-project-headers.hmap -F/Users/BCT/Downloads/GravityTut/build/Debug-iphonesimulator -I/Users/BCT/Downloads/GravityTut/build/Debug-iphonesimulator/include -I/Users/BCT/Downloads/GravityTut/build/AirGoalie.build/Debug-iphonesimulator/AirGoalie.build/DerivedSources/i386 -I/Users/BCT/Downloads/GravityTut/build/AirGoalie.build/Debug-iphonesimulator/AirGoalie.build/DerivedSources -include /var/folders/bA/bAdCgNjhHEWwclOqou24A++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AirGoalie_Prefix-ggevoujnpoozwjejvbibdmcuxwfj/AirGoalie_Prefix.pch -c /Users/BCT/Downloads/GravityTut/Classes/PuckView.m -o /Users/BCT/Downloads/GravityTut/build/AirGoalie.build/Debug-iphonesimulator/AirGoalie.build/Objects-normal/i386/PuckView.o0#
+
+CCompileC build/AirGoalie.build/Debug-iphonesimulator/AirGoalie.build/Objects-normal/i386/SoundEffect.o /Users/BCT/Downloads/GravityTut/Classes/SoundEffect.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s296655695.689996
+e296655695.765132
+r1
+xCompileC
+xbuild/AirGoalie.build/Debug-iphonesimulator/AirGoalie.build/Objects-normal/i386/SoundEffect.o
+x/Users/BCT/Downloads/GravityTut/Classes/SoundEffect.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@61"Compile /Users/BCT/Downloads/GravityTut/Classes/SoundEffect.m296655695#296655695#0(0"0(0#0#53"/Users/BCT/Downloads/GravityTut/Classes/SoundEffect.m4300885448#1844"    cd /Users/BCT/Downloads/GravityTut    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/BCT/Downloads/GravityTut/build/AirGoalie.build/Debug-iphonesimulator/AirGoalie.build/AirGoalie-generated-files.hmap -I/Users/BCT/Downloads/GravityTut/build/AirGoalie.build/Debug-iphonesimulator/AirGoalie.build/AirGoalie-own-target-headers.hmap -I/Users/BCT/Downloads/GravityTut/build/AirGoalie.build/Debug-iphonesimulator/AirGoalie.build/AirGoalie-all-target-headers.hmap -iquote /Users/BCT/Downloads/GravityTut/build/AirGoalie.build/Debug-iphonesimulator/AirGoalie.build/AirGoalie-project-headers.hmap -F/Users/BCT/Downloads/GravityTut/build/Debug-iphonesimulator -I/Users/BCT/Downloads/GravityTut/build/Debug-iphonesimulator/include -I/Users/BCT/Downloads/GravityTut/build/AirGoalie.build/Debug-iphonesimulator/AirGoalie.build/DerivedSources/i386 -I/Users/BCT/Downloads/GravityTut/build/AirGoalie.build/Debug-iphonesimulator/AirGoalie.build/DerivedSources -include /var/folders/bA/bAdCgNjhHEWwclOqou24A++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AirGoalie_Prefix-ggevoujnpoozwjejvbibdmcuxwfj/AirGoalie_Prefix.pch -c /Users/BCT/Downloads/GravityTut/Classes/SoundEffect.m -o /Users/BCT/Downloads/GravityTut/build/AirGoalie.build/Debug-iphonesimulator/AirGoalie.build/Objects-normal/i386/SoundEffect.o0#
+
+CCompileC build/AirGoalie.build/Debug-iphonesimulator/AirGoalie.build/Objects-normal/i386/main.o /Users/BCT/Downloads/GravityTut/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s296655695.359239
+e296655695.510161
+r1
+xCompileC
+xbuild/AirGoalie.build/Debug-iphonesimulator/AirGoalie.build/Objects-normal/i386/main.o
+x/Users/BCT/Downloads/GravityTut/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@46"Compile /Users/BCT/Downloads/GravityTut/main.m296655695#296655695#0(0"0(0#0#38"/Users/BCT/Downloads/GravityTut/main.m4300885448#1822"    cd /Users/BCT/Downloads/GravityTut    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/BCT/Downloads/GravityTut/build/AirGoalie.build/Debug-iphonesimulator/AirGoalie.build/AirGoalie-generated-files.hmap -I/Users/BCT/Downloads/GravityTut/build/AirGoalie.build/Debug-iphonesimulator/AirGoalie.build/AirGoalie-own-target-headers.hmap -I/Users/BCT/Downloads/GravityTut/build/AirGoalie.build/Debug-iphonesimulator/AirGoalie.build/AirGoalie-all-target-headers.hmap -iquote /Users/BCT/Downloads/GravityTut/build/AirGoalie.build/Debug-iphonesimulator/AirGoalie.build/AirGoalie-project-headers.hmap -F/Users/BCT/Downloads/GravityTut/build/Debug-iphonesimulator -I/Users/BCT/Downloads/GravityTut/build/Debug-iphonesimulator/include -I/Users/BCT/Downloads/GravityTut/build/AirGoalie.build/Debug-iphonesimulator/AirGoalie.build/DerivedSources/i386 -I/Users/BCT/Downloads/GravityTut/build/AirGoalie.build/Debug-iphonesimulator/AirGoalie.build/DerivedSources -include /var/folders/bA/bAdCgNjhHEWwclOqou24A++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AirGoalie_Prefix-ggevoujnpoozwjejvbibdmcuxwfj/AirGoalie_Prefix.pch -c /Users/BCT/Downloads/GravityTut/main.m -o /Users/BCT/Downloads/GravityTut/build/AirGoalie.build/Debug-iphonesimulator/AirGoalie.build/Objects-normal/i386/main.o0#
+
+CCompileXIB /Users/BCT/Downloads/GravityTut/GravityTutViewController.xib
+s296655694.014479
+e296655694.441083
+r1
+xCompileXIB
+x/Users/BCT/Downloads/GravityTut/GravityTutViewController.xib
+lSLF07#2@39"CompileXIB GravityTutViewController.xib296655694#296655694#0(0"0(0#0#60"/Users/BCT/Downloads/GravityTut/GravityTutViewController.xib4300885448#491"    cd /Users/BCT/Downloads/GravityTut    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.1.3    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/BCT/Downloads/GravityTut/build/Debug-iphonesimulator/AirGoalie.app/GravityTutViewController.nib /Users/BCT/Downloads/GravityTut/GravityTutViewController.xib0#
+
+CCompileXIB /Users/BCT/Downloads/GravityTut/MainWindow.xib
+s296655694.013511
+e296655694.425351
+r1
+xCompileXIB
+x/Users/BCT/Downloads/GravityTut/MainWindow.xib
+oCouldn't open shared capabilities memory GSCapabilities (No such file or directory)
+lSLF07#2@25"CompileXIB MainWindow.xib296655694#296655694#0(84"Couldn't open shared capabilities memory GSCapabilities (No such file or directory)0(0#0#46"/Users/BCT/Downloads/GravityTut/MainWindow.xib4300885448#463"    cd /Users/BCT/Downloads/GravityTut    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.1.3    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/BCT/Downloads/GravityTut/build/Debug-iphonesimulator/AirGoalie.app/MainWindow.nib /Users/BCT/Downloads/GravityTut/MainWindow.xib0#
+
+CCpResource build/Debug-iphonesimulator/AirGoalie.app/ourrink-1.gif ourrink-1.gif
+s296655694.425436
+e296655694.488422
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/AirGoalie.app/ourrink-1.gif
+xourrink-1.gif
+lSLF07#2@18"Copy ourrink-1.gif296655694#296655694#0(0"0(0#0#45"/Users/BCT/Downloads/GravityTut/ourrink-1.gif31244220637446252#438"    cd /Users/BCT/Downloads/GravityTut    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/BCT/Downloads/GravityTut/ourrink-1.gif /Users/BCT/Downloads/GravityTut/build/Debug-iphonesimulator/AirGoalie.app0#
+
+CCpResource build/Debug-iphonesimulator/AirGoalie.app/punch.wav punch.wav
+s296655694.426556
+e296655694.470429
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/AirGoalie.app/punch.wav
+xpunch.wav
+lSLF07#2@14"Copy punch.wav296655694#296655694#0(0"0(0#0#41"/Users/BCT/Downloads/GravityTut/punch.wav4300885448#434"    cd /Users/BCT/Downloads/GravityTut    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/BCT/Downloads/GravityTut/punch.wav /Users/BCT/Downloads/GravityTut/build/Debug-iphonesimulator/AirGoalie.app0#
+
+CGenerateDSYMFile /Users/BCT/Downloads/GravityTut/build/Debug-iphonesimulator/AirGoalie.app.dSYM /Users/BCT/Downloads/GravityTut/build/Debug-iphonesimulator/AirGoalie.app/AirGoalie
+r0
+
+CLd /Users/BCT/Downloads/GravityTut/build/Debug-iphonesimulator/AirGoalie.app/AirGoalie normal i386
+r0
+
+CProcessInfoPlistFile /Users/BCT/Downloads/GravityTut/build/Debug-iphonesimulator/AirGoalie.app/Info.plist AirGoalie-Info.plist
+s296655693.986281
+e296655694.013204
+r1
+xProcessInfoPlistFile
+x/Users/BCT/Downloads/GravityTut/build/Debug-iphonesimulator/AirGoalie.app/Info.plist
+xAirGoalie-Info.plist
+lSLF07#2@28"Process AirGoalie-Info.plist296655694#296655694#0(0"0(0#0#52"/Users/BCT/Downloads/GravityTut/AirGoalie-Info.plist32370056120631408#464"    cd /Users/BCT/Downloads/GravityTut    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility AirGoalie-Info.plist -genpkginfo /Users/BCT/Downloads/GravityTut/build/Debug-iphonesimulator/AirGoalie.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/BCT/Downloads/GravityTut/build/Debug-iphonesimulator/AirGoalie.app/Info.plist0#
+
+CProcessPCH /var/folders/bA/bAdCgNjhHEWwclOqou24A++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AirGoalie_Prefix-ggevoujnpoozwjejvbibdmcuxwfj/AirGoalie_Prefix.pch.gch AirGoalie_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+s296655694.488684
+e296655695.359092
+r1
+xProcessPCH
+x/var/folders/bA/bAdCgNjhHEWwclOqou24A++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AirGoalie_Prefix-ggevoujnpoozwjejvbibdmcuxwfj/AirGoalie_Prefix.pch.gch
+xAirGoalie_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@31"Precompile AirGoalie_Prefix.pch296655694#296655695#0(0"0(0#0#52"/Users/BCT/Downloads/GravityTut/AirGoalie_Prefix.pch4300885448#1719"    cd /Users/BCT/Downloads/GravityTut    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/BCT/Downloads/GravityTut/build/AirGoalie.build/Debug-iphonesimulator/AirGoalie.build/AirGoalie-generated-files.hmap -I/Users/BCT/Downloads/GravityTut/build/AirGoalie.build/Debug-iphonesimulator/AirGoalie.build/AirGoalie-own-target-headers.hmap -I/Users/BCT/Downloads/GravityTut/build/AirGoalie.build/Debug-iphonesimulator/AirGoalie.build/AirGoalie-all-target-headers.hmap -iquote /Users/BCT/Downloads/GravityTut/build/AirGoalie.build/Debug-iphonesimulator/AirGoalie.build/AirGoalie-project-headers.hmap -F/Users/BCT/Downloads/GravityTut/build/Debug-iphonesimulator -I/Users/BCT/Downloads/GravityTut/build/Debug-iphonesimulator/include -I/Users/BCT/Downloads/GravityTut/build/AirGoalie.build/Debug-iphonesimulator/AirGoalie.build/DerivedSources/i386 -I/Users/BCT/Downloads/GravityTut/build/AirGoalie.build/Debug-iphonesimulator/AirGoalie.build/DerivedSources -c /Users/BCT/Downloads/GravityTut/AirGoalie_Prefix.pch -o /var/folders/bA/bAdCgNjhHEWwclOqou24A++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AirGoalie_Prefix-ggevoujnpoozwjejvbibdmcuxwfj/AirGoalie_Prefix.pch.gch0#
+
+CTouch /Users/BCT/Downloads/GravityTut/build/Debug-iphonesimulator/AirGoalie.app
+r0
+

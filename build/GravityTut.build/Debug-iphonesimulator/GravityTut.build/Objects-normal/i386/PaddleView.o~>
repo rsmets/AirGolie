@@ -1,0 +1,6 @@
+/Users/marymoore755/Downloads/GravityTut/Classes/PaddleView.m: In function '-[PaddleView drawRect:]':
+/Users/marymoore755/Downloads/GravityTut/Classes/PaddleView.m:26: error: 'paddle' undeclared (first use in this function)
+/Users/marymoore755/Downloads/GravityTut/Classes/PaddleView.m:26: error: (Each undeclared identifier is reported only once
+/Users/marymoore755/Downloads/GravityTut/Classes/PaddleView.m:26: error: for each function it appears in.)
+/Users/marymoore755/Downloads/GravityTut/Classes/PaddleView.m: At top level:
+/Users/marymoore755/Downloads/GravityTut/Classes/PaddleView.m:32: error: syntax error before 'Paddle'

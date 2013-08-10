@@ -1,0 +1,1848 @@
+TAirGoalie
+v7
+r0
+t297313031.671106
+cCheck dependencies
+cCpResource build/Debug-iphoneos/AirGoalie.app/ResourceRules.plist /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk/ResourceRules.plist
+cProcessInfoPlistFile /Users/BCT/Downloads/AirGoalie/build/Debug-iphoneos/AirGoalie.app/Info.plist AirGoalie-Info.plist
+cCompileXIB /Users/BCT/Downloads/AirGoalie/GravityTutViewController.xib
+cCpResource build/Debug-iphoneos/AirGoalie.app/ourrink-1.gif ourrink-1.gif
+cCpResource build/Debug-iphoneos/AirGoalie.app/punch.wav punch.wav
+cCpResource build/Debug-iphoneos/AirGoalie.app/Laser.wav Laser.wav
+cCpResource "build/Debug-iphoneos/AirGoalie.app/Alien Death Ray.wav" "Alien Death Ray.wav"
+cCpResource "build/Debug-iphoneos/AirGoalie.app/Gun Silencer.wav" "Gun Silencer.wav"
+cCpResource build/Debug-iphoneos/AirGoalie.app/rinkMenu.gif rinkMenu.gif
+cCpResource "build/Debug-iphoneos/AirGoalie.app/Laser Blaster.wav" "Laser Blaster.wav"
+cCpResource "build/Debug-iphoneos/AirGoalie.app/Laser Blasts.wav" "Laser Blasts.wav"
+cCompileXIB /Users/BCT/Downloads/AirGoalie/MainMenuViewController.xib
+cCompileXIB /Users/BCT/Downloads/AirGoalie/MainWindow.xib
+cCompileXIB /Users/BCT/Downloads/AirGoalie/SettingsViewController.xib
+cCompileXIB /Users/BCT/Downloads/AirGoalie/NetworkingViewController.xib
+cCompileXIB /Users/BCT/Downloads/AirGoalie/InfoViewController.xib
+cProcessPCH /var/folders/bA/bAdCgNjhHEWwclOqou24A++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AirGoalie_Prefix-fbqqxboszvslmxgyooafujdaehbh/AirGoalie_Prefix.pch.gch AirGoalie_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/AirGoalie.build/Debug-iphoneos/AirGoalie.build/Objects-normal/armv6/main.o /Users/BCT/Downloads/AirGoalie/main.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/AirGoalie.build/Debug-iphoneos/AirGoalie.build/Objects-normal/armv6/GravityTutAppDelegate.o /Users/BCT/Downloads/AirGoalie/Classes/GravityTutAppDelegate.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/AirGoalie.build/Debug-iphoneos/AirGoalie.build/Objects-normal/armv6/GravityTutViewController.o /Users/BCT/Downloads/AirGoalie/Classes/GravityTutViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/AirGoalie.build/Debug-iphoneos/AirGoalie.build/Objects-normal/armv6/Puck.o /Users/BCT/Downloads/AirGoalie/Classes/Puck.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/AirGoalie.build/Debug-iphoneos/AirGoalie.build/Objects-normal/armv6/PuckView.o /Users/BCT/Downloads/AirGoalie/Classes/PuckView.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/AirGoalie.build/Debug-iphoneos/AirGoalie.build/Objects-normal/armv6/Paddle.o /Users/BCT/Downloads/AirGoalie/Classes/Paddle.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/AirGoalie.build/Debug-iphoneos/AirGoalie.build/Objects-normal/armv6/Goalie.o /Users/BCT/Downloads/AirGoalie/Classes/Goalie.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/AirGoalie.build/Debug-iphoneos/AirGoalie.build/Objects-normal/armv6/SoundEffect.o /Users/BCT/Downloads/AirGoalie/Classes/SoundEffect.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/AirGoalie.build/Debug-iphoneos/AirGoalie.build/Objects-normal/armv6/MainMenuViewController.o /Users/BCT/Downloads/AirGoalie/Classes/MainMenuViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/AirGoalie.build/Debug-iphoneos/AirGoalie.build/Objects-normal/armv6/SettingsViewController.o /Users/BCT/Downloads/AirGoalie/Classes/SettingsViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/AirGoalie.build/Debug-iphoneos/AirGoalie.build/Objects-normal/armv6/NetworkingViewController.o /Users/BCT/Downloads/AirGoalie/Classes/NetworkingViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/AirGoalie.build/Debug-iphoneos/AirGoalie.build/Objects-normal/armv6/InfoViewController.o /Users/BCT/Downloads/AirGoalie/Classes/InfoViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/AirGoalie.build/Debug-iphoneos/AirGoalie.build/Objects-normal/armv6/Settings.o /Users/BCT/Downloads/AirGoalie/Classes/Settings.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cLd /Users/BCT/Downloads/AirGoalie/build/Debug-iphoneos/AirGoalie.app/AirGoalie normal armv6
+cGenerateDSYMFile /Users/BCT/Downloads/AirGoalie/build/Debug-iphoneos/AirGoalie.app.dSYM /Users/BCT/Downloads/AirGoalie/build/Debug-iphoneos/AirGoalie.app/AirGoalie
+cProcessProductPackaging "/Users/BCT/Library/MobileDevice/Provisioning Profiles/9120F7C4-F085-467B-836E-F053D8F2DC96.mobileprovision" /Users/BCT/Downloads/AirGoalie/build/Debug-iphoneos/AirGoalie.app/embedded.mobileprovision
+cTouch /Users/BCT/Downloads/AirGoalie/build/Debug-iphoneos/AirGoalie.app
+cProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk/Entitlements.plist /Users/BCT/Downloads/AirGoalie/build/AirGoalie.build/Debug-iphoneos/AirGoalie.build/AirGoalie.xcent
+cCodeSign /Users/BCT/Downloads/AirGoalie/build/Debug-iphoneos/AirGoalie.app
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk
+c000000004B2FA6BF0000000000000110
+t1261414079
+s272
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk/Entitlements.plist
+c000000004B2B3B9F00000000000000DD
+t1261124511
+s221
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk/ResourceRules.plist
+c000000004B2B3B9F00000000000001E5
+t1261124511
+s485
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk/System/Library/Frameworks/AudioToolbox.framework/Headers/AudioServices.h
+c000000004B2B5328000000000000E37C
+t1261130536
+s58236
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004B2B537900000000005F4900
+t1261130617
+s6244608
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004B2B551F0000000000501370
+t1261131039
+s5247856
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004B2B54F40000000000001355
+t1261130996
+s4949
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk/System/Library/Frameworks/GameKit.framework/Headers/GameKit.h
+c000000004B2B645C0000000000000112
+t1261134940
+s274
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004B2B61610000000000000788
+t1261134177
+s1928
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004B2B63DA0000000001B3F450
+t1261134810
+s28570704
+
+N/System/Library/Frameworks/AudioToolbox.framework/AudioToolbox
+c000000004B73AAD700000000004C9980
+t1265871575
+s5020032
+
+N/Users/BCT/Desktop/AirGoalie/AirGoalie_Prefix.pch
+c000000004BE4335800000000000000BD
+t1273246552
+s189
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/BCT/Desktop/AirGoalie/Alien Death Ray.wav
+c000000004BFFC44500000000000D757C
+t1275053125
+s882044
+
+N/Users/BCT/Desktop/AirGoalie/Classes/Goalie.h
+c000000004BF69FD30000000000000209
+t1274453971
+s521
+i<Foundation/Foundation.h>
+
+N/Users/BCT/Desktop/AirGoalie/Classes/Goalie.m
+c000000004BF6A1B00000000000000366
+t1274454448
+s870
+i"Goalie.h"
+
+N/Users/BCT/Desktop/AirGoalie/Classes/GravityTutAppDelegate.h
+c000000004C057CD200000000000001F9
+t1275428050
+s505
+i<UIKit/UIKit.h>
+
+N/Users/BCT/Desktop/AirGoalie/Classes/GravityTutAppDelegate.m
+c000000004C058061000000000000028F
+t1275428961
+s655
+i"GravityTutAppDelegate.h"
+i"MainMenuViewController.h"
+
+N/Users/BCT/Desktop/AirGoalie/Classes/GravityTutViewController.h
+c000000004C085DD000000000000007E9
+t1275616720
+s2025
+i<UIKit/UIKit.h>
+i"Puck.h"
+i"Paddle.h"
+i"Goalie.h"
+i"Settings.h"
+i<AudioToolbox/AudioServices.h>
+
+N/Users/BCT/Desktop/AirGoalie/Classes/GravityTutViewController.m
+c000000004C086B610000000000004E3B
+t1275620193
+s20027
+i"GravityTutViewController.h"
+i"PuckView.h"
+i"SoundEffect.h"
+
+N/Users/BCT/Desktop/AirGoalie/Classes/InfoViewController.h
+c000000004C05BF4A0000000000000104
+t1275445066
+s260
+i<UIKit/UIKit.h>
+
+N/Users/BCT/Desktop/AirGoalie/Classes/InfoViewController.m
+c000000004C05BF4A000000000000058E
+t1275445066
+s1422
+i"InfoViewController.h"
+
+N/Users/BCT/Desktop/AirGoalie/Classes/MainMenuViewController.h
+c000000004C05BF4A00000000000002D6
+t1275445066
+s726
+i<UIKit/UIKit.h>
+i"GravityTutViewController.h"
+i"SettingsViewController.h"
+i"NetworkingViewController.h"
+i"InfoViewController.h"
+
+N/Users/BCT/Desktop/AirGoalie/Classes/MainMenuViewController.m
+c000000004C05BF4A000000000000083F
+t1275445066
+s2111
+i"MainMenuViewController.h"
+
+N/Users/BCT/Desktop/AirGoalie/Classes/NetworkingViewController.h
+c000000004C05BF4A0000000000000110
+t1275445066
+s272
+i<UIKit/UIKit.h>
+
+N/Users/BCT/Desktop/AirGoalie/Classes/NetworkingViewController.m
+c000000004C05BF4A00000000000005A0
+t1275445066
+s1440
+i"NetworkingViewController.h"
+
+N/Users/BCT/Desktop/AirGoalie/Classes/Paddle.h
+c000000004BF2CCF9000000000000025C
+t1274203385
+s604
+i<Foundation/Foundation.h>
+
+N/Users/BCT/Desktop/AirGoalie/Classes/Paddle.m
+c000000004BFC105400000000000004B1
+t1274810452
+s1201
+i"Paddle.h"
+
+N/Users/BCT/Desktop/AirGoalie/Classes/Puck.h
+c000000004BF6C1800000000000000376
+t1274462592
+s886
+i<Foundation/Foundation.h>
+
+N/Users/BCT/Desktop/AirGoalie/Classes/Puck.m
+c000000004C086A410000000000000AA4
+t1275619905
+s2724
+i"Puck.h"
+
+N/Users/BCT/Desktop/AirGoalie/Classes/PuckView.h
+c000000004BF178460000000000000207
+t1274116166
+s519
+i<UIKit/UIKit.h>
+i"Puck.h"
+i"Paddle.h"
+i"Goalie.h"
+
+N/Users/BCT/Desktop/AirGoalie/Classes/PuckView.m
+c000000004BF806D400000000000009ED
+t1274545876
+s2541
+i"PuckView.h"
+
+N/Users/BCT/Desktop/AirGoalie/Classes/Settings.h
+c000000004C0864730000000000000148
+t1275618419
+s328
+i<Foundation/Foundation.h>
+i"SettingsViewController.h"
+
+N/Users/BCT/Desktop/AirGoalie/Classes/Settings.m
+c000000004C08647300000000000001BF
+t1275618419
+s447
+i"Settings.h"
+
+N/Users/BCT/Desktop/AirGoalie/Classes/SettingsViewController.h
+c000000004C08631200000000000001A4
+t1275618066
+s420
+i<UIKit/UIKit.h>
+i"Settings.h"
+
+N/Users/BCT/Desktop/AirGoalie/Classes/SettingsViewController.m
+c000000004C08632A0000000000000646
+t1275618090
+s1606
+i"SettingsViewController.h"
+i"Settings.h"
+
+N/Users/BCT/Desktop/AirGoalie/Classes/SoundEffect.h
+c000000004BFE66390000000000000A85
+t1274963513
+s2693
+i<UIKit/UIKit.h>
+i<AudioToolbox/AudioServices.h>
+
+N/Users/BCT/Desktop/AirGoalie/Classes/SoundEffect.m
+c000000004BFE664B0000000000000FB4
+t1274963531
+s4020
+i"SoundEffect.h"
+
+N/Users/BCT/Desktop/AirGoalie/GravityTutViewController.xib
+c000000004BF6EC7E0000000000003359
+t1274473598
+s13145
+
+N/Users/BCT/Desktop/AirGoalie/Gun Silencer.wav
+c000000004BFFC62500000000000D757C
+t1275053605
+s882044
+
+N/Users/BCT/Desktop/AirGoalie/InfoViewController.xib
+c000000004C05C30100000000000032DB
+t1275446017
+s13019
+
+N/Users/BCT/Desktop/AirGoalie/Laser Blaster.wav
+c000000004BFFC3880000000000007356
+t1275052936
+s29526
+
+N/Users/BCT/Desktop/AirGoalie/Laser Blasts.wav
+c000000004BFFC37A0000000000007758
+t1275052922
+s30552
+
+N/Users/BCT/Desktop/AirGoalie/Laser.wav
+c000000004BFFC35B000000000001B020
+t1275052891
+s110624
+
+N/Users/BCT/Desktop/AirGoalie/MainMenuViewController.xib
+c000000004C0801E90000000000006401
+t1275593193
+s25601
+
+N/Users/BCT/Desktop/AirGoalie/MainWindow.xib
+c000000004C05811E00000000000027E9
+t1275429150
+s10217
+
+N/Users/BCT/Desktop/AirGoalie/NetworkingViewController.xib
+c000000004C084D610000000000003E81
+t1275612513
+s16001
+
+N/Users/BCT/Desktop/AirGoalie/SettingsViewController.xib
+c000000004C086BA30000000000003B72
+t1275620259
+s15218
+
+N/Users/BCT/Desktop/AirGoalie/build/AirGoalie.build/Debug-iphoneos/AirGoalie.build/Objects-normal/armv6/AirGoalie.LinkFileList
+c000000004C085E59000000000000062E
+t1275616857
+s1582
+
+N/Users/BCT/Desktop/AirGoalie/build/AirGoalie.build/Debug-iphoneos/AirGoalie.build/Objects-normal/armv6/Goalie.o
+t1275496500
+s17672
+
+N/Users/BCT/Desktop/AirGoalie/build/AirGoalie.build/Debug-iphoneos/AirGoalie.build/Objects-normal/armv6/GravityTutAppDelegate.o
+t1275618419
+s42768
+
+N/Users/BCT/Desktop/AirGoalie/build/AirGoalie.build/Debug-iphoneos/AirGoalie.build/Objects-normal/armv6/GravityTutViewController.o
+t1275620231
+s112216
+
+N/Users/BCT/Desktop/AirGoalie/build/AirGoalie.build/Debug-iphoneos/AirGoalie.build/Objects-normal/armv6/InfoViewController.o
+t1275496500
+s29652
+
+N/Users/BCT/Desktop/AirGoalie/build/AirGoalie.build/Debug-iphoneos/AirGoalie.build/Objects-normal/armv6/MainMenuViewController.o
+t1275618419
+s36364
+
+N/Users/BCT/Desktop/AirGoalie/build/AirGoalie.build/Debug-iphoneos/AirGoalie.build/Objects-normal/armv6/NetworkingViewController.o
+t1275496500
+s29744
+
+N/Users/BCT/Desktop/AirGoalie/build/AirGoalie.build/Debug-iphoneos/AirGoalie.build/Objects-normal/armv6/Paddle.o
+t1275496499
+s19912
+
+N/Users/BCT/Desktop/AirGoalie/build/AirGoalie.build/Debug-iphoneos/AirGoalie.build/Objects-normal/armv6/Puck.o
+t1275620231
+s33224
+
+N/Users/BCT/Desktop/AirGoalie/build/AirGoalie.build/Debug-iphoneos/AirGoalie.build/Objects-normal/armv6/PuckView.o
+t1275496499
+s18976
+
+N/Users/BCT/Desktop/AirGoalie/build/AirGoalie.build/Debug-iphoneos/AirGoalie.build/Objects-normal/armv6/Settings.o
+t1275618419
+s30972
+
+N/Users/BCT/Desktop/AirGoalie/build/AirGoalie.build/Debug-iphoneos/AirGoalie.build/Objects-normal/armv6/SettingsViewController.o
+t1275618419
+s32728
+
+N/Users/BCT/Desktop/AirGoalie/build/AirGoalie.build/Debug-iphoneos/AirGoalie.build/Objects-normal/armv6/SoundEffect.o
+t1275496500
+s11316
+
+N/Users/BCT/Desktop/AirGoalie/build/AirGoalie.build/Debug-iphoneos/AirGoalie.build/Objects-normal/armv6/main.o
+t1275496499
+s6532
+
+N/Users/BCT/Desktop/AirGoalie/build/Debug-iphoneos/AirGoalie.app
+t1275620231
+s782
+
+N/Users/BCT/Desktop/AirGoalie/build/Debug-iphoneos/AirGoalie.app.dSYM
+t1275620231
+s102
+
+N/Users/BCT/Desktop/AirGoalie/build/Debug-iphoneos/AirGoalie.app/AirGoalie
+t1275620231
+s98128
+
+N/Users/BCT/Desktop/AirGoalie/build/Debug-iphoneos/AirGoalie.app/Alien Death Ray.wav
+t1275404602
+s882044
+
+N/Users/BCT/Desktop/AirGoalie/build/Debug-iphoneos/AirGoalie.app/GravityTutViewController.nib
+t1275404602
+s2909
+
+N/Users/BCT/Desktop/AirGoalie/build/Debug-iphoneos/AirGoalie.app/Gun Silencer.wav
+t1275404602
+s882044
+
+N/Users/BCT/Desktop/AirGoalie/build/Debug-iphoneos/AirGoalie.app/Info.plist
+t1275404602
+s676
+
+N/Users/BCT/Desktop/AirGoalie/build/Debug-iphoneos/AirGoalie.app/InfoViewController.nib
+t1275496498
+s3590
+
+N/Users/BCT/Desktop/AirGoalie/build/Debug-iphoneos/AirGoalie.app/Laser Blaster.wav
+t1275404602
+s29526
+
+N/Users/BCT/Desktop/AirGoalie/build/Debug-iphoneos/AirGoalie.app/Laser Blasts.wav
+t1275404602
+s30552
+
+N/Users/BCT/Desktop/AirGoalie/build/Debug-iphoneos/AirGoalie.app/Laser.wav
+t1275404602
+s110624
+
+N/Users/BCT/Desktop/AirGoalie/build/Debug-iphoneos/AirGoalie.app/MainMenuViewController.nib
+t1275593857
+s5026
+
+N/Users/BCT/Desktop/AirGoalie/build/Debug-iphoneos/AirGoalie.app/MainWindow.nib
+t1275496497
+s1491
+
+N/Users/BCT/Desktop/AirGoalie/build/Debug-iphoneos/AirGoalie.app/NetworkingViewController.nib
+t1275616857
+s3902
+
+N/Users/BCT/Desktop/AirGoalie/build/Debug-iphoneos/AirGoalie.app/PkgInfo
+t1275404602
+s8
+
+N/Users/BCT/Desktop/AirGoalie/build/Debug-iphoneos/AirGoalie.app/ResourceRules.plist
+t1275404602
+s485
+
+N/Users/BCT/Desktop/AirGoalie/build/Debug-iphoneos/AirGoalie.app/SettingsViewController.nib
+t1275616857
+s3847
+
+N/Users/BCT/Desktop/AirGoalie/build/Debug-iphoneos/AirGoalie.app/embedded.mobileprovision
+t1275582780
+s7169
+
+N/Users/BCT/Desktop/AirGoalie/build/Debug-iphoneos/AirGoalie.app/ourrink-1.gif
+t1275404602
+s170855
+
+N/Users/BCT/Desktop/AirGoalie/build/Debug-iphoneos/AirGoalie.app/punch.wav
+t1275404602
+s2012
+
+N/Users/BCT/Desktop/AirGoalie/build/Debug-iphoneos/AirGoalie.app/rinkMenu.gif
+t1275404602
+s81816
+
+N/Users/BCT/Desktop/AirGoalie/main.m
+c000000004BE43358000000000000016D
+t1273246552
+s365
+i<UIKit/UIKit.h>
+
+N/Users/BCT/Desktop/AirGoalie/ourrink-1.gif
+c000000004BF5457A0000000000029B67
+t1274365306
+s170855
+
+N/Users/BCT/Desktop/AirGoalie/punch.wav
+c000000004BFAB00200000000000007DC
+t1274720258
+s2012
+
+N/Users/BCT/Desktop/AirGoalie/rinkMenu.gif
+c000000004BFFD2710000000000013F98
+t1275056753
+s81816
+
+N/Users/BCT/Downloads/AirGoalie/AirGoalie_Prefix.pch
+c000000004BE4335800000000000000BD
+t1273246552
+s189
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/BCT/Downloads/AirGoalie/Alien Death Ray.wav
+c000000004BFFC44500000000000D757C
+t1275053125
+s882044
+
+N/Users/BCT/Downloads/AirGoalie/Classes/Goalie.h
+c000000004BF69FD30000000000000209
+t1274453971
+s521
+i<Foundation/Foundation.h>
+
+N/Users/BCT/Downloads/AirGoalie/Classes/Goalie.m
+c000000004BF6A1B00000000000000366
+t1274454448
+s870
+i"Goalie.h"
+
+N/Users/BCT/Downloads/AirGoalie/Classes/GravityTutAppDelegate.h
+c000000004C057CD200000000000001F9
+t1275428050
+s505
+i<UIKit/UIKit.h>
+
+N/Users/BCT/Downloads/AirGoalie/Classes/GravityTutAppDelegate.m
+c000000004C058061000000000000028F
+t1275428961
+s655
+i"GravityTutAppDelegate.h"
+i"MainMenuViewController.h"
+
+N/Users/BCT/Downloads/AirGoalie/Classes/GravityTutViewController.h
+c000000004C085DD000000000000007E9
+t1275616720
+s2025
+i<UIKit/UIKit.h>
+i"Puck.h"
+i"Paddle.h"
+i"Goalie.h"
+i"Settings.h"
+i<AudioToolbox/AudioServices.h>
+
+N/Users/BCT/Downloads/AirGoalie/Classes/GravityTutViewController.m
+c000000004C086B610000000000004E3B
+t1275620193
+s20027
+i"GravityTutViewController.h"
+i"PuckView.h"
+i"SoundEffect.h"
+
+N/Users/BCT/Downloads/AirGoalie/Classes/InfoViewController.h
+c000000004C05BF4A0000000000000104
+t1275445066
+s260
+i<UIKit/UIKit.h>
+
+N/Users/BCT/Downloads/AirGoalie/Classes/InfoViewController.m
+c000000004C05BF4A000000000000058E
+t1275445066
+s1422
+i"InfoViewController.h"
+
+N/Users/BCT/Downloads/AirGoalie/Classes/MainMenuViewController.h
+c000000004C05BF4A00000000000002D6
+t1275445066
+s726
+i<UIKit/UIKit.h>
+i"GravityTutViewController.h"
+i"SettingsViewController.h"
+i"NetworkingViewController.h"
+i"InfoViewController.h"
+
+N/Users/BCT/Downloads/AirGoalie/Classes/MainMenuViewController.m
+c000000004C05BF4A000000000000083F
+t1275445066
+s2111
+i"MainMenuViewController.h"
+
+N/Users/BCT/Downloads/AirGoalie/Classes/NetworkingViewController.h
+c000000004C05BF4A0000000000000110
+t1275445066
+s272
+i<UIKit/UIKit.h>
+
+N/Users/BCT/Downloads/AirGoalie/Classes/NetworkingViewController.m
+c000000004C05BF4A00000000000005A0
+t1275445066
+s1440
+i"NetworkingViewController.h"
+
+N/Users/BCT/Downloads/AirGoalie/Classes/Paddle.h
+c000000004BF2CCF9000000000000025C
+t1274203385
+s604
+i<Foundation/Foundation.h>
+
+N/Users/BCT/Downloads/AirGoalie/Classes/Paddle.m
+c000000004BFC105400000000000004B1
+t1274810452
+s1201
+i"Paddle.h"
+
+N/Users/BCT/Downloads/AirGoalie/Classes/Puck.h
+c000000004BF6C1800000000000000376
+t1274462592
+s886
+i<Foundation/Foundation.h>
+
+N/Users/BCT/Downloads/AirGoalie/Classes/Puck.m
+c000000004C086A410000000000000AA4
+t1275619905
+s2724
+i"Puck.h"
+
+N/Users/BCT/Downloads/AirGoalie/Classes/PuckView.h
+c000000004BF178460000000000000207
+t1274116166
+s519
+i<UIKit/UIKit.h>
+i"Puck.h"
+i"Paddle.h"
+i"Goalie.h"
+
+N/Users/BCT/Downloads/AirGoalie/Classes/PuckView.m
+c000000004BF806D400000000000009ED
+t1274545876
+s2541
+i"PuckView.h"
+
+N/Users/BCT/Downloads/AirGoalie/Classes/Settings.h
+c000000004C0864730000000000000148
+t1275618419
+s328
+i<Foundation/Foundation.h>
+i"SettingsViewController.h"
+
+N/Users/BCT/Downloads/AirGoalie/Classes/Settings.m
+c000000004C08647300000000000001BF
+t1275618419
+s447
+i"Settings.h"
+
+N/Users/BCT/Downloads/AirGoalie/Classes/SettingsViewController.h
+c000000004C08631200000000000001A4
+t1275618066
+s420
+i<UIKit/UIKit.h>
+i"Settings.h"
+
+N/Users/BCT/Downloads/AirGoalie/Classes/SettingsViewController.m
+c000000004C08632A0000000000000646
+t1275618090
+s1606
+i"SettingsViewController.h"
+i"Settings.h"
+
+N/Users/BCT/Downloads/AirGoalie/Classes/SoundEffect.h
+c000000004BFE66390000000000000A85
+t1274963513
+s2693
+i<UIKit/UIKit.h>
+i<AudioToolbox/AudioServices.h>
+
+N/Users/BCT/Downloads/AirGoalie/Classes/SoundEffect.m
+c000000004BFE664B0000000000000FB4
+t1274963531
+s4020
+i"SoundEffect.h"
+
+N/Users/BCT/Downloads/AirGoalie/GravityTutViewController.xib
+c000000004BF6EC7E0000000000003359
+t1274473598
+s13145
+
+N/Users/BCT/Downloads/AirGoalie/Gun Silencer.wav
+c000000004BFFC62500000000000D757C
+t1275053605
+s882044
+
+N/Users/BCT/Downloads/AirGoalie/InfoViewController.xib
+c000000004C05C30100000000000032DB
+t1275446017
+s13019
+
+N/Users/BCT/Downloads/AirGoalie/Laser Blaster.wav
+c000000004BFFC3880000000000007356
+t1275052936
+s29526
+
+N/Users/BCT/Downloads/AirGoalie/Laser Blasts.wav
+c000000004BFFC37A0000000000007758
+t1275052922
+s30552
+
+N/Users/BCT/Downloads/AirGoalie/Laser.wav
+c000000004BFFC35B000000000001B020
+t1275052891
+s110624
+
+N/Users/BCT/Downloads/AirGoalie/MainMenuViewController.xib
+c000000004C0801E90000000000006401
+t1275593193
+s25601
+
+N/Users/BCT/Downloads/AirGoalie/MainWindow.xib
+c000000004C05811E00000000000027E9
+t1275429150
+s10217
+
+N/Users/BCT/Downloads/AirGoalie/NetworkingViewController.xib
+c000000004C084D610000000000003E81
+t1275612513
+s16001
+
+N/Users/BCT/Downloads/AirGoalie/SettingsViewController.xib
+c000000004C084FAC00000000000039C2
+t1275613100
+s14786
+
+N/Users/BCT/Downloads/AirGoalie/build/AirGoalie.build/Debug-iphoneos/AirGoalie.build/AirGoalie.xcent
+t1275404604
+s322
+
+N/Users/BCT/Downloads/AirGoalie/build/AirGoalie.build/Debug-iphoneos/AirGoalie.build/Objects-normal/armv6/AirGoalie.LinkFileList
+c000000004C085E59000000000000062E
+t1275616857
+s1582
+
+N/Users/BCT/Downloads/AirGoalie/build/AirGoalie.build/Debug-iphoneos/AirGoalie.build/Objects-normal/armv6/Goalie.o
+t1275496500
+s17672
+
+N/Users/BCT/Downloads/AirGoalie/build/AirGoalie.build/Debug-iphoneos/AirGoalie.build/Objects-normal/armv6/GravityTutAppDelegate.o
+t1275618419
+s42768
+
+N/Users/BCT/Downloads/AirGoalie/build/AirGoalie.build/Debug-iphoneos/AirGoalie.build/Objects-normal/armv6/GravityTutViewController.o
+t1275620231
+s112216
+
+N/Users/BCT/Downloads/AirGoalie/build/AirGoalie.build/Debug-iphoneos/AirGoalie.build/Objects-normal/armv6/InfoViewController.o
+t1275496500
+s29652
+
+N/Users/BCT/Downloads/AirGoalie/build/AirGoalie.build/Debug-iphoneos/AirGoalie.build/Objects-normal/armv6/MainMenuViewController.o
+t1275618419
+s36364
+
+N/Users/BCT/Downloads/AirGoalie/build/AirGoalie.build/Debug-iphoneos/AirGoalie.build/Objects-normal/armv6/NetworkingViewController.o
+t1275496500
+s29744
+
+N/Users/BCT/Downloads/AirGoalie/build/AirGoalie.build/Debug-iphoneos/AirGoalie.build/Objects-normal/armv6/Paddle.o
+t1275496499
+s19912
+
+N/Users/BCT/Downloads/AirGoalie/build/AirGoalie.build/Debug-iphoneos/AirGoalie.build/Objects-normal/armv6/Puck.o
+t1275620231
+s33224
+
+N/Users/BCT/Downloads/AirGoalie/build/AirGoalie.build/Debug-iphoneos/AirGoalie.build/Objects-normal/armv6/PuckView.o
+t1275496499
+s18976
+
+N/Users/BCT/Downloads/AirGoalie/build/AirGoalie.build/Debug-iphoneos/AirGoalie.build/Objects-normal/armv6/Settings.o
+t1275618419
+s30972
+
+N/Users/BCT/Downloads/AirGoalie/build/AirGoalie.build/Debug-iphoneos/AirGoalie.build/Objects-normal/armv6/SettingsViewController.o
+t1275618419
+s32728
+
+N/Users/BCT/Downloads/AirGoalie/build/AirGoalie.build/Debug-iphoneos/AirGoalie.build/Objects-normal/armv6/SoundEffect.o
+t1275496500
+s11316
+
+N/Users/BCT/Downloads/AirGoalie/build/AirGoalie.build/Debug-iphoneos/AirGoalie.build/Objects-normal/armv6/main.o
+t1275496499
+s6532
+
+N/Users/BCT/Downloads/AirGoalie/build/Debug-iphoneos/AirGoalie.app
+t1275620231
+s782
+
+N/Users/BCT/Downloads/AirGoalie/build/Debug-iphoneos/AirGoalie.app.dSYM
+t1275620231
+s102
+
+N/Users/BCT/Downloads/AirGoalie/build/Debug-iphoneos/AirGoalie.app/AirGoalie
+t1275620231
+s91972
+
+N/Users/BCT/Downloads/AirGoalie/build/Debug-iphoneos/AirGoalie.app/Alien Death Ray.wav
+t1275404602
+s882044
+
+N/Users/BCT/Downloads/AirGoalie/build/Debug-iphoneos/AirGoalie.app/GravityTutViewController.nib
+t1275404602
+s2909
+
+N/Users/BCT/Downloads/AirGoalie/build/Debug-iphoneos/AirGoalie.app/Gun Silencer.wav
+t1275404602
+s882044
+
+N/Users/BCT/Downloads/AirGoalie/build/Debug-iphoneos/AirGoalie.app/Info.plist
+t1275404602
+s676
+
+N/Users/BCT/Downloads/AirGoalie/build/Debug-iphoneos/AirGoalie.app/InfoViewController.nib
+t1275496498
+s3590
+
+N/Users/BCT/Downloads/AirGoalie/build/Debug-iphoneos/AirGoalie.app/Laser Blaster.wav
+t1275404602
+s29526
+
+N/Users/BCT/Downloads/AirGoalie/build/Debug-iphoneos/AirGoalie.app/Laser Blasts.wav
+t1275404602
+s30552
+
+N/Users/BCT/Downloads/AirGoalie/build/Debug-iphoneos/AirGoalie.app/Laser.wav
+t1275404602
+s110624
+
+N/Users/BCT/Downloads/AirGoalie/build/Debug-iphoneos/AirGoalie.app/MainMenuViewController.nib
+t1275593857
+s5026
+
+N/Users/BCT/Downloads/AirGoalie/build/Debug-iphoneos/AirGoalie.app/MainWindow.nib
+t1275496497
+s1491
+
+N/Users/BCT/Downloads/AirGoalie/build/Debug-iphoneos/AirGoalie.app/NetworkingViewController.nib
+t1275616857
+s3902
+
+N/Users/BCT/Downloads/AirGoalie/build/Debug-iphoneos/AirGoalie.app/PkgInfo
+t1275404602
+s8
+
+N/Users/BCT/Downloads/AirGoalie/build/Debug-iphoneos/AirGoalie.app/ResourceRules.plist
+t1275404602
+s485
+
+N/Users/BCT/Downloads/AirGoalie/build/Debug-iphoneos/AirGoalie.app/SettingsViewController.nib
+t1275616857
+s3847
+
+N/Users/BCT/Downloads/AirGoalie/build/Debug-iphoneos/AirGoalie.app/embedded.mobileprovision
+t1275582780
+s7169
+
+N/Users/BCT/Downloads/AirGoalie/build/Debug-iphoneos/AirGoalie.app/ourrink-1.gif
+t1275404602
+s170855
+
+N/Users/BCT/Downloads/AirGoalie/build/Debug-iphoneos/AirGoalie.app/punch.wav
+t1275404602
+s2012
+
+N/Users/BCT/Downloads/AirGoalie/build/Debug-iphoneos/AirGoalie.app/rinkMenu.gif
+t1275404602
+s81816
+
+N/Users/BCT/Downloads/AirGoalie/main.m
+c000000004BE43358000000000000016D
+t1273246552
+s365
+i<UIKit/UIKit.h>
+
+N/Users/BCT/Downloads/AirGoalie/ourrink-1.gif
+c000000004BF5457A0000000000029B67
+t1274365306
+s170855
+
+N/Users/BCT/Downloads/AirGoalie/punch.wav
+c000000004BFAB00200000000000007DC
+t1274720258
+s2012
+
+N/Users/BCT/Downloads/AirGoalie/rinkMenu.gif
+c000000004BFFD2710000000000013F98
+t1275056753
+s81816
+
+N/Users/BCT/Downloads/GLPaint/Classes/SoundEffect.h
+c000000004AB169B80000000000000A85
+t1253140920
+s2693
+i<UIKit/UIKit.h>
+i<AudioToolbox/AudioServices.h>
+
+N/Users/BCT/Downloads/GravityTut/../GLPaint/Classes/SoundEffect.m
+c000000004AB169B80000000000000FB4
+t1253140920
+s4020
+i"SoundEffect.h"
+
+N/Users/BCT/Downloads/GravityTut/AirGoalie_Prefix.pch
+c000000004BE4335800000000000000BD
+t1273246552
+s189
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/BCT/Downloads/GravityTut/Alien Death Ray.wav
+c000000004BFFC44500000000000D757C
+t1275053125
+s882044
+
+N/Users/BCT/Downloads/GravityTut/Classes/Goalie.h
+c000000004BF69FD30000000000000209
+t1274453971
+s521
+i<Foundation/Foundation.h>
+
+N/Users/BCT/Downloads/GravityTut/Classes/Goalie.m
+c000000004BF6A1B00000000000000366
+t1274454448
+s870
+i"Goalie.h"
+
+N/Users/BCT/Downloads/GravityTut/Classes/GravityTutAppDelegate.h
+c000000004C015A580000000000000265
+t1275157080
+s613
+i<UIKit/UIKit.h>
+
+N/Users/BCT/Downloads/GravityTut/Classes/GravityTutAppDelegate.m
+c000000004C0159DD000000000000027A
+t1275156957
+s634
+i"GravityTutAppDelegate.h"
+i"GravityTutViewController.h"
+
+N/Users/BCT/Downloads/GravityTut/Classes/GravityTutViewController.h
+c000000004C02EBD4000000000000079A
+t1275259860
+s1946
+i<UIKit/UIKit.h>
+i"Puck.h"
+i"Paddle.h"
+i"Goalie.h"
+i<GameKit/GameKit.h>
+i<AudioToolbox/AudioServices.h>
+
+N/Users/BCT/Downloads/GravityTut/Classes/GravityTutViewController.m
+c000000004C05508F00000000000036EC
+t1275416719
+s14060
+i"GravityTutViewController.h"
+i"PuckView.h"
+i"SoundEffect.h"
+
+N/Users/BCT/Downloads/GravityTut/Classes/Paddle.h
+c000000004BF2CCF9000000000000025C
+t1274203385
+s604
+i<Foundation/Foundation.h>
+
+N/Users/BCT/Downloads/GravityTut/Classes/Paddle.m
+c000000004BFC105400000000000004B1
+t1274810452
+s1201
+i"Paddle.h"
+
+N/Users/BCT/Downloads/GravityTut/Classes/Puck.h
+c000000004BF6C1800000000000000376
+t1274462592
+s886
+i<Foundation/Foundation.h>
+
+N/Users/BCT/Downloads/GravityTut/Classes/Puck.m
+c000000004C0516C80000000000000AA3
+t1275401928
+s2723
+i"Puck.h"
+
+N/Users/BCT/Downloads/GravityTut/Classes/PuckView.h
+c000000004BF178460000000000000207
+t1274116166
+s519
+i<UIKit/UIKit.h>
+i"Puck.h"
+i"Paddle.h"
+i"Goalie.h"
+
+N/Users/BCT/Downloads/GravityTut/Classes/PuckView.m
+c000000004BF806D400000000000009ED
+t1274545876
+s2541
+i"PuckView.h"
+
+N/Users/BCT/Downloads/GravityTut/Classes/SoundEffect.h
+c000000004BFE66390000000000000A85
+t1274963513
+s2693
+i<UIKit/UIKit.h>
+i<AudioToolbox/AudioServices.h>
+
+N/Users/BCT/Downloads/GravityTut/GravityTutViewController.xib
+c000000004BF6EC7E0000000000003359
+t1274473598
+s13145
+
+N/Users/BCT/Downloads/GravityTut/Gun Silencer.wav
+c000000004BFFC62500000000000D757C
+t1275053605
+s882044
+
+N/Users/BCT/Downloads/GravityTut/Laser Blaster.wav
+c000000004BFFC3880000000000007356
+t1275052936
+s29526
+
+N/Users/BCT/Downloads/GravityTut/Laser Blasts.wav
+c000000004BFFC37A0000000000007758
+t1275052922
+s30552
+
+N/Users/BCT/Downloads/GravityTut/Laser.wav
+c000000004BFFC35B000000000001B020
+t1275052891
+s110624
+
+N/Users/BCT/Downloads/GravityTut/MainWindow.xib
+c000000004BFFD9A00000000000004045
+t1275058592
+s16453
+
+N/Users/BCT/Downloads/GravityTut/build/AirGoalie.build/Debug-iphoneos/AirGoalie.build/AirGoalie.xcent
+t1275404604
+s322
+
+N/Users/BCT/Downloads/GravityTut/build/AirGoalie.build/Debug-iphoneos/AirGoalie.build/Objects-normal/armv6/AirGoalie.LinkFileList
+c000000004C05213A00000000000003BC
+t1275404602
+s956
+
+N/Users/BCT/Downloads/GravityTut/build/AirGoalie.build/Debug-iphoneos/AirGoalie.build/Objects-normal/armv6/Goalie.o
+t1275404604
+s17672
+
+N/Users/BCT/Downloads/GravityTut/build/AirGoalie.build/Debug-iphoneos/AirGoalie.build/Objects-normal/armv6/GravityTutAppDelegate.o
+t1275404603
+s41572
+
+N/Users/BCT/Downloads/GravityTut/build/AirGoalie.build/Debug-iphoneos/AirGoalie.build/Objects-normal/armv6/GravityTutViewController.o
+t1275416720
+s93208
+
+N/Users/BCT/Downloads/GravityTut/build/AirGoalie.build/Debug-iphoneos/AirGoalie.build/Objects-normal/armv6/Paddle.o
+t1275404604
+s19916
+
+N/Users/BCT/Downloads/GravityTut/build/AirGoalie.build/Debug-iphoneos/AirGoalie.build/Objects-normal/armv6/Puck.o
+t1275404603
+s33224
+
+N/Users/BCT/Downloads/GravityTut/build/AirGoalie.build/Debug-iphoneos/AirGoalie.build/Objects-normal/armv6/PuckView.o
+t1275404603
+s18976
+
+N/Users/BCT/Downloads/GravityTut/build/AirGoalie.build/Debug-iphoneos/AirGoalie.build/Objects-normal/armv6/SoundEffect.o
+t1275404604
+s11340
+
+N/Users/BCT/Downloads/GravityTut/build/AirGoalie.build/Debug-iphoneos/AirGoalie.build/Objects-normal/armv6/main.o
+t1275404603
+s6536
+
+N/Users/BCT/Downloads/GravityTut/build/Debug-iphoneos/AirGoalie.app
+t1275416721
+s646
+
+N/Users/BCT/Downloads/GravityTut/build/Debug-iphoneos/AirGoalie.app.dSYM
+t1275416721
+s102
+
+N/Users/BCT/Downloads/GravityTut/build/Debug-iphoneos/AirGoalie.app/AirGoalie
+t1275416721
+s76964
+
+N/Users/BCT/Downloads/GravityTut/build/Debug-iphoneos/AirGoalie.app/Alien Death Ray.wav
+t1275404602
+s882044
+
+N/Users/BCT/Downloads/GravityTut/build/Debug-iphoneos/AirGoalie.app/GravityTutViewController.nib
+t1275404602
+s2909
+
+N/Users/BCT/Downloads/GravityTut/build/Debug-iphoneos/AirGoalie.app/Gun Silencer.wav
+t1275404602
+s882044
+
+N/Users/BCT/Downloads/GravityTut/build/Debug-iphoneos/AirGoalie.app/Info.plist
+t1275404602
+s676
+
+N/Users/BCT/Downloads/GravityTut/build/Debug-iphoneos/AirGoalie.app/Laser Blaster.wav
+t1275404602
+s29526
+
+N/Users/BCT/Downloads/GravityTut/build/Debug-iphoneos/AirGoalie.app/Laser Blasts.wav
+t1275404602
+s30552
+
+N/Users/BCT/Downloads/GravityTut/build/Debug-iphoneos/AirGoalie.app/Laser.wav
+t1275404602
+s110624
+
+N/Users/BCT/Downloads/GravityTut/build/Debug-iphoneos/AirGoalie.app/MainWindow.nib
+t1275404602
+s3574
+
+N/Users/BCT/Downloads/GravityTut/build/Debug-iphoneos/AirGoalie.app/PkgInfo
+t1275404602
+s8
+
+N/Users/BCT/Downloads/GravityTut/build/Debug-iphoneos/AirGoalie.app/ResourceRules.plist
+t1275404602
+s485
+
+N/Users/BCT/Downloads/GravityTut/build/Debug-iphoneos/AirGoalie.app/embedded.mobileprovision
+t1275404604
+s7169
+
+N/Users/BCT/Downloads/GravityTut/build/Debug-iphoneos/AirGoalie.app/ourrink-1.gif
+t1275404602
+s170855
+
+N/Users/BCT/Downloads/GravityTut/build/Debug-iphoneos/AirGoalie.app/punch.wav
+t1275404602
+s2012
+
+N/Users/BCT/Downloads/GravityTut/build/Debug-iphoneos/AirGoalie.app/rinkMenu.gif
+t1275404602
+s81816
+
+N/Users/BCT/Downloads/GravityTut/main.m
+c000000004BE43358000000000000016D
+t1273246552
+s365
+i<UIKit/UIKit.h>
+
+N/Users/BCT/Downloads/GravityTut/ourrink-1.gif
+c000000004BF5457A0000000000029B67
+t1274365306
+s170855
+
+N/Users/BCT/Downloads/GravityTut/punch.wav
+c000000004BFAB00200000000000007DC
+t1274720258
+s2012
+
+N/Users/BCT/Downloads/GravityTut/rinkMenu.gif
+c000000004BFFD2710000000000013F98
+t1275056753
+s81816
+
+N/Users/BCT/Library/MobileDevice/Provisioning Profiles/05504615-F1AD-4A59-980E-A93001F53B2B.mobileprovision
+c000000004C06A4880000000000001BFF
+t1275503752
+s7167
+
+N/Users/BCT/Library/MobileDevice/Provisioning Profiles/3B786963-06C8-455D-9B8D-C6E0017F38D5.mobileprovision
+c000000004C0686A00000000000001BFC
+t1275496096
+s7164
+
+N/Users/BCT/Library/MobileDevice/Provisioning Profiles/9120F7C4-F085-467B-836E-F053D8F2DC96.mobileprovision
+c000000004C0520400000000000001C01
+t1275404352
+s7169
+
+N/var/folders/bA/bAdCgNjhHEWwclOqou24A++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AirGoalie_Prefix-aloauvuijkyrhyaunwaijixmfdzb/AirGoalie_Prefix.pch.gch
+t1275490752
+s7876792
+
+N/var/folders/bA/bAdCgNjhHEWwclOqou24A++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AirGoalie_Prefix-bluyvuyhjhsqbabhkovljwmqpaxi/AirGoalie_Prefix.pch.gch
+t1275404603
+s7876792
+
+N/var/folders/bA/bAdCgNjhHEWwclOqou24A++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AirGoalie_Prefix-fbqqxboszvslmxgyooafujdaehbh/AirGoalie_Prefix.pch.gch
+t1275496499
+s7876792
+
+NAirGoalie-Info.plist
+c000000004C02FF850000000000000399
+t1275264901
+s921
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies297313030#297313030#0(0"0(0#1#0"4300885448#0"0#
+
+CCodeSign /Users/BCT/Desktop/AirGoalie/build/Debug-iphoneos/AirGoalie.app
+r0
+
+CCodeSign /Users/BCT/Downloads/AirGoalie/build/Debug-iphoneos/AirGoalie.app
+s297313031.378171
+e297313031.671066
+r1
+xCodeSign
+x/Users/BCT/Downloads/AirGoalie/build/Debug-iphoneos/AirGoalie.app
+lSLF07#2@43"CodeSign build/Debug-iphoneos/AirGoalie.app297313031#297313031#0(0"0(0#0#65"/Users/BCT/Downloads/AirGoalie/build/Debug-iphoneos/AirGoalie.app4300885448#625"    cd /Users/BCT/Downloads/AirGoalie    setenv CODESIGN_ALLOCATE /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/codesign_allocate    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/codesign -f -s "iPhone Developer: Reinald Yoder (43F45X22E3)" --resource-rules=/Users/BCT/Downloads/AirGoalie/build/Debug-iphoneos/AirGoalie.app/ResourceRules.plist --entitlements /Users/BCT/Downloads/AirGoalie/build/AirGoalie.build/Debug-iphoneos/AirGoalie.build/AirGoalie.xcent /Users/BCT/Downloads/AirGoalie/build/Debug-iphoneos/AirGoalie.app0#
+
+CCodeSign /Users/BCT/Downloads/GravityTut/build/Debug-iphoneos/AirGoalie.app
+s297109521.357492
+e297109521.847718
+r1
+xCodeSign
+x/Users/BCT/Downloads/GravityTut/build/Debug-iphoneos/AirGoalie.app
+lSLF07#2@43"CodeSign build/Debug-iphoneos/AirGoalie.app297109521#297109521#0(0"0(0#0#66"/Users/BCT/Downloads/GravityTut/build/Debug-iphoneos/AirGoalie.app4300885448#629"    cd /Users/BCT/Downloads/GravityTut    setenv CODESIGN_ALLOCATE /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/codesign_allocate    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/codesign -f -s "iPhone Developer: Reinald Yoder (43F45X22E3)" --resource-rules=/Users/BCT/Downloads/GravityTut/build/Debug-iphoneos/AirGoalie.app/ResourceRules.plist --entitlements /Users/BCT/Downloads/GravityTut/build/AirGoalie.build/Debug-iphoneos/AirGoalie.build/AirGoalie.xcent /Users/BCT/Downloads/GravityTut/build/Debug-iphoneos/AirGoalie.app0#
+
+CCompileC build/AirGoalie.build/Debug-iphoneos/AirGoalie.build/Objects-normal/armv6/Goalie.o /Users/BCT/Desktop/AirGoalie/Classes/Goalie.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/AirGoalie.build/Debug-iphoneos/AirGoalie.build/Objects-normal/armv6/Goalie.o /Users/BCT/Downloads/AirGoalie/Classes/Goalie.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s297189299.989506
+e297189300.101136
+r1
+xCompileC
+xbuild/AirGoalie.build/Debug-iphoneos/AirGoalie.build/Objects-normal/armv6/Goalie.o
+x/Users/BCT/Downloads/AirGoalie/Classes/Goalie.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@55"Compile /Users/BCT/Downloads/AirGoalie/Classes/Goalie.m297189299#297189300#0(0"0(0#0#47"/Users/BCT/Downloads/AirGoalie/Classes/Goalie.m4300885448#1692"    cd /Users/BCT/Downloads/AirGoalie    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1.3 -iquote /Users/BCT/Downloads/AirGoalie/build/AirGoalie.build/Debug-iphoneos/AirGoalie.build/AirGoalie-generated-files.hmap -I/Users/BCT/Downloads/AirGoalie/build/AirGoalie.build/Debug-iphoneos/AirGoalie.build/AirGoalie-own-target-headers.hmap -I/Users/BCT/Downloads/AirGoalie/build/AirGoalie.build/Debug-iphoneos/AirGoalie.build/AirGoalie-all-target-headers.hmap -iquote /Users/BCT/Downloads/AirGoalie/build/AirGoalie.build/Debug-iphoneos/AirGoalie.build/AirGoalie-project-headers.hmap -F/Users/BCT/Downloads/AirGoalie/build/Debug-iphoneos -I/Users/BCT/Downloads/AirGoalie/build/Debug-iphoneos/include -I/Users/BCT/Downloads/AirGoalie/build/AirGoalie.build/Debug-iphoneos/AirGoalie.build/DerivedSources/armv6 -I/Users/BCT/Downloads/AirGoalie/build/AirGoalie.build/Debug-iphoneos/AirGoalie.build/DerivedSources -include /var/folders/bA/bAdCgNjhHEWwclOqou24A++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AirGoalie_Prefix-fbqqxboszvslmxgyooafujdaehbh/AirGoalie_Prefix.pch -c /Users/BCT/Downloads/AirGoalie/Classes/Goalie.m -o /Users/BCT/Downloads/AirGoalie/build/AirGoalie.build/Debug-iphoneos/AirGoalie.build/Objects-normal/armv6/Goalie.o0#
+
+CCompileC build/AirGoalie.build/Debug-iphoneos/AirGoalie.build/Objects-normal/armv6/Goalie.o /Users/BCT/Downloads/GravityTut/Classes/Goalie.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s297097404.071463
+e297097404.143588
+r1
+xCompileC
+xbuild/AirGoalie.build/Debug-iphoneos/AirGoalie.build/Objects-normal/armv6/Goalie.o
+x/Users/BCT/Downloads/GravityTut/Classes/Goalie.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@56"Compile /Users/BCT/Downloads/GravityTut/Classes/Goalie.m297097404#297097404#0(0"0(0#0#48"/Users/BCT/Downloads/GravityTut/Classes/Goalie.m4300885448#1703"    cd /Users/BCT/Downloads/GravityTut    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1.3 -iquote /Users/BCT/Downloads/GravityTut/build/AirGoalie.build/Debug-iphoneos/AirGoalie.build/AirGoalie-generated-files.hmap -I/Users/BCT/Downloads/GravityTut/build/AirGoalie.build/Debug-iphoneos/AirGoalie.build/AirGoalie-own-target-headers.hmap -I/Users/BCT/Downloads/GravityTut/build/AirGoalie.build/Debug-iphoneos/AirGoalie.build/AirGoalie-all-target-headers.hmap -iquote /Users/BCT/Downloads/GravityTut/build/AirGoalie.build/Debug-iphoneos/AirGoalie.build/AirGoalie-project-headers.hmap -F/Users/BCT/Downloads/GravityTut/build/Debug-iphoneos -I/Users/BCT/Downloads/GravityTut/build/Debug-iphoneos/include -I/Users/BCT/Downloads/GravityTut/build/AirGoalie.build/Debug-iphoneos/AirGoalie.build/DerivedSources/armv6 -I/Users/BCT/Downloads/GravityTut/build/AirGoalie.build/Debug-iphoneos/AirGoalie.build/DerivedSources -include /var/folders/bA/bAdCgNjhHEWwclOqou24A++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AirGoalie_Prefix-bluyvuyhjhsqbabhkovljwmqpaxi/AirGoalie_Prefix.pch -c /Users/BCT/Downloads/GravityTut/Classes/Goalie.m -o /Users/BCT/Downloads/GravityTut/build/AirGoalie.build/Debug-iphoneos/AirGoalie.build/Objects-normal/armv6/Goalie.o0#
+
+CCompileC build/AirGoalie.build/Debug-iphoneos/AirGoalie.build/Objects-normal/armv6/GravityTutAppDelegate.o /Users/BCT/Desktop/AirGoalie/Classes/GravityTutAppDelegate.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/AirGoalie.build/Debug-iphoneos/AirGoalie.build/Objects-normal/armv6/GravityTutAppDelegate.o /Users/BCT/Downloads/AirGoalie/Classes/GravityTutAppDelegate.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s297311219.593267
+e297311219.773614
+r1
+xCompileC
+xbuild/AirGoalie.build/Debug-iphoneos/AirGoalie.build/Objects-normal/armv6/GravityTutAppDelegate.o
+x/Users/BCT/Downloads/AirGoalie/Classes/GravityTutAppDelegate.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@70"Compile /Users/BCT/Downloads/AirGoalie/Classes/GravityTutAppDelegate.m297311219#297311219#0(0"0(0#0#62"/Users/BCT/Downloads/AirGoalie/Classes/GravityTutAppDelegate.m4300885448#1722"    cd /Users/BCT/Downloads/AirGoalie    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1.3 -iquote /Users/BCT/Downloads/AirGoalie/build/AirGoalie.build/Debug-iphoneos/AirGoalie.build/AirGoalie-generated-files.hmap -I/Users/BCT/Downloads/AirGoalie/build/AirGoalie.build/Debug-iphoneos/AirGoalie.build/AirGoalie-own-target-headers.hmap -I/Users/BCT/Downloads/AirGoalie/build/AirGoalie.build/Debug-iphoneos/AirGoalie.build/AirGoalie-all-target-headers.hmap -iquote /Users/BCT/Downloads/AirGoalie/build/AirGoalie.build/Debug-iphoneos/AirGoalie.build/AirGoalie-project-headers.hmap -F/Users/BCT/Downloads/AirGoalie/build/Debug-iphoneos -I/Users/BCT/Downloads/AirGoalie/build/Debug-iphoneos/include -I/Users/BCT/Downloads/AirGoalie/build/AirGoalie.build/Debug-iphoneos/AirGoalie.build/DerivedSources/armv6 -I/Users/BCT/Downloads/AirGoalie/build/AirGoalie.build/Debug-iphoneos/AirGoalie.build/DerivedSources -include /var/folders/bA/bAdCgNjhHEWwclOqou24A++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AirGoalie_Prefix-fbqqxboszvslmxgyooafujdaehbh/AirGoalie_Prefix.pch -c /Users/BCT/Downloads/AirGoalie/Classes/GravityTutAppDelegate.m -o /Users/BCT/Downloads/AirGoalie/build/AirGoalie.build/Debug-iphoneos/AirGoalie.build/Objects-normal/armv6/GravityTutAppDelegate.o0#
+
+CCompileC build/AirGoalie.build/Debug-iphoneos/AirGoalie.build/Objects-normal/armv6/GravityTutAppDelegate.o /Users/BCT/Downloads/GravityTut/Classes/GravityTutAppDelegate.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s297097403.714283
+e297097403.813302
+r1
+xCompileC
+xbuild/AirGoalie.build/Debug-iphoneos/AirGoalie.build/Objects-normal/armv6/GravityTutAppDelegate.o
+x/Users/BCT/Downloads/GravityTut/Classes/GravityTutAppDelegate.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@71"Compile /Users/BCT/Downloads/GravityTut/Classes/GravityTutAppDelegate.m297097403#297097403#0(0"0(0#0#63"/Users/BCT/Downloads/GravityTut/Classes/GravityTutAppDelegate.m4300885448#1733"    cd /Users/BCT/Downloads/GravityTut    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1.3 -iquote /Users/BCT/Downloads/GravityTut/build/AirGoalie.build/Debug-iphoneos/AirGoalie.build/AirGoalie-generated-files.hmap -I/Users/BCT/Downloads/GravityTut/build/AirGoalie.build/Debug-iphoneos/AirGoalie.build/AirGoalie-own-target-headers.hmap -I/Users/BCT/Downloads/GravityTut/build/AirGoalie.build/Debug-iphoneos/AirGoalie.build/AirGoalie-all-target-headers.hmap -iquote /Users/BCT/Downloads/GravityTut/build/AirGoalie.build/Debug-iphoneos/AirGoalie.build/AirGoalie-project-headers.hmap -F/Users/BCT/Downloads/GravityTut/build/Debug-iphoneos -I/Users/BCT/Downloads/GravityTut/build/Debug-iphoneos/include -I/Users/BCT/Downloads/GravityTut/build/AirGoalie.build/Debug-iphoneos/AirGoalie.build/DerivedSources/armv6 -I/Users/BCT/Downloads/GravityTut/build/AirGoalie.build/Debug-iphoneos/AirGoalie.build/DerivedSources -include /var/folders/bA/bAdCgNjhHEWwclOqou24A++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AirGoalie_Prefix-bluyvuyhjhsqbabhkovljwmqpaxi/AirGoalie_Prefix.pch -c /Users/BCT/Downloads/GravityTut/Classes/GravityTutAppDelegate.m -o /Users/BCT/Downloads/GravityTut/build/AirGoalie.build/Debug-iphoneos/AirGoalie.build/Objects-normal/armv6/GravityTutAppDelegate.o0#
+
+CCompileC build/AirGoalie.build/Debug-iphoneos/AirGoalie.build/Objects-normal/armv6/GravityTutViewController.o /Users/BCT/Desktop/AirGoalie/Classes/GravityTutViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/AirGoalie.build/Debug-iphoneos/AirGoalie.build/Objects-normal/armv6/GravityTutViewController.o /Users/BCT/Downloads/AirGoalie/Classes/GravityTutViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s297313030.859572
+e297313031.250277
+r1
+xCompileC
+xbuild/AirGoalie.build/Debug-iphoneos/AirGoalie.build/Objects-normal/armv6/GravityTutViewController.o
+x/Users/BCT/Downloads/AirGoalie/Classes/GravityTutViewController.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/BCT/Downloads/AirGoalie/Classes/GravityTutViewController.m:590: warning: incomplete implementation of class 'GravityTutViewController'
+o/Users/BCT/Downloads/AirGoalie/Classes/GravityTutViewController.m:590: warning: method definition for '-gameState' not found
+o/Users/BCT/Downloads/AirGoalie/Classes/GravityTutViewController.m:590: warning: method definition for '-resetPuck' not found
+o/Users/BCT/Downloads/AirGoalie/Classes/GravityTutViewController.m:590: warning: method definition for '-update' not found
+lSLF07#2@73"Compile /Users/BCT/Downloads/AirGoalie/Classes/GravityTutViewController.m297313030#297313031#0(514"/Users/BCT/Downloads/AirGoalie/Classes/GravityTutViewController.m:590: warning: incomplete implementation of class 'GravityTutViewController'/Users/BCT/Downloads/AirGoalie/Classes/GravityTutViewController.m:590: warning: method definition for '-gameState' not found/Users/BCT/Downloads/AirGoalie/Classes/GravityTutViewController.m:590: warning: method definition for '-resetPuck' not found/Users/BCT/Downloads/AirGoalie/Classes/GravityTutViewController.m:590: warning: method definition for '-update' not found4(22@61"Incomplete implementation of class 'GravityTutViewController'297313031#0#142#0(6@65"/Users/BCT/Downloads/AirGoalie/Classes/GravityTutViewController.m297312993#590#0#590#0#38"incomplete implementation of class '*'0(22@44"Method definition for '-gameState' not found297313031#142#125#0(6@65"/Users/BCT/Downloads/AirGoalie/Classes/GravityTutViewController.m297312993#590#0#590#0#35"method definition for '*' not found0(22@44"Method definition for '-resetPuck' not found297313031#267#125#0(6@65"/Users/BCT/Downloads/AirGoalie/Classes/GravityTutViewController.m297312993#590#0#590#0#35"method definition for '*' not found0(22@41"Method definition for '-update' not found297313031#392#122#0(6@65"/Users/BCT/Downloads/AirGoalie/Classes/GravityTutViewController.m297312993#590#0#590#0#35"method definition for '*' not found0(0#0#65"/Users/BCT/Downloads/AirGoalie/Classes/GravityTutViewController.m4300885448#1728"    cd /Users/BCT/Downloads/AirGoalie    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1.3 -iquote /Users/BCT/Downloads/AirGoalie/build/AirGoalie.build/Debug-iphoneos/AirGoalie.build/AirGoalie-generated-files.hmap -I/Users/BCT/Downloads/AirGoalie/build/AirGoalie.build/Debug-iphoneos/AirGoalie.build/AirGoalie-own-target-headers.hmap -I/Users/BCT/Downloads/AirGoalie/build/AirGoalie.build/Debug-iphoneos/AirGoalie.build/AirGoalie-all-target-headers.hmap -iquote /Users/BCT/Downloads/AirGoalie/build/AirGoalie.build/Debug-iphoneos/AirGoalie.build/AirGoalie-project-headers.hmap -F/Users/BCT/Downloads/AirGoalie/build/Debug-iphoneos -I/Users/BCT/Downloads/AirGoalie/build/Debug-iphoneos/include -I/Users/BCT/Downloads/AirGoalie/build/AirGoalie.build/Debug-iphoneos/AirGoalie.build/DerivedSources/armv6 -I/Users/BCT/Downloads/AirGoalie/build/AirGoalie.build/Debug-iphoneos/AirGoalie.build/DerivedSources -include /var/folders/bA/bAdCgNjhHEWwclOqou24A++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AirGoalie_Prefix-fbqqxboszvslmxgyooafujdaehbh/AirGoalie_Prefix.pch -c /Users/BCT/Downloads/AirGoalie/Classes/GravityTutViewController.m -o /Users/BCT/Downloads/AirGoalie/build/AirGoalie.build/Debug-iphoneos/AirGoalie.build/Objects-normal/armv6/GravityTutViewController.o0#
+
+CCompileC build/AirGoalie.build/Debug-iphoneos/AirGoalie.build/Objects-normal/armv6/GravityTutViewController.o /Users/BCT/Downloads/GravityTut/Classes/GravityTutViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s297109519.929465
+e297109520.792582
+r1
+xCompileC
+xbuild/AirGoalie.build/Debug-iphoneos/AirGoalie.build/Objects-normal/armv6/GravityTutViewController.o
+x/Users/BCT/Downloads/GravityTut/Classes/GravityTutViewController.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/BCT/Downloads/GravityTut/Classes/GravityTutViewController.m:435: warning: incomplete implementation of class 'GravityTutViewController'
+o/Users/BCT/Downloads/GravityTut/Classes/GravityTutViewController.m:435: warning: method definition for '-gameState' not found
+o/Users/BCT/Downloads/GravityTut/Classes/GravityTutViewController.m:435: warning: method definition for '-resetPuck' not found
+o/Users/BCT/Downloads/GravityTut/Classes/GravityTutViewController.m:435: warning: method definition for '-update' not found
+lSLF07#2@74"Compile /Users/BCT/Downloads/GravityTut/Classes/GravityTutViewController.m297109519#297109520#0(518"/Users/BCT/Downloads/GravityTut/Classes/GravityTutViewController.m:435: warning: incomplete implementation of class 'GravityTutViewController'/Users/BCT/Downloads/GravityTut/Classes/GravityTutViewController.m:435: warning: method definition for '-gameState' not found/Users/BCT/Downloads/GravityTut/Classes/GravityTutViewController.m:435: warning: method definition for '-resetPuck' not found/Users/BCT/Downloads/GravityTut/Classes/GravityTutViewController.m:435: warning: method definition for '-update' not found4(22@61"Incomplete implementation of class 'GravityTutViewController'297109520#0#143#0(6@66"/Users/BCT/Downloads/GravityTut/Classes/GravityTutViewController.m297109519#435#0#435#0#38"incomplete implementation of class '*'0(22@44"Method definition for '-gameState' not found297109520#143#126#0(6@66"/Users/BCT/Downloads/GravityTut/Classes/GravityTutViewController.m297109519#435#0#435#0#35"method definition for '*' not found0(22@44"Method definition for '-resetPuck' not found297109520#269#126#0(6@66"/Users/BCT/Downloads/GravityTut/Classes/GravityTutViewController.m297109519#435#0#435#0#35"method definition for '*' not found0(22@41"Method definition for '-update' not found297109520#395#123#0(6@66"/Users/BCT/Downloads/GravityTut/Classes/GravityTutViewController.m297109519#435#0#435#0#35"method definition for '*' not found0(0#0#66"/Users/BCT/Downloads/GravityTut/Classes/GravityTutViewController.m5705889669690254336#1739"    cd /Users/BCT/Downloads/GravityTut    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1.3 -iquote /Users/BCT/Downloads/GravityTut/build/AirGoalie.build/Debug-iphoneos/AirGoalie.build/AirGoalie-generated-files.hmap -I/Users/BCT/Downloads/GravityTut/build/AirGoalie.build/Debug-iphoneos/AirGoalie.build/AirGoalie-own-target-headers.hmap -I/Users/BCT/Downloads/GravityTut/build/AirGoalie.build/Debug-iphoneos/AirGoalie.build/AirGoalie-all-target-headers.hmap -iquote /Users/BCT/Downloads/GravityTut/build/AirGoalie.build/Debug-iphoneos/AirGoalie.build/AirGoalie-project-headers.hmap -F/Users/BCT/Downloads/GravityTut/build/Debug-iphoneos -I/Users/BCT/Downloads/GravityTut/build/Debug-iphoneos/include -I/Users/BCT/Downloads/GravityTut/build/AirGoalie.build/Debug-iphoneos/AirGoalie.build/DerivedSources/armv6 -I/Users/BCT/Downloads/GravityTut/build/AirGoalie.build/Debug-iphoneos/AirGoalie.build/DerivedSources -include /var/folders/bA/bAdCgNjhHEWwclOqou24A++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AirGoalie_Prefix-bluyvuyhjhsqbabhkovljwmqpaxi/AirGoalie_Prefix.pch -c /Users/BCT/Downloads/GravityTut/Classes/GravityTutViewController.m -o /Users/BCT/Downloads/GravityTut/build/AirGoalie.build/Debug-iphoneos/AirGoalie.build/Objects-normal/armv6/GravityTutViewController.o0#
+
+CCompileC build/AirGoalie.build/Debug-iphoneos/AirGoalie.build/Objects-normal/armv6/InfoViewController.o /Users/BCT/Desktop/AirGoalie/Classes/InfoViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/AirGoalie.build/Debug-iphoneos/AirGoalie.build/Objects-normal/armv6/InfoViewController.o /Users/BCT/Downloads/AirGoalie/Classes/InfoViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s297189300.348875
+e297189300.429232
+r1
+xCompileC
+xbuild/AirGoalie.build/Debug-iphoneos/AirGoalie.build/Objects-normal/armv6/InfoViewController.o
+x/Users/BCT/Downloads/AirGoalie/Classes/InfoViewController.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@67"Compile /Users/BCT/Downloads/AirGoalie/Classes/InfoViewController.m297189300#297189300#0(0"0(0#0#59"/Users/BCT/Downloads/AirGoalie/Classes/InfoViewController.m4300885448#1716"    cd /Users/BCT/Downloads/AirGoalie    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1.3 -iquote /Users/BCT/Downloads/AirGoalie/build/AirGoalie.build/Debug-iphoneos/AirGoalie.build/AirGoalie-generated-files.hmap -I/Users/BCT/Downloads/AirGoalie/build/AirGoalie.build/Debug-iphoneos/AirGoalie.build/AirGoalie-own-target-headers.hmap -I/Users/BCT/Downloads/AirGoalie/build/AirGoalie.build/Debug-iphoneos/AirGoalie.build/AirGoalie-all-target-headers.hmap -iquote /Users/BCT/Downloads/AirGoalie/build/AirGoalie.build/Debug-iphoneos/AirGoalie.build/AirGoalie-project-headers.hmap -F/Users/BCT/Downloads/AirGoalie/build/Debug-iphoneos -I/Users/BCT/Downloads/AirGoalie/build/Debug-iphoneos/include -I/Users/BCT/Downloads/AirGoalie/build/AirGoalie.build/Debug-iphoneos/AirGoalie.build/DerivedSources/armv6 -I/Users/BCT/Downloads/AirGoalie/build/AirGoalie.build/Debug-iphoneos/AirGoalie.build/DerivedSources -include /var/folders/bA/bAdCgNjhHEWwclOqou24A++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AirGoalie_Prefix-fbqqxboszvslmxgyooafujdaehbh/AirGoalie_Prefix.pch -c /Users/BCT/Downloads/AirGoalie/Classes/InfoViewController.m -o /Users/BCT/Downloads/AirGoalie/build/AirGoalie.build/Debug-iphoneos/AirGoalie.build/Objects-normal/armv6/InfoViewController.o0#
+
+CCompileC build/AirGoalie.build/Debug-iphoneos/AirGoalie.build/Objects-normal/armv6/MainMenuViewController.o /Users/BCT/Desktop/AirGoalie/Classes/MainMenuViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/AirGoalie.build/Debug-iphoneos/AirGoalie.build/Objects-normal/armv6/MainMenuViewController.o /Users/BCT/Downloads/AirGoalie/Classes/MainMenuViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s297311219.774091
+e297311219.838696
+r1
+xCompileC
+xbuild/AirGoalie.build/Debug-iphoneos/AirGoalie.build/Objects-normal/armv6/MainMenuViewController.o
+x/Users/BCT/Downloads/AirGoalie/Classes/MainMenuViewController.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@71"Compile /Users/BCT/Downloads/AirGoalie/Classes/MainMenuViewController.m297311219#297311219#0(0"0(0#0#63"/Users/BCT/Downloads/AirGoalie/Classes/MainMenuViewController.m4300885448#1724"    cd /Users/BCT/Downloads/AirGoalie    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1.3 -iquote /Users/BCT/Downloads/AirGoalie/build/AirGoalie.build/Debug-iphoneos/AirGoalie.build/AirGoalie-generated-files.hmap -I/Users/BCT/Downloads/AirGoalie/build/AirGoalie.build/Debug-iphoneos/AirGoalie.build/AirGoalie-own-target-headers.hmap -I/Users/BCT/Downloads/AirGoalie/build/AirGoalie.build/Debug-iphoneos/AirGoalie.build/AirGoalie-all-target-headers.hmap -iquote /Users/BCT/Downloads/AirGoalie/build/AirGoalie.build/Debug-iphoneos/AirGoalie.build/AirGoalie-project-headers.hmap -F/Users/BCT/Downloads/AirGoalie/build/Debug-iphoneos -I/Users/BCT/Downloads/AirGoalie/build/Debug-iphoneos/include -I/Users/BCT/Downloads/AirGoalie/build/AirGoalie.build/Debug-iphoneos/AirGoalie.build/DerivedSources/armv6 -I/Users/BCT/Downloads/AirGoalie/build/AirGoalie.build/Debug-iphoneos/AirGoalie.build/DerivedSources -include /var/folders/bA/bAdCgNjhHEWwclOqou24A++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AirGoalie_Prefix-fbqqxboszvslmxgyooafujdaehbh/AirGoalie_Prefix.pch -c /Users/BCT/Downloads/AirGoalie/Classes/MainMenuViewController.m -o /Users/BCT/Downloads/AirGoalie/build/AirGoalie.build/Debug-iphoneos/AirGoalie.build/Objects-normal/armv6/MainMenuViewController.o0#
+
+CCompileC build/AirGoalie.build/Debug-iphoneos/AirGoalie.build/Objects-normal/armv6/NetworkingViewController.o /Users/BCT/Desktop/AirGoalie/Classes/NetworkingViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/AirGoalie.build/Debug-iphoneos/AirGoalie.build/Objects-normal/armv6/NetworkingViewController.o /Users/BCT/Downloads/AirGoalie/Classes/NetworkingViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s297189300.292499
+e297189300.406097
+r1
+xCompileC
+xbuild/AirGoalie.build/Debug-iphoneos/AirGoalie.build/Objects-normal/armv6/NetworkingViewController.o
+x/Users/BCT/Downloads/AirGoalie/Classes/NetworkingViewController.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@73"Compile /Users/BCT/Downloads/AirGoalie/Classes/NetworkingViewController.m297189300#297189300#0(0"0(0#0#65"/Users/BCT/Downloads/AirGoalie/Classes/NetworkingViewController.m4300885448#1728"    cd /Users/BCT/Downloads/AirGoalie    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1.3 -iquote /Users/BCT/Downloads/AirGoalie/build/AirGoalie.build/Debug-iphoneos/AirGoalie.build/AirGoalie-generated-files.hmap -I/Users/BCT/Downloads/AirGoalie/build/AirGoalie.build/Debug-iphoneos/AirGoalie.build/AirGoalie-own-target-headers.hmap -I/Users/BCT/Downloads/AirGoalie/build/AirGoalie.build/Debug-iphoneos/AirGoalie.build/AirGoalie-all-target-headers.hmap -iquote /Users/BCT/Downloads/AirGoalie/build/AirGoalie.build/Debug-iphoneos/AirGoalie.build/AirGoalie-project-headers.hmap -F/Users/BCT/Downloads/AirGoalie/build/Debug-iphoneos -I/Users/BCT/Downloads/AirGoalie/build/Debug-iphoneos/include -I/Users/BCT/Downloads/AirGoalie/build/AirGoalie.build/Debug-iphoneos/AirGoalie.build/DerivedSources/armv6 -I/Users/BCT/Downloads/AirGoalie/build/AirGoalie.build/Debug-iphoneos/AirGoalie.build/DerivedSources -include /var/folders/bA/bAdCgNjhHEWwclOqou24A++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AirGoalie_Prefix-fbqqxboszvslmxgyooafujdaehbh/AirGoalie_Prefix.pch -c /Users/BCT/Downloads/AirGoalie/Classes/NetworkingViewController.m -o /Users/BCT/Downloads/AirGoalie/build/AirGoalie.build/Debug-iphoneos/AirGoalie.build/Objects-normal/armv6/NetworkingViewController.o0#
+
+CCompileC build/AirGoalie.build/Debug-iphoneos/AirGoalie.build/Objects-normal/armv6/Paddle.o /Users/BCT/Desktop/AirGoalie/Classes/Paddle.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/AirGoalie.build/Debug-iphoneos/AirGoalie.build/Objects-normal/armv6/Paddle.o /Users/BCT/Downloads/AirGoalie/Classes/Paddle.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s297189299.875273
+e297189299.989398
+r1
+xCompileC
+xbuild/AirGoalie.build/Debug-iphoneos/AirGoalie.build/Objects-normal/armv6/Paddle.o
+x/Users/BCT/Downloads/AirGoalie/Classes/Paddle.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@55"Compile /Users/BCT/Downloads/AirGoalie/Classes/Paddle.m297189299#297189299#0(0"0(0#0#47"/Users/BCT/Downloads/AirGoalie/Classes/Paddle.m4300885448#1692"    cd /Users/BCT/Downloads/AirGoalie    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1.3 -iquote /Users/BCT/Downloads/AirGoalie/build/AirGoalie.build/Debug-iphoneos/AirGoalie.build/AirGoalie-generated-files.hmap -I/Users/BCT/Downloads/AirGoalie/build/AirGoalie.build/Debug-iphoneos/AirGoalie.build/AirGoalie-own-target-headers.hmap -I/Users/BCT/Downloads/AirGoalie/build/AirGoalie.build/Debug-iphoneos/AirGoalie.build/AirGoalie-all-target-headers.hmap -iquote /Users/BCT/Downloads/AirGoalie/build/AirGoalie.build/Debug-iphoneos/AirGoalie.build/AirGoalie-project-headers.hmap -F/Users/BCT/Downloads/AirGoalie/build/Debug-iphoneos -I/Users/BCT/Downloads/AirGoalie/build/Debug-iphoneos/include -I/Users/BCT/Downloads/AirGoalie/build/AirGoalie.build/Debug-iphoneos/AirGoalie.build/DerivedSources/armv6 -I/Users/BCT/Downloads/AirGoalie/build/AirGoalie.build/Debug-iphoneos/AirGoalie.build/DerivedSources -include /var/folders/bA/bAdCgNjhHEWwclOqou24A++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AirGoalie_Prefix-fbqqxboszvslmxgyooafujdaehbh/AirGoalie_Prefix.pch -c /Users/BCT/Downloads/AirGoalie/Classes/Paddle.m -o /Users/BCT/Downloads/AirGoalie/build/AirGoalie.build/Debug-iphoneos/AirGoalie.build/Objects-normal/armv6/Paddle.o0#
+
+CCompileC build/AirGoalie.build/Debug-iphoneos/AirGoalie.build/Objects-normal/armv6/Paddle.o /Users/BCT/Downloads/GravityTut/Classes/Paddle.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s297097404.002051
+e297097404.071357
+r1
+xCompileC
+xbuild/AirGoalie.build/Debug-iphoneos/AirGoalie.build/Objects-normal/armv6/Paddle.o
+x/Users/BCT/Downloads/GravityTut/Classes/Paddle.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@56"Compile /Users/BCT/Downloads/GravityTut/Classes/Paddle.m297097404#297097404#0(0"0(0#0#48"/Users/BCT/Downloads/GravityTut/Classes/Paddle.m4300885448#1703"    cd /Users/BCT/Downloads/GravityTut    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1.3 -iquote /Users/BCT/Downloads/GravityTut/build/AirGoalie.build/Debug-iphoneos/AirGoalie.build/AirGoalie-generated-files.hmap -I/Users/BCT/Downloads/GravityTut/build/AirGoalie.build/Debug-iphoneos/AirGoalie.build/AirGoalie-own-target-headers.hmap -I/Users/BCT/Downloads/GravityTut/build/AirGoalie.build/Debug-iphoneos/AirGoalie.build/AirGoalie-all-target-headers.hmap -iquote /Users/BCT/Downloads/GravityTut/build/AirGoalie.build/Debug-iphoneos/AirGoalie.build/AirGoalie-project-headers.hmap -F/Users/BCT/Downloads/GravityTut/build/Debug-iphoneos -I/Users/BCT/Downloads/GravityTut/build/Debug-iphoneos/include -I/Users/BCT/Downloads/GravityTut/build/AirGoalie.build/Debug-iphoneos/AirGoalie.build/DerivedSources/armv6 -I/Users/BCT/Downloads/GravityTut/build/AirGoalie.build/Debug-iphoneos/AirGoalie.build/DerivedSources -include /var/folders/bA/bAdCgNjhHEWwclOqou24A++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AirGoalie_Prefix-bluyvuyhjhsqbabhkovljwmqpaxi/AirGoalie_Prefix.pch -c /Users/BCT/Downloads/GravityTut/Classes/Paddle.m -o /Users/BCT/Downloads/GravityTut/build/AirGoalie.build/Debug-iphoneos/AirGoalie.build/Objects-normal/armv6/Paddle.o0#
+
+CCompileC build/AirGoalie.build/Debug-iphoneos/AirGoalie.build/Objects-normal/armv6/Puck.o /Users/BCT/Desktop/AirGoalie/Classes/Puck.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/AirGoalie.build/Debug-iphoneos/AirGoalie.build/Objects-normal/armv6/Puck.o /Users/BCT/Downloads/AirGoalie/Classes/Puck.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s297313030.913450
+e297313031.052613
+r1
+xCompileC
+xbuild/AirGoalie.build/Debug-iphoneos/AirGoalie.build/Objects-normal/armv6/Puck.o
+x/Users/BCT/Downloads/AirGoalie/Classes/Puck.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@53"Compile /Users/BCT/Downloads/AirGoalie/Classes/Puck.m297313030#297313031#0(0"0(0#0#45"/Users/BCT/Downloads/AirGoalie/Classes/Puck.m4300885448#1688"    cd /Users/BCT/Downloads/AirGoalie    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1.3 -iquote /Users/BCT/Downloads/AirGoalie/build/AirGoalie.build/Debug-iphoneos/AirGoalie.build/AirGoalie-generated-files.hmap -I/Users/BCT/Downloads/AirGoalie/build/AirGoalie.build/Debug-iphoneos/AirGoalie.build/AirGoalie-own-target-headers.hmap -I/Users/BCT/Downloads/AirGoalie/build/AirGoalie.build/Debug-iphoneos/AirGoalie.build/AirGoalie-all-target-headers.hmap -iquote /Users/BCT/Downloads/AirGoalie/build/AirGoalie.build/Debug-iphoneos/AirGoalie.build/AirGoalie-project-headers.hmap -F/Users/BCT/Downloads/AirGoalie/build/Debug-iphoneos -I/Users/BCT/Downloads/AirGoalie/build/Debug-iphoneos/include -I/Users/BCT/Downloads/AirGoalie/build/AirGoalie.build/Debug-iphoneos/AirGoalie.build/DerivedSources/armv6 -I/Users/BCT/Downloads/AirGoalie/build/AirGoalie.build/Debug-iphoneos/AirGoalie.build/DerivedSources -include /var/folders/bA/bAdCgNjhHEWwclOqou24A++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AirGoalie_Prefix-fbqqxboszvslmxgyooafujdaehbh/AirGoalie_Prefix.pch -c /Users/BCT/Downloads/AirGoalie/Classes/Puck.m -o /Users/BCT/Downloads/AirGoalie/build/AirGoalie.build/Debug-iphoneos/AirGoalie.build/Objects-normal/armv6/Puck.o0#
+
+CCompileC build/AirGoalie.build/Debug-iphoneos/AirGoalie.build/Objects-normal/armv6/Puck.o /Users/BCT/Downloads/GravityTut/Classes/Puck.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s297097403.813402
+e297097403.935305
+r1
+xCompileC
+xbuild/AirGoalie.build/Debug-iphoneos/AirGoalie.build/Objects-normal/armv6/Puck.o
+x/Users/BCT/Downloads/GravityTut/Classes/Puck.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@54"Compile /Users/BCT/Downloads/GravityTut/Classes/Puck.m297097403#297097403#0(0"0(0#0#46"/Users/BCT/Downloads/GravityTut/Classes/Puck.m4300885448#1699"    cd /Users/BCT/Downloads/GravityTut    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1.3 -iquote /Users/BCT/Downloads/GravityTut/build/AirGoalie.build/Debug-iphoneos/AirGoalie.build/AirGoalie-generated-files.hmap -I/Users/BCT/Downloads/GravityTut/build/AirGoalie.build/Debug-iphoneos/AirGoalie.build/AirGoalie-own-target-headers.hmap -I/Users/BCT/Downloads/GravityTut/build/AirGoalie.build/Debug-iphoneos/AirGoalie.build/AirGoalie-all-target-headers.hmap -iquote /Users/BCT/Downloads/GravityTut/build/AirGoalie.build/Debug-iphoneos/AirGoalie.build/AirGoalie-project-headers.hmap -F/Users/BCT/Downloads/GravityTut/build/Debug-iphoneos -I/Users/BCT/Downloads/GravityTut/build/Debug-iphoneos/include -I/Users/BCT/Downloads/GravityTut/build/AirGoalie.build/Debug-iphoneos/AirGoalie.build/DerivedSources/armv6 -I/Users/BCT/Downloads/GravityTut/build/AirGoalie.build/Debug-iphoneos/AirGoalie.build/DerivedSources -include /var/folders/bA/bAdCgNjhHEWwclOqou24A++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AirGoalie_Prefix-bluyvuyhjhsqbabhkovljwmqpaxi/AirGoalie_Prefix.pch -c /Users/BCT/Downloads/GravityTut/Classes/Puck.m -o /Users/BCT/Downloads/GravityTut/build/AirGoalie.build/Debug-iphoneos/AirGoalie.build/Objects-normal/armv6/Puck.o0#
+
+CCompileC build/AirGoalie.build/Debug-iphoneos/AirGoalie.build/Objects-normal/armv6/PuckView.o /Users/BCT/Desktop/AirGoalie/Classes/PuckView.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/AirGoalie.build/Debug-iphoneos/AirGoalie.build/Objects-normal/armv6/PuckView.o /Users/BCT/Downloads/AirGoalie/Classes/PuckView.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s297189299.798623
+e297189299.875172
+r1
+xCompileC
+xbuild/AirGoalie.build/Debug-iphoneos/AirGoalie.build/Objects-normal/armv6/PuckView.o
+x/Users/BCT/Downloads/AirGoalie/Classes/PuckView.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@57"Compile /Users/BCT/Downloads/AirGoalie/Classes/PuckView.m297189299#297189299#0(0"0(0#0#49"/Users/BCT/Downloads/AirGoalie/Classes/PuckView.m4300885448#1696"    cd /Users/BCT/Downloads/AirGoalie    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1.3 -iquote /Users/BCT/Downloads/AirGoalie/build/AirGoalie.build/Debug-iphoneos/AirGoalie.build/AirGoalie-generated-files.hmap -I/Users/BCT/Downloads/AirGoalie/build/AirGoalie.build/Debug-iphoneos/AirGoalie.build/AirGoalie-own-target-headers.hmap -I/Users/BCT/Downloads/AirGoalie/build/AirGoalie.build/Debug-iphoneos/AirGoalie.build/AirGoalie-all-target-headers.hmap -iquote /Users/BCT/Downloads/AirGoalie/build/AirGoalie.build/Debug-iphoneos/AirGoalie.build/AirGoalie-project-headers.hmap -F/Users/BCT/Downloads/AirGoalie/build/Debug-iphoneos -I/Users/BCT/Downloads/AirGoalie/build/Debug-iphoneos/include -I/Users/BCT/Downloads/AirGoalie/build/AirGoalie.build/Debug-iphoneos/AirGoalie.build/DerivedSources/armv6 -I/Users/BCT/Downloads/AirGoalie/build/AirGoalie.build/Debug-iphoneos/AirGoalie.build/DerivedSources -include /var/folders/bA/bAdCgNjhHEWwclOqou24A++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AirGoalie_Prefix-fbqqxboszvslmxgyooafujdaehbh/AirGoalie_Prefix.pch -c /Users/BCT/Downloads/AirGoalie/Classes/PuckView.m -o /Users/BCT/Downloads/AirGoalie/build/AirGoalie.build/Debug-iphoneos/AirGoalie.build/Objects-normal/armv6/PuckView.o0#
+
+CCompileC build/AirGoalie.build/Debug-iphoneos/AirGoalie.build/Objects-normal/armv6/PuckView.o /Users/BCT/Downloads/GravityTut/Classes/PuckView.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s297097403.935405
+e297097404.001888
+r1
+xCompileC
+xbuild/AirGoalie.build/Debug-iphoneos/AirGoalie.build/Objects-normal/armv6/PuckView.o
+x/Users/BCT/Downloads/GravityTut/Classes/PuckView.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@58"Compile /Users/BCT/Downloads/GravityTut/Classes/PuckView.m297097403#297097404#0(0"0(0#0#50"/Users/BCT/Downloads/GravityTut/Classes/PuckView.m4300885448#1707"    cd /Users/BCT/Downloads/GravityTut    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1.3 -iquote /Users/BCT/Downloads/GravityTut/build/AirGoalie.build/Debug-iphoneos/AirGoalie.build/AirGoalie-generated-files.hmap -I/Users/BCT/Downloads/GravityTut/build/AirGoalie.build/Debug-iphoneos/AirGoalie.build/AirGoalie-own-target-headers.hmap -I/Users/BCT/Downloads/GravityTut/build/AirGoalie.build/Debug-iphoneos/AirGoalie.build/AirGoalie-all-target-headers.hmap -iquote /Users/BCT/Downloads/GravityTut/build/AirGoalie.build/Debug-iphoneos/AirGoalie.build/AirGoalie-project-headers.hmap -F/Users/BCT/Downloads/GravityTut/build/Debug-iphoneos -I/Users/BCT/Downloads/GravityTut/build/Debug-iphoneos/include -I/Users/BCT/Downloads/GravityTut/build/AirGoalie.build/Debug-iphoneos/AirGoalie.build/DerivedSources/armv6 -I/Users/BCT/Downloads/GravityTut/build/AirGoalie.build/Debug-iphoneos/AirGoalie.build/DerivedSources -include /var/folders/bA/bAdCgNjhHEWwclOqou24A++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AirGoalie_Prefix-bluyvuyhjhsqbabhkovljwmqpaxi/AirGoalie_Prefix.pch -c /Users/BCT/Downloads/GravityTut/Classes/PuckView.m -o /Users/BCT/Downloads/GravityTut/build/AirGoalie.build/Debug-iphoneos/AirGoalie.build/Objects-normal/armv6/PuckView.o0#
+
+CCompileC build/AirGoalie.build/Debug-iphoneos/AirGoalie.build/Objects-normal/armv6/Settings.o /Users/BCT/Desktop/AirGoalie/Classes/Settings.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/AirGoalie.build/Debug-iphoneos/AirGoalie.build/Objects-normal/armv6/Settings.o /Users/BCT/Downloads/AirGoalie/Classes/Settings.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s297311219.901131
+e297311219.959560
+r1
+xCompileC
+xbuild/AirGoalie.build/Debug-iphoneos/AirGoalie.build/Objects-normal/armv6/Settings.o
+x/Users/BCT/Downloads/AirGoalie/Classes/Settings.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/BCT/Downloads/AirGoalie/Classes/Settings.m: In function '-[Settings getGSense]':
+o/Users/BCT/Downloads/AirGoalie/Classes/Settings.m:18: warning: control reaches end of non-void function
+lSLF07#2@57"Compile /Users/BCT/Downloads/AirGoalie/Classes/Settings.m297311219#297311219#0(192"/Users/BCT/Downloads/AirGoalie/Classes/Settings.m: In function '-[Settings getGSense]':/Users/BCT/Downloads/AirGoalie/Classes/Settings.m:18: warning: control reaches end of non-void function1(22@40"Control reaches end of non-void function297311219#88#104#0(6@49"/Users/BCT/Downloads/AirGoalie/Classes/Settings.m297311219#18#0#18#0#40"control reaches end of non-void function0(0#0#49"/Users/BCT/Downloads/AirGoalie/Classes/Settings.m4300885448#1696"    cd /Users/BCT/Downloads/AirGoalie    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1.3 -iquote /Users/BCT/Downloads/AirGoalie/build/AirGoalie.build/Debug-iphoneos/AirGoalie.build/AirGoalie-generated-files.hmap -I/Users/BCT/Downloads/AirGoalie/build/AirGoalie.build/Debug-iphoneos/AirGoalie.build/AirGoalie-own-target-headers.hmap -I/Users/BCT/Downloads/AirGoalie/build/AirGoalie.build/Debug-iphoneos/AirGoalie.build/AirGoalie-all-target-headers.hmap -iquote /Users/BCT/Downloads/AirGoalie/build/AirGoalie.build/Debug-iphoneos/AirGoalie.build/AirGoalie-project-headers.hmap -F/Users/BCT/Downloads/AirGoalie/build/Debug-iphoneos -I/Users/BCT/Downloads/AirGoalie/build/Debug-iphoneos/include -I/Users/BCT/Downloads/AirGoalie/build/AirGoalie.build/Debug-iphoneos/AirGoalie.build/DerivedSources/armv6 -I/Users/BCT/Downloads/AirGoalie/build/AirGoalie.build/Debug-iphoneos/AirGoalie.build/DerivedSources -include /var/folders/bA/bAdCgNjhHEWwclOqou24A++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AirGoalie_Prefix-fbqqxboszvslmxgyooafujdaehbh/AirGoalie_Prefix.pch -c /Users/BCT/Downloads/AirGoalie/Classes/Settings.m -o /Users/BCT/Downloads/AirGoalie/build/AirGoalie.build/Debug-iphoneos/AirGoalie.build/Objects-normal/armv6/Settings.o0#
+
+CCompileC build/AirGoalie.build/Debug-iphoneos/AirGoalie.build/Objects-normal/armv6/SettingsViewController.o /Users/BCT/Desktop/AirGoalie/Classes/SettingsViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/AirGoalie.build/Debug-iphoneos/AirGoalie.build/Objects-normal/armv6/SettingsViewController.o /Users/BCT/Downloads/AirGoalie/Classes/SettingsViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s297311219.838791
+e297311219.900860
+r1
+xCompileC
+xbuild/AirGoalie.build/Debug-iphoneos/AirGoalie.build/Objects-normal/armv6/SettingsViewController.o
+x/Users/BCT/Downloads/AirGoalie/Classes/SettingsViewController.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@71"Compile /Users/BCT/Downloads/AirGoalie/Classes/SettingsViewController.m297311219#297311219#0(0"0(0#0#63"/Users/BCT/Downloads/AirGoalie/Classes/SettingsViewController.m4300885448#1724"    cd /Users/BCT/Downloads/AirGoalie    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1.3 -iquote /Users/BCT/Downloads/AirGoalie/build/AirGoalie.build/Debug-iphoneos/AirGoalie.build/AirGoalie-generated-files.hmap -I/Users/BCT/Downloads/AirGoalie/build/AirGoalie.build/Debug-iphoneos/AirGoalie.build/AirGoalie-own-target-headers.hmap -I/Users/BCT/Downloads/AirGoalie/build/AirGoalie.build/Debug-iphoneos/AirGoalie.build/AirGoalie-all-target-headers.hmap -iquote /Users/BCT/Downloads/AirGoalie/build/AirGoalie.build/Debug-iphoneos/AirGoalie.build/AirGoalie-project-headers.hmap -F/Users/BCT/Downloads/AirGoalie/build/Debug-iphoneos -I/Users/BCT/Downloads/AirGoalie/build/Debug-iphoneos/include -I/Users/BCT/Downloads/AirGoalie/build/AirGoalie.build/Debug-iphoneos/AirGoalie.build/DerivedSources/armv6 -I/Users/BCT/Downloads/AirGoalie/build/AirGoalie.build/Debug-iphoneos/AirGoalie.build/DerivedSources -include /var/folders/bA/bAdCgNjhHEWwclOqou24A++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AirGoalie_Prefix-fbqqxboszvslmxgyooafujdaehbh/AirGoalie_Prefix.pch -c /Users/BCT/Downloads/AirGoalie/Classes/SettingsViewController.m -o /Users/BCT/Downloads/AirGoalie/build/AirGoalie.build/Debug-iphoneos/AirGoalie.build/Objects-normal/armv6/SettingsViewController.o0#
+
+CCompileC build/AirGoalie.build/Debug-iphoneos/AirGoalie.build/Objects-normal/armv6/SoundEffect.o /Users/BCT/Desktop/AirGoalie/Classes/SoundEffect.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/AirGoalie.build/Debug-iphoneos/AirGoalie.build/Objects-normal/armv6/SoundEffect.o /Users/BCT/Downloads/AirGoalie/Classes/SoundEffect.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s297189300.101253
+e297189300.186734
+r1
+xCompileC
+xbuild/AirGoalie.build/Debug-iphoneos/AirGoalie.build/Objects-normal/armv6/SoundEffect.o
+x/Users/BCT/Downloads/AirGoalie/Classes/SoundEffect.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@60"Compile /Users/BCT/Downloads/AirGoalie/Classes/SoundEffect.m297189300#297189300#0(0"0(0#0#52"/Users/BCT/Downloads/AirGoalie/Classes/SoundEffect.m4300885448#1702"    cd /Users/BCT/Downloads/AirGoalie    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1.3 -iquote /Users/BCT/Downloads/AirGoalie/build/AirGoalie.build/Debug-iphoneos/AirGoalie.build/AirGoalie-generated-files.hmap -I/Users/BCT/Downloads/AirGoalie/build/AirGoalie.build/Debug-iphoneos/AirGoalie.build/AirGoalie-own-target-headers.hmap -I/Users/BCT/Downloads/AirGoalie/build/AirGoalie.build/Debug-iphoneos/AirGoalie.build/AirGoalie-all-target-headers.hmap -iquote /Users/BCT/Downloads/AirGoalie/build/AirGoalie.build/Debug-iphoneos/AirGoalie.build/AirGoalie-project-headers.hmap -F/Users/BCT/Downloads/AirGoalie/build/Debug-iphoneos -I/Users/BCT/Downloads/AirGoalie/build/Debug-iphoneos/include -I/Users/BCT/Downloads/AirGoalie/build/AirGoalie.build/Debug-iphoneos/AirGoalie.build/DerivedSources/armv6 -I/Users/BCT/Downloads/AirGoalie/build/AirGoalie.build/Debug-iphoneos/AirGoalie.build/DerivedSources -include /var/folders/bA/bAdCgNjhHEWwclOqou24A++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AirGoalie_Prefix-fbqqxboszvslmxgyooafujdaehbh/AirGoalie_Prefix.pch -c /Users/BCT/Downloads/AirGoalie/Classes/SoundEffect.m -o /Users/BCT/Downloads/AirGoalie/build/AirGoalie.build/Debug-iphoneos/AirGoalie.build/Objects-normal/armv6/SoundEffect.o0#
+
+CCompileC build/AirGoalie.build/Debug-iphoneos/AirGoalie.build/Objects-normal/armv6/SoundEffect.o /Users/BCT/Downloads/GravityTut/../GLPaint/Classes/SoundEffect.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s297097404.118548
+e297097404.168187
+r1
+xCompileC
+xbuild/AirGoalie.build/Debug-iphoneos/AirGoalie.build/Objects-normal/armv6/SoundEffect.o
+x/Users/BCT/Downloads/GravityTut/../GLPaint/Classes/SoundEffect.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@72"Compile /Users/BCT/Downloads/GravityTut/../GLPaint/Classes/SoundEffect.m297097404#297097404#0(0"0(0#0#64"/Users/BCT/Downloads/GravityTut/../GLPaint/Classes/SoundEffect.m4300885448#1724"    cd /Users/BCT/Downloads/GravityTut    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1.3 -iquote /Users/BCT/Downloads/GravityTut/build/AirGoalie.build/Debug-iphoneos/AirGoalie.build/AirGoalie-generated-files.hmap -I/Users/BCT/Downloads/GravityTut/build/AirGoalie.build/Debug-iphoneos/AirGoalie.build/AirGoalie-own-target-headers.hmap -I/Users/BCT/Downloads/GravityTut/build/AirGoalie.build/Debug-iphoneos/AirGoalie.build/AirGoalie-all-target-headers.hmap -iquote /Users/BCT/Downloads/GravityTut/build/AirGoalie.build/Debug-iphoneos/AirGoalie.build/AirGoalie-project-headers.hmap -F/Users/BCT/Downloads/GravityTut/build/Debug-iphoneos -I/Users/BCT/Downloads/GravityTut/build/Debug-iphoneos/include -I/Users/BCT/Downloads/GravityTut/build/AirGoalie.build/Debug-iphoneos/AirGoalie.build/DerivedSources/armv6 -I/Users/BCT/Downloads/GravityTut/build/AirGoalie.build/Debug-iphoneos/AirGoalie.build/DerivedSources -include /var/folders/bA/bAdCgNjhHEWwclOqou24A++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AirGoalie_Prefix-bluyvuyhjhsqbabhkovljwmqpaxi/AirGoalie_Prefix.pch -c /Users/BCT/Downloads/GravityTut/../GLPaint/Classes/SoundEffect.m -o /Users/BCT/Downloads/GravityTut/build/AirGoalie.build/Debug-iphoneos/AirGoalie.build/Objects-normal/armv6/SoundEffect.o0#
+
+CCompileC build/AirGoalie.build/Debug-iphoneos/AirGoalie.build/Objects-normal/armv6/main.o /Users/BCT/Desktop/AirGoalie/main.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/AirGoalie.build/Debug-iphoneos/AirGoalie.build/Objects-normal/armv6/main.o /Users/BCT/Downloads/AirGoalie/main.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s297189299.452167
+e297189299.523455
+r1
+xCompileC
+xbuild/AirGoalie.build/Debug-iphoneos/AirGoalie.build/Objects-normal/armv6/main.o
+x/Users/BCT/Downloads/AirGoalie/main.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@45"Compile /Users/BCT/Downloads/AirGoalie/main.m297189299#297189299#0(0"0(0#0#37"/Users/BCT/Downloads/AirGoalie/main.m4300885448#1680"    cd /Users/BCT/Downloads/AirGoalie    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1.3 -iquote /Users/BCT/Downloads/AirGoalie/build/AirGoalie.build/Debug-iphoneos/AirGoalie.build/AirGoalie-generated-files.hmap -I/Users/BCT/Downloads/AirGoalie/build/AirGoalie.build/Debug-iphoneos/AirGoalie.build/AirGoalie-own-target-headers.hmap -I/Users/BCT/Downloads/AirGoalie/build/AirGoalie.build/Debug-iphoneos/AirGoalie.build/AirGoalie-all-target-headers.hmap -iquote /Users/BCT/Downloads/AirGoalie/build/AirGoalie.build/Debug-iphoneos/AirGoalie.build/AirGoalie-project-headers.hmap -F/Users/BCT/Downloads/AirGoalie/build/Debug-iphoneos -I/Users/BCT/Downloads/AirGoalie/build/Debug-iphoneos/include -I/Users/BCT/Downloads/AirGoalie/build/AirGoalie.build/Debug-iphoneos/AirGoalie.build/DerivedSources/armv6 -I/Users/BCT/Downloads/AirGoalie/build/AirGoalie.build/Debug-iphoneos/AirGoalie.build/DerivedSources -include /var/folders/bA/bAdCgNjhHEWwclOqou24A++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AirGoalie_Prefix-fbqqxboszvslmxgyooafujdaehbh/AirGoalie_Prefix.pch -c /Users/BCT/Downloads/AirGoalie/main.m -o /Users/BCT/Downloads/AirGoalie/build/AirGoalie.build/Debug-iphoneos/AirGoalie.build/Objects-normal/armv6/main.o0#
+
+CCompileC build/AirGoalie.build/Debug-iphoneos/AirGoalie.build/Objects-normal/armv6/main.o /Users/BCT/Downloads/GravityTut/main.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s297097403.713067
+e297097403.800220
+r1
+xCompileC
+xbuild/AirGoalie.build/Debug-iphoneos/AirGoalie.build/Objects-normal/armv6/main.o
+x/Users/BCT/Downloads/GravityTut/main.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@46"Compile /Users/BCT/Downloads/GravityTut/main.m297097403#297097403#0(0"0(0#0#38"/Users/BCT/Downloads/GravityTut/main.m4300885448#1691"    cd /Users/BCT/Downloads/GravityTut    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1.3 -iquote /Users/BCT/Downloads/GravityTut/build/AirGoalie.build/Debug-iphoneos/AirGoalie.build/AirGoalie-generated-files.hmap -I/Users/BCT/Downloads/GravityTut/build/AirGoalie.build/Debug-iphoneos/AirGoalie.build/AirGoalie-own-target-headers.hmap -I/Users/BCT/Downloads/GravityTut/build/AirGoalie.build/Debug-iphoneos/AirGoalie.build/AirGoalie-all-target-headers.hmap -iquote /Users/BCT/Downloads/GravityTut/build/AirGoalie.build/Debug-iphoneos/AirGoalie.build/AirGoalie-project-headers.hmap -F/Users/BCT/Downloads/GravityTut/build/Debug-iphoneos -I/Users/BCT/Downloads/GravityTut/build/Debug-iphoneos/include -I/Users/BCT/Downloads/GravityTut/build/AirGoalie.build/Debug-iphoneos/AirGoalie.build/DerivedSources/armv6 -I/Users/BCT/Downloads/GravityTut/build/AirGoalie.build/Debug-iphoneos/AirGoalie.build/DerivedSources -include /var/folders/bA/bAdCgNjhHEWwclOqou24A++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AirGoalie_Prefix-bluyvuyhjhsqbabhkovljwmqpaxi/AirGoalie_Prefix.pch -c /Users/BCT/Downloads/GravityTut/main.m -o /Users/BCT/Downloads/GravityTut/build/AirGoalie.build/Debug-iphoneos/AirGoalie.build/Objects-normal/armv6/main.o0#
+
+CCompileXIB /Users/BCT/Desktop/AirGoalie/GravityTutViewController.xib
+r0
+
+CCompileXIB /Users/BCT/Desktop/AirGoalie/InfoViewController.xib
+r0
+
+CCompileXIB /Users/BCT/Desktop/AirGoalie/MainMenuViewController.xib
+r0
+
+CCompileXIB /Users/BCT/Desktop/AirGoalie/MainWindow.xib
+r0
+
+CCompileXIB /Users/BCT/Desktop/AirGoalie/NetworkingViewController.xib
+r0
+
+CCompileXIB /Users/BCT/Desktop/AirGoalie/SettingsViewController.xib
+r0
+
+CCompileXIB /Users/BCT/Downloads/AirGoalie/GravityTutViewController.xib
+r0
+
+CCompileXIB /Users/BCT/Downloads/AirGoalie/InfoViewController.xib
+s297189298.453698
+e297189298.874329
+r1
+xCompileXIB
+x/Users/BCT/Downloads/AirGoalie/InfoViewController.xib
+lSLF07#2@33"CompileXIB InfoViewController.xib297189298#297189298#0(0"0(0#0#53"/Users/BCT/Downloads/AirGoalie/InfoViewController.xib4300885448#462"    cd /Users/BCT/Downloads/AirGoalie    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.1.3    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/BCT/Downloads/AirGoalie/build/Debug-iphoneos/AirGoalie.app/InfoViewController.nib /Users/BCT/Downloads/AirGoalie/InfoViewController.xib0#
+
+CCompileXIB /Users/BCT/Downloads/AirGoalie/MainMenuViewController.xib
+s297286657.250064
+e297286657.640458
+r1
+xCompileXIB
+x/Users/BCT/Downloads/AirGoalie/MainMenuViewController.xib
+lSLF07#2@37"CompileXIB MainMenuViewController.xib297286657#297286657#0(0"0(0#0#57"/Users/BCT/Downloads/AirGoalie/MainMenuViewController.xib4300885448#470"    cd /Users/BCT/Downloads/AirGoalie    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.1.3    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/BCT/Downloads/AirGoalie/build/Debug-iphoneos/AirGoalie.app/MainMenuViewController.nib /Users/BCT/Downloads/AirGoalie/MainMenuViewController.xib0#
+
+CCompileXIB /Users/BCT/Downloads/AirGoalie/MainWindow.xib
+s297189297.417222
+e297189297.933354
+r1
+xCompileXIB
+x/Users/BCT/Downloads/AirGoalie/MainWindow.xib
+lSLF07#2@25"CompileXIB MainWindow.xib297189297#297189297#0(0"0(0#0#45"/Users/BCT/Downloads/AirGoalie/MainWindow.xib4300885448#446"    cd /Users/BCT/Downloads/AirGoalie    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.1.3    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/BCT/Downloads/AirGoalie/build/Debug-iphoneos/AirGoalie.app/MainWindow.nib /Users/BCT/Downloads/AirGoalie/MainWindow.xib0#
+
+CCompileXIB /Users/BCT/Downloads/AirGoalie/NetworkingViewController.xib
+s297309657.417061
+e297309658.054889
+r1
+xCompileXIB
+x/Users/BCT/Downloads/AirGoalie/NetworkingViewController.xib
+lSLF07#2@39"CompileXIB NetworkingViewController.xib297309657#297309658#0(0"0(0#0#59"/Users/BCT/Downloads/AirGoalie/NetworkingViewController.xib4300885448#474"    cd /Users/BCT/Downloads/AirGoalie    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.1.3    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/BCT/Downloads/AirGoalie/build/Debug-iphoneos/AirGoalie.app/NetworkingViewController.nib /Users/BCT/Downloads/AirGoalie/NetworkingViewController.xib0#
+
+CCompileXIB /Users/BCT/Downloads/AirGoalie/SettingsViewController.xib
+s297309657.414912
+e297309658.048438
+r1
+xCompileXIB
+x/Users/BCT/Downloads/AirGoalie/SettingsViewController.xib
+lSLF07#2@37"CompileXIB SettingsViewController.xib297309657#297309658#0(0"0(0#0#57"/Users/BCT/Downloads/AirGoalie/SettingsViewController.xib4300885448#470"    cd /Users/BCT/Downloads/AirGoalie    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.1.3    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/BCT/Downloads/AirGoalie/build/Debug-iphoneos/AirGoalie.app/SettingsViewController.nib /Users/BCT/Downloads/AirGoalie/SettingsViewController.xib0#
+
+CCompileXIB /Users/BCT/Downloads/GravityTut/GravityTutViewController.xib
+s297097402.526417
+e297097402.885386
+r1
+xCompileXIB
+x/Users/BCT/Downloads/GravityTut/GravityTutViewController.xib
+lSLF07#2@39"CompileXIB GravityTutViewController.xib297097402#297097402#0(0"0(0#0#60"/Users/BCT/Downloads/GravityTut/GravityTutViewController.xib4300885448#477"    cd /Users/BCT/Downloads/GravityTut    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.1.3    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/BCT/Downloads/GravityTut/build/Debug-iphoneos/AirGoalie.app/GravityTutViewController.nib /Users/BCT/Downloads/GravityTut/GravityTutViewController.xib0#
+
+CCompileXIB /Users/BCT/Downloads/GravityTut/MainWindow.xib
+s297097402.525700
+e297097402.924820
+r1
+xCompileXIB
+x/Users/BCT/Downloads/GravityTut/MainWindow.xib
+o/* com.apple.ibtool.document.warnings */
+o/Users/BCT/Downloads/GravityTut/MainWindow.xib:3: warning: The 'viewController' outlet of 'GravityTut App Delegate' is connected to 'Gravity Tut View Controller' but 'GravityTutViewController' is not a kind of 'MainView' as specified by the outlet type.
+lSLF07#2@25"CompileXIB MainWindow.xib297097402#297097402#0(295"/* com.apple.ibtool.document.warnings *//Users/BCT/Downloads/GravityTut/MainWindow.xib:3: warning: The 'viewController' outlet of 'GravityTut App Delegate' is connected to 'Gravity Tut View Controller' but 'GravityTutViewController' is not a kind of 'MainView' as specified by the outlet type.1(22@194"The 'viewController' outlet of 'GravityTut App Delegate' is connected to 'Gravity Tut View Controller' but 'GravityTutViewController' is not a kind of 'MainView' as specified by the outlet type.297097402#18446744073709551615#0#0(6@46"/Users/BCT/Downloads/GravityTut/MainWindow.xib296751392#3#0#3#0#0"0(0#0#46"/Users/BCT/Downloads/GravityTut/MainWindow.xib4300885448#449"    cd /Users/BCT/Downloads/GravityTut    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.1.3    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/BCT/Downloads/GravityTut/build/Debug-iphoneos/AirGoalie.app/MainWindow.nib /Users/BCT/Downloads/GravityTut/MainWindow.xib0#
+
+CCpResource "build/Debug-iphoneos/AirGoalie.app/Alien Death Ray.wav" "Alien Death Ray.wav"
+s297097402.891442
+e297097403.056052
+r1
+xCpResource
+xbuild/Debug-iphoneos/AirGoalie.app/Alien Death Ray.wav
+xAlien Death Ray.wav
+lSLF07#2@24"Copy Alien Death Ray.wav297097402#297097403#0(0"0(0#0#51"/Users/BCT/Downloads/GravityTut/Alien Death Ray.wav4300885448#432"    cd /Users/BCT/Downloads/GravityTut    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks "/Users/BCT/Downloads/GravityTut/Alien Death Ray.wav" /Users/BCT/Downloads/GravityTut/build/Debug-iphoneos/AirGoalie.app0#
+
+CCpResource "build/Debug-iphoneos/AirGoalie.app/Gun Silencer.wav" "Gun Silencer.wav"
+s297097402.894909
+e297097403.011615
+r1
+xCpResource
+xbuild/Debug-iphoneos/AirGoalie.app/Gun Silencer.wav
+xGun Silencer.wav
+lSLF07#2@21"Copy Gun Silencer.wav297097402#297097403#0(0"0(0#0#48"/Users/BCT/Downloads/GravityTut/Gun Silencer.wav4300885448#429"    cd /Users/BCT/Downloads/GravityTut    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks "/Users/BCT/Downloads/GravityTut/Gun Silencer.wav" /Users/BCT/Downloads/GravityTut/build/Debug-iphoneos/AirGoalie.app0#
+
+CCpResource "build/Debug-iphoneos/AirGoalie.app/Laser Blaster.wav" "Laser Blaster.wav"
+s297097402.900345
+e297097402.931494
+r1
+xCpResource
+xbuild/Debug-iphoneos/AirGoalie.app/Laser Blaster.wav
+xLaser Blaster.wav
+lSLF07#2@22"Copy Laser Blaster.wav297097402#297097402#0(0"0(0#0#49"/Users/BCT/Downloads/GravityTut/Laser Blaster.wav4300885448#430"    cd /Users/BCT/Downloads/GravityTut    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks "/Users/BCT/Downloads/GravityTut/Laser Blaster.wav" /Users/BCT/Downloads/GravityTut/build/Debug-iphoneos/AirGoalie.app0#
+
+CCpResource "build/Debug-iphoneos/AirGoalie.app/Laser Blasts.wav" "Laser Blasts.wav"
+s297097402.904151
+e297097402.937365
+r1
+xCpResource
+xbuild/Debug-iphoneos/AirGoalie.app/Laser Blasts.wav
+xLaser Blasts.wav
+lSLF07#2@21"Copy Laser Blasts.wav297097402#297097402#0(0"0(0#0#48"/Users/BCT/Downloads/GravityTut/Laser Blasts.wav4300885448#429"    cd /Users/BCT/Downloads/GravityTut    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks "/Users/BCT/Downloads/GravityTut/Laser Blasts.wav" /Users/BCT/Downloads/GravityTut/build/Debug-iphoneos/AirGoalie.app0#
+
+CCpResource build/Debug-iphoneos/AirGoalie.app/Laser.wav Laser.wav
+s297097402.889338
+e297097402.977894
+r1
+xCpResource
+xbuild/Debug-iphoneos/AirGoalie.app/Laser.wav
+xLaser.wav
+lSLF07#2@14"Copy Laser.wav297097402#297097402#0(0"0(0#0#41"/Users/BCT/Downloads/GravityTut/Laser.wav4300885448#420"    cd /Users/BCT/Downloads/GravityTut    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/BCT/Downloads/GravityTut/Laser.wav /Users/BCT/Downloads/GravityTut/build/Debug-iphoneos/AirGoalie.app0#
+
+CCpResource build/Debug-iphoneos/AirGoalie.app/ResourceRules.plist /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk/ResourceRules.plist
+s297097402.493198
+e297097402.525614
+r1
+xCpResource
+xbuild/Debug-iphoneos/AirGoalie.app/ResourceRules.plist
+x/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk/ResourceRules.plist
+lSLF07#2@96"Copy /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk/ResourceRules.plist297097402#297097402#0(0"0(0#0#91"/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk/ResourceRules.plist8028903794874265600#470"    cd /Users/BCT/Downloads/GravityTut    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk/ResourceRules.plist /Users/BCT/Downloads/GravityTut/build/Debug-iphoneos/AirGoalie.app0#
+
+CCpResource build/Debug-iphoneos/AirGoalie.app/ourrink-1.gif ourrink-1.gif
+s297097402.885470
+e297097402.987258
+r1
+xCpResource
+xbuild/Debug-iphoneos/AirGoalie.app/ourrink-1.gif
+xourrink-1.gif
+lSLF07#2@18"Copy ourrink-1.gif297097402#297097402#0(0"0(0#0#45"/Users/BCT/Downloads/GravityTut/ourrink-1.gif4300885448#424"    cd /Users/BCT/Downloads/GravityTut    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/BCT/Downloads/GravityTut/ourrink-1.gif /Users/BCT/Downloads/GravityTut/build/Debug-iphoneos/AirGoalie.app0#
+
+CCpResource build/Debug-iphoneos/AirGoalie.app/punch.wav punch.wav
+s297097402.887581
+e297097402.908570
+r1
+xCpResource
+xbuild/Debug-iphoneos/AirGoalie.app/punch.wav
+xpunch.wav
+lSLF07#2@14"Copy punch.wav297097402#297097402#0(0"0(0#0#41"/Users/BCT/Downloads/GravityTut/punch.wav4300885448#420"    cd /Users/BCT/Downloads/GravityTut    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/BCT/Downloads/GravityTut/punch.wav /Users/BCT/Downloads/GravityTut/build/Debug-iphoneos/AirGoalie.app0#
+
+CCpResource build/Debug-iphoneos/AirGoalie.app/rinkMenu.gif rinkMenu.gif
+s297097402.898824
+e297097402.961367
+r1
+xCpResource
+xbuild/Debug-iphoneos/AirGoalie.app/rinkMenu.gif
+xrinkMenu.gif
+lSLF07#2@17"Copy rinkMenu.gif297097402#297097402#0(0"0(0#0#44"/Users/BCT/Downloads/GravityTut/rinkMenu.gif4300885448#423"    cd /Users/BCT/Downloads/GravityTut    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/BCT/Downloads/GravityTut/rinkMenu.gif /Users/BCT/Downloads/GravityTut/build/Debug-iphoneos/AirGoalie.app0#
+
+CGenerateDSYMFile /Users/BCT/Desktop/AirGoalie/build/Debug-iphoneos/AirGoalie.app.dSYM /Users/BCT/Desktop/AirGoalie/build/Debug-iphoneos/AirGoalie.app/AirGoalie
+r0
+
+CGenerateDSYMFile /Users/BCT/Downloads/AirGoalie/build/Debug-iphoneos/AirGoalie.app.dSYM /Users/BCT/Downloads/AirGoalie/build/Debug-iphoneos/AirGoalie.app/AirGoalie
+s297313031.321309
+e297313031.375147
+r1
+xGenerateDSYMFile
+x/Users/BCT/Downloads/AirGoalie/build/Debug-iphoneos/AirGoalie.app.dSYM
+x/Users/BCT/Downloads/AirGoalie/build/Debug-iphoneos/AirGoalie.app/AirGoalie
+lSLF07#2@101"GenerateDSYMFile build/Debug-iphoneos/AirGoalie.app.dSYM build/Debug-iphoneos/AirGoalie.app/AirGoalie297313031#297313031#0(0"0(0#0#75"/Users/BCT/Downloads/AirGoalie/build/Debug-iphoneos/AirGoalie.app/AirGoalie4300885448#344"    cd /Users/BCT/Downloads/AirGoalie    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/BCT/Downloads/AirGoalie/build/Debug-iphoneos/AirGoalie.app/AirGoalie -o /Users/BCT/Downloads/AirGoalie/build/Debug-iphoneos/AirGoalie.app.dSYM0#
+
+CGenerateDSYMFile /Users/BCT/Downloads/GravityTut/build/Debug-iphoneos/AirGoalie.app.dSYM /Users/BCT/Downloads/GravityTut/build/Debug-iphoneos/AirGoalie.app/AirGoalie
+s297109521.273072
+e297109521.335064
+r1
+xGenerateDSYMFile
+x/Users/BCT/Downloads/GravityTut/build/Debug-iphoneos/AirGoalie.app.dSYM
+x/Users/BCT/Downloads/GravityTut/build/Debug-iphoneos/AirGoalie.app/AirGoalie
+lSLF07#2@101"GenerateDSYMFile build/Debug-iphoneos/AirGoalie.app.dSYM build/Debug-iphoneos/AirGoalie.app/AirGoalie297109521#297109521#0(0"0(0#0#76"/Users/BCT/Downloads/GravityTut/build/Debug-iphoneos/AirGoalie.app/AirGoalie4300885448#347"    cd /Users/BCT/Downloads/GravityTut    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/BCT/Downloads/GravityTut/build/Debug-iphoneos/AirGoalie.app/AirGoalie -o /Users/BCT/Downloads/GravityTut/build/Debug-iphoneos/AirGoalie.app.dSYM0#
+
+CLd /Users/BCT/Desktop/AirGoalie/build/Debug-iphoneos/AirGoalie.app/AirGoalie normal armv6
+r0
+
+CLd /Users/BCT/Downloads/AirGoalie/build/Debug-iphoneos/AirGoalie.app/AirGoalie normal armv6
+s297313031.250373
+e297313031.321197
+r1
+xLd
+x/Users/BCT/Downloads/AirGoalie/build/Debug-iphoneos/AirGoalie.app/AirGoalie
+xnormal
+xarmv6
+lSLF07#2@80"Link /Users/BCT/Downloads/AirGoalie/build/Debug-iphoneos/AirGoalie.app/AirGoalie297313031#297313031#0(0"0(0#0#0"4300885448#889"    cd /Users/BCT/Downloads/AirGoalie    setenv IPHONEOS_DEPLOYMENT_TARGET 3.1.3    setenv MACOSX_DEPLOYMENT_TARGET 10.5    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -arch armv6 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk -L/Users/BCT/Downloads/AirGoalie/build/Debug-iphoneos -F/Users/BCT/Downloads/AirGoalie/build/Debug-iphoneos -filelist /Users/BCT/Downloads/AirGoalie/build/AirGoalie.build/Debug-iphoneos/AirGoalie.build/Objects-normal/armv6/AirGoalie.LinkFileList -mmacosx-version-min=10.5 -dead_strip -miphoneos-version-min=3.1.3 -framework Foundation -framework UIKit -framework CoreGraphics -framework AudioToolbox -o /Users/BCT/Downloads/AirGoalie/build/Debug-iphoneos/AirGoalie.app/AirGoalie0#
+
+CLd /Users/BCT/Downloads/GravityTut/build/Debug-iphoneos/AirGoalie.app/AirGoalie normal armv6
+s297109520.792674
+e297109521.272981
+r1
+xLd
+x/Users/BCT/Downloads/GravityTut/build/Debug-iphoneos/AirGoalie.app/AirGoalie
+xnormal
+xarmv6
+lSLF07#2@81"Link /Users/BCT/Downloads/GravityTut/build/Debug-iphoneos/AirGoalie.app/AirGoalie297109520#297109521#0(0"0(0#0#0"13229817833914468#894"    cd /Users/BCT/Downloads/GravityTut    setenv IPHONEOS_DEPLOYMENT_TARGET 3.1.3    setenv MACOSX_DEPLOYMENT_TARGET 10.5    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -arch armv6 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk -L/Users/BCT/Downloads/GravityTut/build/Debug-iphoneos -F/Users/BCT/Downloads/GravityTut/build/Debug-iphoneos -filelist /Users/BCT/Downloads/GravityTut/build/AirGoalie.build/Debug-iphoneos/AirGoalie.build/Objects-normal/armv6/AirGoalie.LinkFileList -mmacosx-version-min=10.5 -dead_strip -miphoneos-version-min=3.1.3 -framework Foundation -framework UIKit -framework CoreGraphics -framework AudioToolbox -o /Users/BCT/Downloads/GravityTut/build/Debug-iphoneos/AirGoalie.app/AirGoalie0#
+
+CProcessInfoPlistFile /Users/BCT/Desktop/AirGoalie/build/Debug-iphoneos/AirGoalie.app/Info.plist AirGoalie-Info.plist
+r0
+
+CProcessInfoPlistFile /Users/BCT/Downloads/AirGoalie/build/Debug-iphoneos/AirGoalie.app/Info.plist AirGoalie-Info.plist
+r0
+
+CProcessInfoPlistFile /Users/BCT/Downloads/GravityTut/build/Debug-iphoneos/AirGoalie.app/Info.plist AirGoalie-Info.plist
+s297097402.494095
+e297097402.513522
+r1
+xProcessInfoPlistFile
+x/Users/BCT/Downloads/GravityTut/build/Debug-iphoneos/AirGoalie.app/Info.plist
+xAirGoalie-Info.plist
+lSLF07#2@28"Process AirGoalie-Info.plist297097402#297097402#0(0"0(0#0#52"/Users/BCT/Downloads/GravityTut/AirGoalie-Info.plist4300885448#542"    cd /Users/BCT/Downloads/GravityTut    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility AirGoalie-Info.plist -genpkginfo /Users/BCT/Downloads/GravityTut/build/Debug-iphoneos/AirGoalie.app/PkgInfo -expandbuildsettings -format binary -platform iphoneos -resourcerulesfile /Users/BCT/Downloads/GravityTut/build/Debug-iphoneos/AirGoalie.app/ResourceRules.plist -o /Users/BCT/Downloads/GravityTut/build/Debug-iphoneos/AirGoalie.app/Info.plist0#
+
+CProcessPCH /var/folders/bA/bAdCgNjhHEWwclOqou24A++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AirGoalie_Prefix-aloauvuijkyrhyaunwaijixmfdzb/AirGoalie_Prefix.pch.gch AirGoalie_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CProcessPCH /var/folders/bA/bAdCgNjhHEWwclOqou24A++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AirGoalie_Prefix-bluyvuyhjhsqbabhkovljwmqpaxi/AirGoalie_Prefix.pch.gch AirGoalie_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_2
+s297097403.056290
+e297097403.712921
+r1
+xProcessPCH
+x/var/folders/bA/bAdCgNjhHEWwclOqou24A++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AirGoalie_Prefix-bluyvuyhjhsqbabhkovljwmqpaxi/AirGoalie_Prefix.pch.gch
+xAirGoalie_Prefix.pch
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@31"Precompile AirGoalie_Prefix.pch297097403#297097403#0(0"0(0#0#52"/Users/BCT/Downloads/GravityTut/AirGoalie_Prefix.pch4300885448#1594"    cd /Users/BCT/Downloads/GravityTut    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1.3 -iquote /Users/BCT/Downloads/GravityTut/build/AirGoalie.build/Debug-iphoneos/AirGoalie.build/AirGoalie-generated-files.hmap -I/Users/BCT/Downloads/GravityTut/build/AirGoalie.build/Debug-iphoneos/AirGoalie.build/AirGoalie-own-target-headers.hmap -I/Users/BCT/Downloads/GravityTut/build/AirGoalie.build/Debug-iphoneos/AirGoalie.build/AirGoalie-all-target-headers.hmap -iquote /Users/BCT/Downloads/GravityTut/build/AirGoalie.build/Debug-iphoneos/AirGoalie.build/AirGoalie-project-headers.hmap -F/Users/BCT/Downloads/GravityTut/build/Debug-iphoneos -I/Users/BCT/Downloads/GravityTut/build/Debug-iphoneos/include -I/Users/BCT/Downloads/GravityTut/build/AirGoalie.build/Debug-iphoneos/AirGoalie.build/DerivedSources/armv6 -I/Users/BCT/Downloads/GravityTut/build/AirGoalie.build/Debug-iphoneos/AirGoalie.build/DerivedSources -c /Users/BCT/Downloads/GravityTut/AirGoalie_Prefix.pch -o /var/folders/bA/bAdCgNjhHEWwclOqou24A++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AirGoalie_Prefix-bluyvuyhjhsqbabhkovljwmqpaxi/AirGoalie_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/bA/bAdCgNjhHEWwclOqou24A++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AirGoalie_Prefix-fbqqxboszvslmxgyooafujdaehbh/AirGoalie_Prefix.pch.gch AirGoalie_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_2
+s297189298.874453
+e297189299.451933
+r1
+xProcessPCH
+x/var/folders/bA/bAdCgNjhHEWwclOqou24A++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AirGoalie_Prefix-fbqqxboszvslmxgyooafujdaehbh/AirGoalie_Prefix.pch.gch
+xAirGoalie_Prefix.pch
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@31"Precompile AirGoalie_Prefix.pch297189298#297189299#0(0"0(0#0#51"/Users/BCT/Downloads/AirGoalie/AirGoalie_Prefix.pch4300885448#1584"    cd /Users/BCT/Downloads/AirGoalie    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1.3 -iquote /Users/BCT/Downloads/AirGoalie/build/AirGoalie.build/Debug-iphoneos/AirGoalie.build/AirGoalie-generated-files.hmap -I/Users/BCT/Downloads/AirGoalie/build/AirGoalie.build/Debug-iphoneos/AirGoalie.build/AirGoalie-own-target-headers.hmap -I/Users/BCT/Downloads/AirGoalie/build/AirGoalie.build/Debug-iphoneos/AirGoalie.build/AirGoalie-all-target-headers.hmap -iquote /Users/BCT/Downloads/AirGoalie/build/AirGoalie.build/Debug-iphoneos/AirGoalie.build/AirGoalie-project-headers.hmap -F/Users/BCT/Downloads/AirGoalie/build/Debug-iphoneos -I/Users/BCT/Downloads/AirGoalie/build/Debug-iphoneos/include -I/Users/BCT/Downloads/AirGoalie/build/AirGoalie.build/Debug-iphoneos/AirGoalie.build/DerivedSources/armv6 -I/Users/BCT/Downloads/AirGoalie/build/AirGoalie.build/Debug-iphoneos/AirGoalie.build/DerivedSources -c /Users/BCT/Downloads/AirGoalie/AirGoalie_Prefix.pch -o /var/folders/bA/bAdCgNjhHEWwclOqou24A++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AirGoalie_Prefix-fbqqxboszvslmxgyooafujdaehbh/AirGoalie_Prefix.pch.gch0#
+
+CProcessProductPackaging "/Users/BCT/Library/MobileDevice/Provisioning Profiles/05504615-F1AD-4A59-980E-A93001F53B2B.mobileprovision" /Users/BCT/Downloads/AirGoalie/build/Debug-iphoneos/AirGoalie.app/embedded.mobileprovision
+s297196625.508426
+e297196625.509580
+r1
+xProcessProductPackaging
+x/Users/BCT/Library/MobileDevice/Provisioning Profiles/05504615-F1AD-4A59-980E-A93001F53B2B.mobileprovision
+x/Users/BCT/Downloads/AirGoalie/build/Debug-iphoneos/AirGoalie.app/embedded.mobileprovision
+lSLF07#2@192"ProcessProductPackaging "/Users/BCT/Library/MobileDevice/Provisioning Profiles/05504615-F1AD-4A59-980E-A93001F53B2B.mobileprovision" build/Debug-iphoneos/AirGoalie.app/embedded.mobileprovision297196625#297196625#0(0"0(0#0#90"/Users/BCT/Downloads/AirGoalie/build/Debug-iphoneos/AirGoalie.app/embedded.mobileprovision4300885448#407"    cd /Users/BCT/Downloads/AirGoalie    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    <com.apple.tools.product-pkg-utility> "/Users/BCT/Library/MobileDevice/Provisioning Profiles/05504615-F1AD-4A59-980E-A93001F53B2B.mobileprovision" -o /Users/BCT/Downloads/AirGoalie/build/Debug-iphoneos/AirGoalie.app/embedded.mobileprovision0#
+
+CProcessProductPackaging "/Users/BCT/Library/MobileDevice/Provisioning Profiles/3B786963-06C8-455D-9B8D-C6E0017F38D5.mobileprovision" /Users/BCT/Downloads/AirGoalie/build/Debug-iphoneos/AirGoalie.app/embedded.mobileprovision
+s297192607.019281
+e297192607.020731
+r1
+xProcessProductPackaging
+x/Users/BCT/Library/MobileDevice/Provisioning Profiles/3B786963-06C8-455D-9B8D-C6E0017F38D5.mobileprovision
+x/Users/BCT/Downloads/AirGoalie/build/Debug-iphoneos/AirGoalie.app/embedded.mobileprovision
+lSLF07#2@192"ProcessProductPackaging "/Users/BCT/Library/MobileDevice/Provisioning Profiles/3B786963-06C8-455D-9B8D-C6E0017F38D5.mobileprovision" build/Debug-iphoneos/AirGoalie.app/embedded.mobileprovision297192607#297192607#0(0"0(0#0#90"/Users/BCT/Downloads/AirGoalie/build/Debug-iphoneos/AirGoalie.app/embedded.mobileprovision4300885448#407"    cd /Users/BCT/Downloads/AirGoalie    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    <com.apple.tools.product-pkg-utility> "/Users/BCT/Library/MobileDevice/Provisioning Profiles/3B786963-06C8-455D-9B8D-C6E0017F38D5.mobileprovision" -o /Users/BCT/Downloads/AirGoalie/build/Debug-iphoneos/AirGoalie.app/embedded.mobileprovision0#
+
+CProcessProductPackaging "/Users/BCT/Library/MobileDevice/Provisioning Profiles/9120F7C4-F085-467B-836E-F053D8F2DC96.mobileprovision" /Users/BCT/Desktop/AirGoalie/build/Debug-iphoneos/AirGoalie.app/embedded.mobileprovision
+r0
+
+CProcessProductPackaging "/Users/BCT/Library/MobileDevice/Provisioning Profiles/9120F7C4-F085-467B-836E-F053D8F2DC96.mobileprovision" /Users/BCT/Downloads/AirGoalie/build/Debug-iphoneos/AirGoalie.app/embedded.mobileprovision
+s297275580.336650
+e297275580.356515
+r1
+xProcessProductPackaging
+x/Users/BCT/Library/MobileDevice/Provisioning Profiles/9120F7C4-F085-467B-836E-F053D8F2DC96.mobileprovision
+x/Users/BCT/Downloads/AirGoalie/build/Debug-iphoneos/AirGoalie.app/embedded.mobileprovision
+lSLF07#2@192"ProcessProductPackaging "/Users/BCT/Library/MobileDevice/Provisioning Profiles/9120F7C4-F085-467B-836E-F053D8F2DC96.mobileprovision" build/Debug-iphoneos/AirGoalie.app/embedded.mobileprovision297275580#297275580#0(0"0(0#0#90"/Users/BCT/Downloads/AirGoalie/build/Debug-iphoneos/AirGoalie.app/embedded.mobileprovision4300885448#407"    cd /Users/BCT/Downloads/AirGoalie    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    <com.apple.tools.product-pkg-utility> "/Users/BCT/Library/MobileDevice/Provisioning Profiles/9120F7C4-F085-467B-836E-F053D8F2DC96.mobileprovision" -o /Users/BCT/Downloads/AirGoalie/build/Debug-iphoneos/AirGoalie.app/embedded.mobileprovision0#
+
+CProcessProductPackaging "/Users/BCT/Library/MobileDevice/Provisioning Profiles/9120F7C4-F085-467B-836E-F053D8F2DC96.mobileprovision" /Users/BCT/Downloads/GravityTut/build/Debug-iphoneos/AirGoalie.app/embedded.mobileprovision
+s297097404.483039
+e297097404.484242
+r1
+xProcessProductPackaging
+x/Users/BCT/Library/MobileDevice/Provisioning Profiles/9120F7C4-F085-467B-836E-F053D8F2DC96.mobileprovision
+x/Users/BCT/Downloads/GravityTut/build/Debug-iphoneos/AirGoalie.app/embedded.mobileprovision
+lSLF07#2@192"ProcessProductPackaging "/Users/BCT/Library/MobileDevice/Provisioning Profiles/9120F7C4-F085-467B-836E-F053D8F2DC96.mobileprovision" build/Debug-iphoneos/AirGoalie.app/embedded.mobileprovision297097404#297097404#0(0"0(0#0#91"/Users/BCT/Downloads/GravityTut/build/Debug-iphoneos/AirGoalie.app/embedded.mobileprovision4300885448#409"    cd /Users/BCT/Downloads/GravityTut    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    <com.apple.tools.product-pkg-utility> "/Users/BCT/Library/MobileDevice/Provisioning Profiles/9120F7C4-F085-467B-836E-F053D8F2DC96.mobileprovision" -o /Users/BCT/Downloads/GravityTut/build/Debug-iphoneos/AirGoalie.app/embedded.mobileprovision0#
+
+CProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk/Entitlements.plist /Users/BCT/Desktop/AirGoalie/build/AirGoalie.build/Debug-iphoneos/AirGoalie.build/AirGoalie.xcent
+r0
+
+CProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk/Entitlements.plist /Users/BCT/Downloads/AirGoalie/build/AirGoalie.build/Debug-iphoneos/AirGoalie.build/AirGoalie.xcent
+r0
+
+CProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk/Entitlements.plist /Users/BCT/Downloads/GravityTut/build/AirGoalie.build/Debug-iphoneos/AirGoalie.build/AirGoalie.xcent
+s297097404.487495
+e297097404.504061
+r1
+xProcessProductPackaging
+x/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk/Entitlements.plist
+x/Users/BCT/Downloads/GravityTut/build/AirGoalie.build/Debug-iphoneos/AirGoalie.build/AirGoalie.xcent
+lSLF07#2@183"ProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk/Entitlements.plist build/AirGoalie.build/Debug-iphoneos/AirGoalie.build/AirGoalie.xcent297097404#297097404#0(0"0(0#0#100"/Users/BCT/Downloads/GravityTut/build/AirGoalie.build/Debug-iphoneos/AirGoalie.build/AirGoalie.xcent4300885448#426"    cd /Users/BCT/Downloads/GravityTut    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    <com.apple.tools.product-pkg-utility> /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk/Entitlements.plist -entitlements -format xml -o /Users/BCT/Downloads/GravityTut/build/AirGoalie.build/Debug-iphoneos/AirGoalie.build/AirGoalie.xcent0#
+
+CTouch /Users/BCT/Desktop/AirGoalie/build/Debug-iphoneos/AirGoalie.app
+r0
+
+CTouch /Users/BCT/Downloads/AirGoalie/build/Debug-iphoneos/AirGoalie.app
+s297313031.375353
+e297313031.378050
+r1
+xTouch
+x/Users/BCT/Downloads/AirGoalie/build/Debug-iphoneos/AirGoalie.app
+lSLF07#2@71"Touch /Users/BCT/Downloads/AirGoalie/build/Debug-iphoneos/AirGoalie.app297313031#297313031#0(0"0(0#0#0"4300885448#250"    cd /Users/BCT/Downloads/AirGoalie    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/BCT/Downloads/AirGoalie/build/Debug-iphoneos/AirGoalie.app0#
+
+CTouch /Users/BCT/Downloads/GravityTut/build/Debug-iphoneos/AirGoalie.app
+s297109521.335283
+e297109521.357247
+r1
+xTouch
+x/Users/BCT/Downloads/GravityTut/build/Debug-iphoneos/AirGoalie.app
+lSLF07#2@72"Touch /Users/BCT/Downloads/GravityTut/build/Debug-iphoneos/AirGoalie.app297109521#297109521#0(0"0(0#0#0"4300885448#252"    cd /Users/BCT/Downloads/GravityTut    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/BCT/Downloads/GravityTut/build/Debug-iphoneos/AirGoalie.app0#
+
